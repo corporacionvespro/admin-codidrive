@@ -128,7 +128,7 @@
 
     #progressbar .active i {
         color: #ffffff !important;
-        background: #5f15ba !important;
+        background: #132e62 !important;
     }
 
     .avatar-upload {
