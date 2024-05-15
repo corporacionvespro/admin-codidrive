@@ -7798,8 +7798,8 @@ a.close.disabled
 
 .bg-primary
 {
-    /*background-color: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important;*/
-    background-color: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important;
+    /*background-color: #132e62 !important;*/
+    background-color: #132e62 !important;
 }
 
 a.bg-primary:hover,
@@ -7963,7 +7963,7 @@ button.bg-dark:focus
 
 .border-primary
 {
-    border-color: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important;
+    border-color: #132e62 !important;
 }
 
 .border-secondary
@@ -11810,7 +11810,7 @@ button.bg-dark:focus
 
 .text-primary
 {
-    color: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important;
+    color: #132e62 !important;
 }
 
 a.text-primary:hover,

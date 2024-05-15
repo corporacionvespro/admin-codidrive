@@ -19320,7 +19320,7 @@ button.bg-lighter:hover {
 .bg-gradient-primary {
     /*background: linear-gradient(87deg, #132e62 0, #825ee4 100%)!important*/
     
-       background: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important
+       background: #132e62 !important
 }
 
 .bg-gradient-secondary {
@@ -19617,7 +19617,7 @@ button.section-darker:hover {
 .bg-gradient-primary {
     /*background: linear-gradient(87deg, #132e62 0, #825ee4 100%)!important*/
     
-    background: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important
+    background: #132e62 !important
 }
 
 .bg-gradient-secondary {

@@ -70,7 +70,7 @@
 <!-- Main content -->
 <div class="main-content" id="panel">
   <!-- Topnav -->
-  <nav class=" navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom" style="background: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important;border-bottom: none !important;">
+  <nav class=" navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom" style="background: #132e62 !important;border-bottom: none !important;">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Search form -->

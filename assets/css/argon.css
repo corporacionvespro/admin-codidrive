@@ -7053,7 +7053,7 @@
     
     .bg-primary {
         /*background-color: #132e62 !important;*/
-        background-color: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important;
+        background-color: #132e62 !important;
     }
     
     a.bg-primary:hover,
@@ -20218,7 +20218,7 @@
     
     .bg-gradient-primary {
         /*background: #132e62 !important;*/
-       background: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important
+       background: #132e62 !important
     }
     
     .bg-gradient-secondary {
@@ -20514,7 +20514,7 @@
     
     .bg-gradient-primary {
         /*background: #132e62 !important;*/
-       background: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important
+       background: #132e62 !important
     }
     
     .bg-gradient-secondary {

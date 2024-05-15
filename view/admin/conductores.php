@@ -1323,7 +1323,7 @@ if ($level == 1) {
     </div>
 </div>
 <!-- modal8 -->
-<div class="header bg-primary pb-6" style="background: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important;">
+<div class="header bg-primary pb-6" style="background: #132e62 !important;">
     <div class="container-fluid">
         <div class="header-body">
             <div class="row align-items-center py-4" style="margin-left: 5px;margin-right: 5px;">

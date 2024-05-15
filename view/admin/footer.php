@@ -2,7 +2,7 @@
 <footer class="footer pt-0 " style="position: fixed;left:0px;bottom: -7px;height: 0px !important;width:100%;background: #ffffff;padding-top: 2px !important;text-align: right;box-shadow: -1px 3px 1rem 0 rgb(228 233 247)">
   <div class="row align-items-center justify-content-lg-between ">
     <div class="col-lg-12 ">
-      <div class="copyright text-center text-lg-center text-muted " style="color: linear-gradient(87deg, #5F00BE 0, #5F00BE 100%) !important;">
+      <div class="copyright text-center text-lg-center text-muted " style="color: #132e62 !important;">
         ©  <a href="https://vespro.io" target="_blank" class="font-weight-bold ml-1" target="_blank" style="color: #5F00BE;">Tecnolog&iacute;a Vespro</a>
       </div>
     </div>
