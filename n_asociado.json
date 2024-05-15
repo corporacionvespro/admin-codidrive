@@ -1,0 +1,68 @@
+[
+    {
+        "id_categoria_asociados": "1",
+        "nombre": "Restaurantes",
+        "detalle": "Detalles",
+        "icon": null,
+        "fecha_hora": "2023-12-22 18:31:46",
+        "asociados": [
+            {
+                "id_asociados": "5",
+                "nombre_asociado": "pruiebas02",
+                "telefono_asociado": "159951",
+                "direccion": "Av. Garcilaso de la Vega 323, Chiclayo, Per\u00fa",
+                "latitud": "-6.779035899999999",
+                "longitud": "-79.83960569999999",
+                "nombre_admin": "admin pruebas",
+                "telefono_admin": "6544456",
+                "fecha_hora_asociado": "2023-12-22 18:31:46",
+                "detalle_asociado": null,
+                "logo": null
+            }
+        ]
+    },
+    {
+        "id_categoria_asociados": "1",
+        "nombre": "Restaurantes",
+        "detalle": "Detalles",
+        "icon": null,
+        "fecha_hora": "2023-12-22 18:31:46",
+        "asociados": [
+            {
+                "id_asociados": "5",
+                "nombre_asociado": "pruiebas02",
+                "telefono_asociado": "159951",
+                "direccion": "Av. Garcilaso de la Vega 323, Chiclayo, Per\u00fa",
+                "latitud": "-6.779035899999999",
+                "longitud": "-79.83960569999999",
+                "nombre_admin": "admin pruebas",
+                "telefono_admin": "6544456",
+                "fecha_hora_asociado": "2023-12-22 18:31:46",
+                "detalle_asociado": null,
+                "logo": null
+            }
+        ]
+    },
+    {
+        "id_categoria_asociados": "1",
+        "nombre": "Restaurantes",
+        "detalle": "Detalles",
+        "icon": null,
+        "fecha_hora": "2023-12-22 18:31:46",
+        "asociados": [
+            {
+                "id_asociados": "5",
+                "nombre_asociado": "pruiebas02",
+                "telefono_asociado": "159951",
+                "direccion": "Av. Garcilaso de la Vega 323, Chiclayo, Per\u00fa",
+                "latitud": "-6.779035899999999",
+                "longitud": "-79.83960569999999",
+                "nombre_admin": "admin pruebas",
+                "telefono_admin": "6544456",
+                "fecha_hora_asociado": "2023-12-22 18:31:46",
+                "detalle_asociado": null,
+                "logo": null
+            }
+        ]
+    }
+]

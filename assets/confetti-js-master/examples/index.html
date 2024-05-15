@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../site/site.css" />
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        
+        section {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            white-space: nowrap;
+        }
+        
+        section>* {
+            z-index: 9;
+            position: relative;
+            top: 0;
+        }
+        
+        section>canvas {
+            z-index: 1;
+            position: absolute;
+            left: 0;
+        }
+        
+        .spacing {
+            width: 100%;
+            min-height: 20%;
+            background: -moz-linear-gradient(-45deg, #1f6bd3 0%, #2c44c9 100%);
+            background: -webkit-linear-gradient(-45deg, #1f6bd3 0%, #2c44c9 100%);
+            background: linear-gradient(135deg, #1f6bd3 0%, #2c44c9 100%);
+            background: linear-gradient(to right bottom, #2c44c9, #2c44c9, #5955bd, #8280ce);
+            background: -webkit-linear-gradient(to right bottom, #2c44c9, #2c44c9, #5955bd, #8280ce);
+        }
+        
+        a {
+            position: fixed;
+            right: 15px;
+            top: 15px;
+            z-index: 99;
+            border: none;
+        }
+        
+        a img {
+            max-width: 50px;
+            border-radius: 50px;
+            border: 1px solid #efefef;
+            -webkit-box-shadow: 0 0 5px 0 rgba(55, 55, 55, .3);
+            box-shadow: 0 0 5px 0 rgba(55, 55, 55, .3);
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+    <section class="example-1">
+        <div class="content" style="padding:25% 10%;">
+            <h1 style="font-size: 4em;text-transform: uppercase;letter-spacing: -.05em;">Try New experiences.</h1>
+            <p style="font-size: 1.6em;text-transform: uppercase;">You know, be creative and stuff.</p>
+        </div>
+        <canvas id="canvas1"></canvas>
+    </section>
+
+
+
+    <!-- Importing generator -->
+    <script type="text/javascript" src="../dist/index.min.js"></script>
+    <!-- Starting site logic -->
+    <script type="text/javascript">
+        //First example
+        var canvas1Settings = {
+            target: 'canvas1',
+            max: 90,
+            size: 1,
+            animate: true,
+            props: ['circle', 'square', 'triangle', 'line'],
+            colors: [
+                [165, 104, 246],
+                [230, 61, 135],
+                [0, 199, 228],
+                [253, 214, 126]
+            ],
+            clock: 30,
+            rotate: true,
+            width: 1920,
+            height: 872,
+            start_from_edge: true,
+            respawn: true
+        };
+        var canvas1 = new ConfettiGenerator(canvas1Settings);
+        canvas1.render();
+    </script>
+</body>
+
+</html>

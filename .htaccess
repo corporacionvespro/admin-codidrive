@@ -1,0 +1,39 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^admin$ admin.php [QSA]
+RewriteRule ^tempconductor$ tempconductor.php [QSA]
+RewriteRule ^restorepassword$ contra.php [QSA]
+RewriteRule ^error$ error.php [QSA]
+RewriteRule ^correo$ correo.php [QSA]
+RewriteRule ^solicitudes$ solicitudes.php [QSA]
+RewriteRule ^mapa$ mapa.php [QSA]
+RewriteRule ^pasajeros$ pasajeros.php [QSA]
+RewriteRule ^conductores$ conductores.php [QSA]
+RewriteRule ^campana$ campana.php [QSA]
+RewriteRule ^logout$ logout.php [QSA]
+RewriteRule ^reg$ registros2.php [QSA]
+RewriteRule ^newreg$ agregar_nuevo_conductor.php [QSA]
+RewriteRule ^newregistro$ agregar_reg.php [QSA]
+RewriteRule ^estadisticac$ estconductores.php [QSA]
+RewriteRule ^estadisticap$ estpasajeros.php [QSA]
+RewriteRule ^operaciones$ operaciones.php [QSA]
+RewriteRule ^estadisticas$ estado_flujo.php [QSA]
+RewriteRule ^serverdashboard$ server_dashboard.php [QSA]
+RewriteRule ^otrosingresos$ otrosingresos.php [QSA]
+RewriteRule ^otrosegresos$ otrosegresos.php [QSA]
+RewriteRule ^ccobrar$ ccobrar.php [QSA]
+RewriteRule ^cpagar$ cpagar.php [QSA]
+RewriteRule ^pasajero_version$ server_version_pasajero.php [QSA]
+RewriteRule ^conductor_version$ server_version_conductor.php [QSA]
+RewriteRule ^documentos$ documentos.php [QSA]
+RewriteRule ^cumple$ cumple.php [QSA]
+RewriteRule ^descargar$ descarga_app.php [QSA]
+RewriteRule ^negocios_asociados$ negocios_asociados.php [QSA]
+RewriteRule ^cat_asociados$ categorias_asociados.php [QSA]
+RewriteRule ^n_asociados$ n_asociado.php [QSA]
+
+ErrorDocument 404 .
+ErrorDocument 403 .

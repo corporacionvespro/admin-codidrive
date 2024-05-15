@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./public/js/face-api.min.js"></script>
+
+    
+</head>
+
+<body>
+    <input type="file" id="fileInput" accept="image/*" onchange="detectFace()">
+    <img id="image" src="#" alt="Imagen">
+    <div id="result"></div>
+    <script>
+        async function detectFace() {
+          const fileInput = document.getElementById("fileInput");
+          const imageElement = document.getElementById("image");
+          const resultElement = document.getElementById("result");
+    
+          const file = fileInput.files[0];
+          if (file) {
+            imageElement.src = URL.createObjectURL(file);
+    
+            await faceapi.nets.tinyFaceDetector.loadFromUri("https://chapatutaxi.com/admin/face/public/models");
+            await faceapi.nets.faceLandmark68Net.loadFromUri("https://chapatutaxi.com/admin/face/public/models");
+    
+            const image = await faceapi.fetchImage(imageElement);
+            const detections = await faceapi.detectAllFaces(image, new faceapi.TinyFaceDetectorOptions())
+                                           .withFaceLandmarks();
+    
+            if (detections.length > 0) {
+              resultElement.textContent = "Se encontró un rostro en la imagen.";
+            } else {
+              resultElement.textContent = "No se encontró ningún rostro en la imagen.";
+            }
+          }
+        }
+      </script>
+</body>
+
+</html>

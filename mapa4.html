@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realtime location tracker</title>
+
+  <!-- leaflet css  -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <button onclick="actualizar()">Actualizar</button>
+  <div id="map"></div>
+
+</body>
+
+</html>
+
+<!-- leaflet js  -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+  // Map initialization 
+  var map = L.map('map').setView([-6.7758, -79.8376], 13);
+
+  //osm layer
+  var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  });
+  osm.addTo(map);
+
+  if (!navigator.geolocation) {
+    console.log("¡Su navegador no es compatible con la función de geolocalización!")
+  } else {
+    /* setInterval(() => {
+       navigator.geolocation.getCurrentPosition(getPosition)
+     }, 5000);*/
+    navigator.geolocation.getCurrentPosition(getPosition)
+  }
+
+  var marker, circle;
+  var location3 = [];
+  var location2 = [];
+  var featureGroup
+
+  function getPosition(position) {
+    // console.log(position)
+    /*var lat = position.coords.latitude
+    var long = position.coords.longitude*/
+    location2 = [
+      ["LOCATION_1", -6.7758, -79.8376],
+      ["LOCATION_2", -6.77159, -79.83871],
+      ["LOCATION_3", -6.79286, -79.83463],
+      ["LOCATION_4", -6.78923, -79.84159],
+      ["LOCATION_5", -6.76275, -79.86087]
+    ];
+
+    //var accuracy = position.coords.accuracy
+
+    if (marker) {
+      for (var i = 0; i < location2.length; i++) {
+        map.removeLayer(marker)
+        console.log(i, 'eliminado');
+      }
+    }
+
+    if (circle) {
+      map.removeLayer(circle)
+    }
+
+    /*marker = L.marker([lat, long])
+    circle = L.circle([lat, long], {
+      radius: accuracy
+    })*/
+    for (var i = 0; i < location2.length; i++) {
+      marker = new L.marker([location2[i][1], location2[i][2]]).bindPopup(location2[i][0]);
+      featureGroup = L.featureGroup([marker]).addTo(map)
+    }
+    //map.fitBounds(featureGroup.getBounds())
+
+
+    //console.log("Your coordinate is: Lat: " + lat + " Long: " + long + " Accuracy: " + accuracy)
+  }
+
+  function getPosition2(position2) {
+    location3 = [
+      ["LOCATION_1", -6.7758, -79.8376],
+      ["LOCATION_3", -6.79286, -79.83463]
+    ];
+
+    var accuracy = position2.coords.accuracy
+
+    if (marker) {
+      console.log(marker);
+      console.log(location2);
+      console.log(location2.length);
+      for (var i = 0; i < location2.length; i++) {
+        map.removeLayer(marker)
+        console.log(i, 'eliminado');
+
+       
+
+      }
+    }
+
+    if (circle) {
+      map.removeLayer(circle)
+    }
+
+    /*marker = L.marker([lat, long])
+    circle = L.circle([lat, long], {
+      radius: accuracy
+    })*/
+
+    for (var i = 0; i < location3.length; i++) {
+      marker = new L.marker([location3[i][1], location3[i][2]]).bindPopup(location3[i][0]);
+      featureGroup = L.featureGroup([marker]).addTo(map)
+    }
+    //map.fitBounds(featureGroup.getBounds())
+
+
+    //console.log("Your coordinate is: Lat: " + lat + " Long: " + long + " Accuracy: " + accuracy)
+  }
+
+  function actualizar() {
+    navigator.geolocation.getCurrentPosition(getPosition2)
+  }
+</script>

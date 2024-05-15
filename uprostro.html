@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Validación de Selfie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        video {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            transform: scaleX(-1);
+        }
+
+        .circular-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: #eee;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        #resultado {
+            margin-top: 10px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Validación de Selfie</h1>
+        <div class="button-container">
+            <button id="abrirCamara">Abrir Cámara</button>
+            <button id="tomarFoto" style="display: none;">Tomar Foto</button>
+            <button id="borrarFoto" style="display: none;">Borrar Foto</button>
+            <button id="subirFoto">Subir Foto</button>
+        </div>
+        <input type="file" id="archivoInput" style="display: none;">
+        <video id="video" autoplay style="display: none;"></video>
+        <canvas id="canvas" style="display: none;"></canvas>
+        <div class="circular-container">
+            <img id="selfieImg" src="" alt="Selfie" style="display: none;">
+        </div>
+        <div id="resultado" style="display: none;"></div>
+    </div>
+
+    <script>
+        const abrirCamaraButton = document.getElementById('abrirCamara');
+        const tomarFotoButton = document.getElementById('tomarFoto');
+        const borrarFotoButton = document.getElementById('borrarFoto');
+        //const subirFotoButton = document.getElementById('subirFoto');
+        const archivoInput = document.getElementById('archivoInput');
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const selfieImg = document.getElementById('selfieImg');
+        const resultadoDiv = document.getElementById('resultado');
+        let stream;
+
+        abrirCamaraButton.addEventListener('click', async () => {
+            try {
+                const constraints = {
+                    video: {
+                        width: {
+                            ideal: 720
+                        },
+                        height: {
+                            ideal: 720
+                        }
+                    }
+                };
+
+                stream = await navigator.mediaDevices.getUserMedia(constraints);
+                video.srcObject = stream;
+                video.style.display = 'block';
+                tomarFotoButton.style.display = 'block';
+                //subirFotoButton.style.display = 'none';
+            } catch (error) {
+                console.error('Error al acceder a la cámara: ', error);
+            }
+        });
+
+        tomarFotoButton.addEventListener('click', () => {
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            const context = canvas.getContext('2d');
+            context.scale(-1, 1);
+            context.drawImage(video, -canvas.width, 0, canvas.width, canvas.height);
+            selfieImg.src = canvas.toDataURL('image/jpeg');
+            selfieImg.style.display = 'block';
+
+            convertirAWebP(canvas.toDataURL('image/jpeg'), function (webpDataUrl) {
+                selfieImg.src = webpDataUrl;
+                resultadoDiv.textContent = 'Selfie capturada con éxito (formato WebP).';
+            });
+
+            tomarFotoButton.style.display = 'none';
+            borrarFotoButton.style.display = 'block';
+
+            if (stream) {
+                const tracks = stream.getTracks();
+                tracks.forEach(track => track.stop());
+                video.style.display = 'none';
+            }
+
+            resultadoDiv.style.display = 'block';
+        });
+
+        borrarFotoButton.addEventListener('click', () => {
+            selfieImg.style.display = 'none';
+            resultadoDiv.style.display = 'none';
+            borrarFotoButton.style.display = 'none';
+            tomarFotoButton.style.display = 'block';
+            //subirFotoButton.style.display = 'none';
+            const context = canvas.getContext('2d');
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            video.style.display = 'block';
+            abrirCamaraButton.click();
+        });
+
+        archivoInput.addEventListener('change', function () {
+            const archivo = this.files[0];
+            if (archivo) {
+                subirArchivo(archivo);
+            }
+        });
+
+        /*subirFotoButton.addEventListener('click', () => {
+            if (selfieImg.src) {
+                subirImagen(selfieImg.src);
+            } else {
+                console.error('No hay una foto para subir.');
+            }
+        });*/
+
+        function subirArchivo(archivo) {
+            const formData = new FormData();
+            formData.append('archivo', archivo);
+
+            $.ajax({
+                url: 'subir.php',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (respuesta) {
+                    console.log(respuesta);
+                },
+                error: function (error) {
+                    console.error('Error al subir el archivo: ', error);
+                }
+            });
+        }
+
+        function subirImagen(base64DataUrl) {
+            $.post('subir.php', { foto: base64DataUrl })
+                .done(function (respuesta) {
+                    console.log(respuesta);
+                })
+                .fail(function (error) {
+                    console.error('Error al subir la imagen: ', error);
+                });
+        }
+
+        function convertirAWebP(base64DataUrl, callback) {
+            const img = new Image();
+            img.src = base64DataUrl;
+            img.onload = function () {
+                const canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const context = canvas.getContext('2d');
+                context.drawImage(img, 0, 0, img.width, img.height);
+                canvas.toBlob(function (blob) {
+                    const reader = new FileReader();
+                    reader.readAsDataURL(blob);
+                    reader.onloadend = function () {
+                        callback(reader.result);
+                    };
+                }, 'image/webp');
+            };
+        }
+    </script>
+</body>
+
+</html>

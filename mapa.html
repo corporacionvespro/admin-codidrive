@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--
+ @license
+ Copyright 2019 Google LLC. All Rights Reserved.
+ SPDX-License-Identifier: Apache-2.0
+-->
+<html>
+
+<head>
+    <title>Places Search Box</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- jsFiddle will insert css and js -->
+</head>
+<style>
+    /**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+    /* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+    #map {
+        height: 100%;
+    }
+
+    /* 
+ * Optional: Makes the sample page fill the window. 
+ */
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    #infowindow-content .title {
+        font-weight: bold;
+    }
+
+    #infowindow-content {
+        display: none;
+    }
+
+    #map #infowindow-content {
+        display: inline;
+    }
+
+    .pac-card {
+        background-color: #fff;
+        border: 0;
+        border-radius: 2px;
+        box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+        margin: 10px;
+        padding: 0 0.5em;
+        font: 400 18px Roboto, Arial, sans-serif;
+        overflow: hidden;
+        font-family: Roboto;
+        padding: 0;
+    }
+
+    #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+    }
+
+    .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+    }
+
+    .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+    }
+
+    #pac-input:focus {
+        border-color: #4d90fe;
+    }
+
+    #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+    }
+
+    #target {
+        width: 345px;
+    }
+</style>
+
+<body>
+
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box" />
+    <div id="map"></div>
+
+    <!-- 
+      The `defer` attribute causes the callback to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises.
+      See https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initAutocomplete&libraries=places&v=weekly"
+        defer></script>
+   <script>
+        function initAutocomplete() {
+            var direc = '';
+            var coord = '';
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: -6.780333, lng: -79.840486 },
+                zoom: 13,
+                mapTypeId: "roadmap",
+            });
+            // Cree el cuadro de búsqueda y vincule al elemento UI.
+            const input = document.getElementById("pac-input");
+            const searchBox = new google.maps.places.SearchBox(input);
+
+            map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+            //Sesgo los resultados del cuadro de búsqueda hacia la vista de mapas actuales.
+            map.addListener("bounds_changed", () => {
+                searchBox.setBounds(map.getBounds());
+            });
+
+            let markers = [];
+
+            // Escuche el evento disparado cuando el usuario seleccione una predicción y recupere
+            //Más detalles para ese lugar.
+            searchBox.addListener("places_changed", () => {
+                const places = searchBox.getPlaces();
+
+                if (places.length == 0) {
+                    return;
+                }
+
+                // Limpie los viejos marcadores.
+                markers.forEach((marker) => {
+                    /*console.log(marker.getPosition().lng());
+                console.log(marker.getPosition().lat());*/
+                    marker.setMap(null);
+                });
+                markers = [];
+
+                // Para cada lugar, obtenga el icono, el nombre y la ubicación.
+                const bounds = new google.maps.LatLngBounds();
+
+                places.forEach((place) => {
+                    if (!place.geometry || !place.geometry.location) {
+                        console.log("El lugar devuelto no contiene geometría");
+                        return;
+                    }
+
+                  
+
+                    // Crea un marcador para cada lugar.
+                    markers.push(
+                        new google.maps.Marker({
+                            map,
+                            title: place.name,
+                            position: place.geometry.location,
+                        })
+                    );
+
+
+                    if (place.geometry.viewport) {
+                        // Solo los geocodos tienen ventana gráfica.
+                        bounds.union(place.geometry.viewport);
+
+                        coord = place.geometry.location.lat() + ',' + place.geometry.location.lng();
+
+                        direc = place.formatted_address;
+
+                    } else {
+                        bounds.extend(place.geometry.location);
+                    }
+                });
+                map.fitBounds(bounds);
+                console.log(direc, coord);
+                
+            });
+
+          
+        }
+
+        window.initAutocomplete = initAutocomplete;
+    </script>
+</body>
+
+</html>
