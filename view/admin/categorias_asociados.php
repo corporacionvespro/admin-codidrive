@@ -544,7 +544,7 @@ td.dt-center {
             if (valores == 'agregar') {
                 nombre = $("#nombre").val();
                 detalle = $("#detalle").val();
-                icono = 'https://chapatutaxi.com/admin/assets/img/brand/logo.png';
+                icono = 'https://codidrive.com/admin/assets/img/brand/logo.png';
                 $.ajax({
                     type: "POST",
                     url: "agregar_categoria_asociado.php",
@@ -570,7 +570,7 @@ td.dt-center {
             } else {
                 nombre = $("#nombre").val();
                 detalle = $("#detalle").val();
-                icono = 'https://chapatutaxi.com/admin/assets/img/brand/logo.png';
+                icono = 'https://codidrive.com/admin/assets/img/brand/logo.png';
                 $.ajax({
                     type: "POST",
                     url: "editar_categoria_asociado.php",
@@ -605,7 +605,7 @@ td.dt-center {
         if (val == 'agregar') {
             $("#nombre").val('');
             $('#detalle').val('');
-            $('#imagePreview2').css('background-image', 'url(https://chapatutaxi.com/admin/assets/img/brand/logo.png)');
+            $('#imagePreview2').css('background-image', 'url(https://codidrive.com/admin/assets/img/brand/logo.png)');
             $('#imagePreview2').hide();
             $('#imagePreview2').fadeIn(650);
             $('#exampleModal3').modal('show');

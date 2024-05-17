@@ -8,10 +8,10 @@
     <meta property="twitter:description" content="Una nueva version del sistema Taxi Vespro, simple y eficaz." />
     <meta name="description" content="Una nueva version del sistema Taxi Vespro, simple y eficaz.">
 
-    <meta property="twitter:image:src" content="https://chapatutaxi.com/admin/assets/img/brand/logo.png" />
-    <meta property="og:image" content="https://chapatutaxi.com/admin/assets/img/brand/logo.png" />
-    <link rel="apple-touch-icon" href="https://chapatutaxi.com/admin/assets/img/brand/logo.png">
-    <link rel="icon" href="https://chapatutaxi.com/admin/assets/img/brand/logo.png">
+    <meta property="twitter:image:src" content="https://codidrive.com/admin/assets/img/brand/logo.png" />
+    <meta property="og:image" content="https://codidrive.com/admin/assets/img/brand/logo.png" />
+    <link rel="apple-touch-icon" href="https://codidrive.com/admin/assets/img/brand/logo.png">
+    <link rel="icon" href="https://codidrive.com/admin/assets/img/brand/logo.png">
 
     <meta property="og:title" content="Vespro" />
     <meta property="twitter:title" content="Vespro" />

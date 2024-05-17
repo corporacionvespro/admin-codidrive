@@ -92,7 +92,7 @@ while ($aRow = $rResult->fetch_array()) {
 	for ($i = 0; $i < count($aColumnas2); $i++) {
 		if ($aColumnas2[$i] == "fotos") {
 			if ($aRow[$aColumnas2[$i]] == "default.png" || $aRow[$aColumnas2[$i]] == "https://chapatutaxi.com/chapaapi/images/logo.png") {
-				$row[] = "<td class='text-center'><img src='https://chapatutaxi.com/admin/assets/img/brand/logo.png' class='circle' style='width: 70px;height: 70px;overflow: hidden;border-radius: 45px;border: none;text-align: center;object-fit: cover;color: transparent;text-indent: 10000px;max-width: 100 !important;'></td>";
+				$row[] = "<td class='text-center'><img src='https://codidrive.com/admin/assets/img/brand/logo.png' class='circle' style='width: 70px;height: 70px;overflow: hidden;border-radius: 45px;border: none;text-align: center;object-fit: cover;color: transparent;text-indent: 10000px;max-width: 100 !important;'></td>";
 			}elseif ($aColumnas2[$i] == "fecha_na") {
 				$hoy = new DateTime(); // Obtiene la fecha actual
 				// Crear un objeto DateTime para la fecha de nacimiento

@@ -366,7 +366,7 @@
                                             <label for="foto"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="imagePreview" style="background-image: url(https://chapatutaxi.com/admin/assets/img/brand/logo.png);">
+                                            <div id="imagePreview" style="background-image: url(https://codidrive.com/admin/assets/img/brand/logo.png);">
                                             </div>
                                         </div>
                                     </div>

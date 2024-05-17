@@ -91,7 +91,7 @@ function datos(valores, id_asociados, nombre_asociado, telefono_asociado, direcc
         $("#nombres_asociado").val('');
         $("#telefono_asociado").val('');
         $("#categorias option[value='0']").attr("selected", true);
-        $('#imagePreview2').css('background-image', 'url(https://chapatutaxi.com/admin/assets/img/brand/logo.png)');
+        $('#imagePreview2').css('background-image', 'url(https://codidrive.com/admin/assets/img/brand/logo.png)');
         $('#imagePreview2').hide();
         $('#imagePreview2').fadeIn(650);
         $('#exampleModal3').modal('show');
@@ -323,7 +323,7 @@ function reg_asociados() {
     var imagenInput = document.getElementById('foto2');
     var imagen = imagenInput.files[0];
 
-    var logo = 'https://chapatutaxi.com/admin/assets/img/brand/logo.png';
+    var logo = 'https://codidrive.com/admin/assets/img/brand/logo.png';
 
     if (inputmapa == 0) {
         direccion_actual = $("#pac-input").val();

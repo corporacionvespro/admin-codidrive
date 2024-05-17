@@ -170,7 +170,7 @@ if ($level == 1) {
     }
 
     .imagePreview2 {
-        background-image: url('https://chapatutaxi.com/admin/assets/img/brand/logo.png');
+        background-image: url('https://codidrive.com/admin/assets/img/brand/logo.png');
     }
 
     .estado_inactivo {
@@ -427,7 +427,7 @@ if ($level == 1) {
                                             <label for="foto"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="imagePreview" style="background-image: url(https://chapatutaxi.com/admin/assets/img/brand/logo.png);">
+                                            <div id="imagePreview" style="background-image: url(https://codidrive.com/admin/assets/img/brand/logo.png);">
                                             </div>
                                         </div>
                                     </div>
@@ -1742,7 +1742,7 @@ if ($level == 1) {
             idcuentas = idcuenta;
             $("#nombres2").val('');
             $("#telefono2").val('');
-            $('#imagePreview2').css('background-image', 'url(https://chapatutaxi.com/admin/assets/img/brand/logo.png)');
+            $('#imagePreview2').css('background-image', 'url(https://codidrive.com/admin/assets/img/brand/logo.png)');
             $('#imagePreview2').hide();
             $('#imagePreview2').fadeIn(650);
             $("#correo2").val('');
@@ -1763,7 +1763,7 @@ if ($level == 1) {
                 $("#nombres2").val(json2.conductor.nombres);
                 $("#telefono2").val(json2.conductor.telefono);
                 if (json2.conductor.foto == 'https://chapatutaxi.com/chapaapi/images/logo.png') {
-                    var url = 'https://chapatutaxi.com/admin/assets/img/brand/logo.png';
+                    var url = 'https://codidrive.com/admin/assets/img/brand/logo.png';
                 } else {
                     var url = 'https://chapatutaxi.com/chapaapi/images/' + json2.conductor.foto;
                 }

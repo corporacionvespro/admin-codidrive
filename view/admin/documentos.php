@@ -195,7 +195,7 @@ if ($level == 1) {
     }
 
     .imagePreview2 {
-        background-image: url('https://chapatutaxi.com/admin/assets/img/brand/logo.png');
+        background-image: url('https://codidrive.com/admin/assets/img/brand/logo.png');
     }
 
     .estado_inactivo {

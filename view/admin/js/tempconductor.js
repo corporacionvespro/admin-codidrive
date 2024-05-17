@@ -288,7 +288,7 @@ function personalesdatos(idpersona, idcuenta) {
     $("#nombres2").val('');
     $("#telefono2").val('');
     /**/
-    $('#imagePreview2').css('background-image', 'url(https://chapatutaxi.com/admin/assets/img/brand/logo.png)');
+    $('#imagePreview2').css('background-image', 'url(https://codidrive.com/admin/assets/img/brand/logo.png)');
     $('#imagePreview2').hide();
     $('#imagePreview2').fadeIn(650);
     /**/
@@ -311,7 +311,7 @@ function personalesdatos(idpersona, idcuenta) {
         $("#telefono2").val(json2.conductor.telefono);
         /**/
         if (json2.conductor.foto == 'https://chapatutaxi.com/chapaapi/images/logo.png') {
-            var url = 'https://chapatutaxi.com/admin/assets/img/brand/logo.png';
+            var url = 'https://codidrive.com/admin/assets/img/brand/logo.png';
         } else {
             var url = 'https://chapatutaxi.com/chapaapi/images/' + json2.conductor.foto;
         }

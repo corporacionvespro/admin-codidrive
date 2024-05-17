@@ -192,7 +192,7 @@ if ($level == 1) {
     }
 
     .imagePreview2 {
-        background-image: url('https://chapatutaxi.com/admin/assets/img/brand/logo.png');
+        background-image: url('https://codidrive.com/admin/assets/img/brand/logo.png');
     }
 
     .estado_inactivo {
@@ -873,7 +873,7 @@ if ($level == 1) {
             idcuentas = idcuenta;
             $("#nombres2").val('');
             $("#telefono2").val('');
-            $('#imagePreview2').css('background-image', 'url(https://chapatutaxi.com/admin/assets/img/brand/logo.png)');
+            $('#imagePreview2').css('background-image', 'url(https://codidrive.com/admin/assets/img/brand/logo.png)');
             $('#imagePreview2').hide();
             $('#imagePreview2').fadeIn(650);
             $("#correo2").val('');

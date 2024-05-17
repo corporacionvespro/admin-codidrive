@@ -37,7 +37,7 @@ while ($row = $result->fetch_assoc()) {
         'latitud' => $row['latitud'],
         'longitud' => $row['longitud'],
         'nombre_categoria' => $row['nombre_categoria'],
-        'imagen' => 'https://chapatutaxi.com/admin/assets/img/brand/logo.png',
+        'imagen' => 'https://codidrive.com/admin/assets/img/brand/logo.png',
     );
 }
 

@@ -27,12 +27,12 @@ try {
   <head>
       <meta charset="UTF-8">
       <link rel="apple-touch-icon" type="image/png"
-          href="https://chapatutaxi.com/admin/assets/img/brand/logo.png">
+          href="https://codidrive.com/admin/assets/img/brand/logo.png">
       <meta name="apple-mobile-web-app-title" content="">
   
-      <link rel="shortcut icon" type="image/png" href="https://chapatutaxi.com/admin/assets/img/brand/logo.png">
+      <link rel="shortcut icon" type="image/png" href="https://codidrive.com/admin/assets/img/brand/logo.png">
   
-      <link rel="mask-icon" type="image/png" href="https://chapatutaxi.com/admin/assets/img/brand/logo.png">
+      <link rel="mask-icon" type="image/png" href="https://codidrive.com/admin/assets/img/brand/logo.png">
       <title>Recuperar contraseña</title>
   </head>
 <body translate="no" topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0" marginwidth="0" marginheight="0"
@@ -73,7 +73,7 @@ try {
 									style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-bottom: 3px; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 18px; font-weight: 300; line-height: 150%;padding-top: 5px;color: #000000;font-family: sans-serif;"
 									class="subheader">
 									<img border="0" vspace="0" hspace="0"
-										src="https://chapatutaxi.com/admin/assets/img/brand/logo.png"
+										src="https://codidrive.com/admin/assets/img/brand/logo.png"
 										width="300&quot;" alt="Logo" title="Logo"
 										style="color: #000000;font-size: 10px;margin: 0;padding: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;border: none;display: block;height: 100px;width: 100px;">
 								</td>
