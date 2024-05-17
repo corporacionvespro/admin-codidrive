@@ -3,8 +3,8 @@ $nombre = $_GET['nombre'];
 // Conexión a la base de datos MySQL
 $servername ='localhost';
 $username ='root';
-$password ='@Vespro';
-$database ='chapatutaxi';
+$password ='vespro$2024&';
+$database ='codidrive';
 
 $conn = new mysqli($servername, $username, $password, $database);
 

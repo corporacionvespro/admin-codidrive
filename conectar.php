@@ -2,8 +2,8 @@
 
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PASS', '@Vespro');
-define('DB_NAME', 'chapatutaxi');
+define('DB_PASS', 'vespro$2024&');
+define('DB_NAME', 'codidrive');
 class MySqli_DB
 {
     private $con;

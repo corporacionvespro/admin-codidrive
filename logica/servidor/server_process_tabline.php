@@ -11,7 +11,7 @@ $fechahoramenos = $fecha . " " . $una_hora_menos;
 $inicio = $_POST['inicio'];
 $final = $_POST['final'];
 global $conexion;
-$conexion = mysqli_connect('localhost', 'root', '@Vespro', 'chapatutaxi');
+$conexion = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
 $query = $conexion->query("SELECT * FROM `operaciones` WHERE DATE_FORMAT(fecha, '%Y/%m/%d') BETWEEN '{$inicio}' AND '{$final}' ORDER BY `operaciones`.`id_operaciones` DESC");
 
 $query2 = $conexion->query("SELECT  COUNT(`id_operaciones`) AS cantidad FROM `operaciones` WHERE DATE_FORMAT(fecha, '%Y/%m/%d') BETWEEN '{$inicio}' AND '{$final}' ORDER BY `operaciones`.`id_operaciones` DESC");

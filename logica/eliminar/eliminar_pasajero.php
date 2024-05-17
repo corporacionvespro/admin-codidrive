@@ -3,8 +3,8 @@ $id_persona_a_eliminar = $_POST['id_pe'];
 $id_pasajeros = $_POST['id_pa'];
 $servername = 'localhost';
 $username = 'root';
-$password = '@Vespro';
-$database = 'chapatutaxi';
+$password = 'vespro$2024&';
+$database = 'codidrive';
 $conn = new mysqli($servername, $username, $password, $database);
 if ($conn->connect_error) {
     die("La conexión a la base de datos falló: " . $conn->connect_error);

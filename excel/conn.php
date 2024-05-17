@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'root', '@Vespro', 'chapatutaxi');
+$conn = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
 
 if (!$conn) {
 	die("Error: Fallo al conectar con la base de datos");

@@ -3,8 +3,8 @@ header('Content-Type: application/json');
 // Conexión a la base de datos (asegúrate de cambiar los valores según tu configuración)
 $servername = "localhost";
 $username = "root";
-$password = "@Vespro";
-$dbname = "chapatutaxi";
+$password = 'vespro$2024&';
+$dbname = "codidrive";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

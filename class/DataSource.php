@@ -11,8 +11,8 @@ class DataSource
 {
     const HOST = 'localhost';
     const USERNAME = 'root';
-    const PASSWORD = '@Vespro';
-    const DATABASENAME = 'chapatutaxi';
+    const PASSWORD = 'vespro$2024&';
+    const DATABASENAME = 'codidrive';
     private $conn;
     function __construct()
     {

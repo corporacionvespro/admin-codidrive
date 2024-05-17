@@ -5,7 +5,7 @@ header("Content-Disposition: attachment; filename=CUMPLE_DE_CONDUCTORES_" . date
 header("Pragma: no-cache");
 header("Expires: 0");
 
-$mysqli = new mysqli('localhost', 'root', '@Vespro', 'chapatutaxi');
+$mysqli = new mysqli('localhost', 'root', 'vespro$2024&', 'codidrive');
 if ($mysqli->connect_error) {
 	die('Error en la conexion' . $mysqli->connect_error);
 }

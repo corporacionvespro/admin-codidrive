@@ -8,7 +8,7 @@ $una_hora_menos = date("H:i:s", (strtotime("-5 Hours")));
 $fecha = date("d-m-Y");
 $fechahora = $fecha . " " . $hora24;
 $fechahoramenos = $fecha . " " . $una_hora_menos;
-$conexion = mysqli_connect('localhost', 'root', '@Vespro', 'chapatutaxi');
+$conexion = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
 function ubicar($id)
 {
     global $conexion;

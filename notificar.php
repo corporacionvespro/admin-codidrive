@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set("America/Lima");
 $fecha = date("Y-m-d");
-$conexion = mysqli_connect('localhost', 'root', '@Vespro', 'chapatutaxi');
+$conexion = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
 global $conexion;
 $query = $conexion->query("SELECT `id_saldo`,`id_conductores`,`fecha_final`,saldo_conductor.fecha_final,persona.nombres AS nombresc,conductor.id_conductor,conductor.id_persona FROM `saldo_conductor` 
 INNER JOIN conductor ON saldo_conductor.id_conductores = conductor.id_conductor

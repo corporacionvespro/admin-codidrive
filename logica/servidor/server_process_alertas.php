@@ -4,8 +4,8 @@ if(isset($_POST['accion'])){
     
     $servername = "localhost";
     $username = "root";
-    $password = "@Vespro";
-    $dbname = "chapatutaxi";
+    $password = 'vespro$2024&';
+    $dbname = "codidrive";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 

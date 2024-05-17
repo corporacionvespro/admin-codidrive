@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'chapatutaxi';
+$dbname = 'codidrive';
 $username = 'root';
-$password = '@Vespro';
+$password = 'vespro$2024&';
 
 try {
     $dsn = "mysql:host=$host;dbname=$dbname";

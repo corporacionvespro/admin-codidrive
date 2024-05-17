@@ -2,8 +2,8 @@
 
 $dbHost = 'localhost';
 $dbUsername = 'root';
-$dbPassword = '@Vespro';
-$dbName = 'chapatutaxi';
+$dbPassword = 'vespro$2024&';
+$dbName = 'codidrive';
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 $db->set_charset("utf8");
 if ($db->connect_error) {
