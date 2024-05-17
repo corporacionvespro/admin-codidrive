@@ -2476,9 +2476,9 @@
     }
     
     .btn-primary:hover {
-        color: #fff;
-        border-color: #01296e;
-        background-color: #01296e;
+        color: #042772;
+        border-color: #04e3e3;
+        background-color: #04e3e3;
     }
     
     .btn-primary:focus,
