@@ -6,7 +6,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="google" value="notranslate">
-  <title>Chapa tu taxi</title>
+  <title>Codi Drive</title>
   <!-- Favicon 
   <link rel="icon" href="assets/img/brand/favicon.png" type="image/png">-->
   <link rel="icon" href="./assets/img/brand/logo.png" type="image/png">

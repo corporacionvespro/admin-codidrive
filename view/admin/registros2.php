@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Una nueva version del sistema Taxi Vespro, simple y eficaz.">
     <meta name="author" content="vespro">
-    <title>Chapa tu taxi</title>
+    <title>Codi Drive</title>
     <link href="https://unpkg.com/cropperjs/dist/cropper.css" rel="stylesheet" />
     <script src="https://unpkg.com/cropperjs"></script>
     <link rel="icon" href="./assets/img/brand/logo.png" type="image/png">
