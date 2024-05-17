@@ -43,13 +43,15 @@
     }
 </style>
 
-<body class="bg-gradient-primary" style="min-height: 100vh;">
+<body class="bg-gradient-primary" style="min-height: 100vh; background: red !important;">
     <!-- Navbar -->
 
     <!-- Main content -->
     <div class="main-content">
         <!-- Header -->
-        <div class="header bg-gradient-primary py-6 py-lg-7">
+        <div class="header bg-gradient-primary py-6 py-lg-7" style="
+    background: red !important;
+">
             <div class="container">
                 <div class="header-body text-center mb-7">
                     <div class="row justify-content-center">
