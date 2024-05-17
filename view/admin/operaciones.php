@@ -25,7 +25,7 @@ if ($level == 1) {
     }
 
     .daterangepicker .ranges li.active {
-        background-color: #132e62;
+        background-color: #01296e;
         color: #fff;
     }
 
@@ -149,7 +149,7 @@ if ($level == 1) {
 </style>
 <div id="mensaje"></div>
 <!-- Header -->
-<div class="header bg-primary pb-6" style="background: #132e62 !important;">
+<div class="header bg-primary pb-6" style="background: #01296e !important;">
     <div class="container-fluid">
         <div class="header-body">
             <div class="row align-items-center py-4" style="margin-left: 5px;margin-right: 5px;">
@@ -170,7 +170,7 @@ if ($level == 1) {
                 </div><!-- -->
                 <div class="card-header bg-transparent">
                     <input type="hidden" id="search" name="search">
-                    <div id="reportrange" style="background: #fff;cursor: pointer;padding: 5px 10px;border: 1px solid #fff;width: 100%;text-align: center;border-radius: 25px;color: #132e62;">
+                    <div id="reportrange" style="background: #fff;cursor: pointer;padding: 5px 10px;border: 1px solid #fff;width: 100%;text-align: center;border-radius: 25px;color: #01296e;">
                         <i class="fa fa-calendar"></i>&nbsp;
                         <span></span> <i class="fa fa-caret-down"></i>
                     </div>

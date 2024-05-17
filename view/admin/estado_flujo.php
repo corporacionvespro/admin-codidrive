@@ -207,7 +207,7 @@ if ($level == "2" || $level == "3") {
   }
 
 ?>
-  <div class="header bg-primary pb-6" style="background: #132e62 !important;">
+  <div class="header bg-primary pb-6" style="background: #01296e !important;">
     <div class="container-fluid">
       <div class="header-body">
         <div class="row">
@@ -529,7 +529,7 @@ if ($level == "2" || $level == "3") {
 } else {
 ?>
   <div class="header pb-6 d-flex align-items-center" style="min-height: 100%;/* background-image: url(https://image.freepik.com/foto-gratis/centro-comercial-grandes-almacenes_74190-6344.jpg); */background-size: cover;background-position: center top;">
-    <span class="mask opacity-8" style="background: #132e62 !important;"></span>
+    <span class="mask opacity-8" style="background: #01296e !important;"></span>
     <div class="container-fluid d-flex align-items-center">
       <div class="row">
         <div class="col-12">

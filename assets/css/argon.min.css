@@ -18,7 +18,7 @@
 */
 
 :root {
-    --blue: #132e62;
+    --blue: #01296e;
     --indigo: #5603ad;
     --purple: #8965e0;
     --pink: #f3a4b5;
@@ -33,7 +33,7 @@
     --gray-dark: #32325d;
     --light: #ced4da;
     --lighter: #e9ecef;
-    --primary: #132e62;
+    --primary: #01296e;
     --secondary: #f7fafc;
     --success: #2dce89;
     --info: #11cdef;
@@ -186,13 +186,13 @@ sup {
 
 a {
     text-decoration: none;
-    color: #132e62;
+    color: #01296e;
     background-color: transparent
 }
 
 a:hover {
     text-decoration: none;
-    color: #132e62
+    color: #01296e
 }
 
 a:not([href]):not([tabindex]) {
@@ -1976,7 +1976,7 @@ pre code {
 
 .form-control:focus {
     color: #8898aa;
-    border-color: #132e62;
+    border-color: #01296e;
     outline: 0;
     background-color: #fff;
     box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, .1)
@@ -2471,15 +2471,15 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62;
+    border-color: #01296e;
+    background-color: #01296e;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08)
 }
 
 .btn-primary:hover {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62
+    border-color: #01296e;
+    background-color: #01296e
 }
 
 .btn-primary.focus,
@@ -2490,15 +2490,15 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62
+    border-color: #01296e;
+    background-color: #01296e
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    border-color: #132e62;
+    border-color: #01296e;
     background-color: #324cdd
 }
 
@@ -2938,16 +2938,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-    color: #132e62;
-    border-color: #132e62;
+    color: #01296e;
+    border-color: #01296e;
     background-color: transparent;
     background-image: none
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62
+    border-color: #01296e;
+    background-color: #01296e
 }
 
 .btn-outline-primary.focus,
@@ -2957,7 +2957,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #132e62;
+    color: #01296e;
     background-color: transparent
 }
 
@@ -2965,8 +2965,8 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62
+    border-color: #01296e;
+    background-color: #01296e
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -3396,12 +3396,12 @@ fieldset:disabled a.btn {
 .btn-link {
     font-weight: 400;
     text-decoration: none;
-    color: #132e62
+    color: #01296e
 }
 
 .btn-link:hover {
     text-decoration: none;
-    color: #132e62
+    color: #01296e
 }
 
 .btn-link.focus,
@@ -4070,8 +4070,8 @@ input[type=submit].btn-block {
 
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62;
+    border-color: #01296e;
+    background-color: #01296e;
     box-shadow: 0 3px 2px rgba(233, 236, 239, .05)
 }
 
@@ -4080,13 +4080,13 @@ input[type=submit].btn-block {
 }
 
 .custom-control-input:focus:not(:checked)~.custom-control-label::before {
-    border-color: #132e62
+    border-color: #01296e
 }
 
 .custom-control-input:not(:disabled):active~.custom-control-label::before {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62;
+    border-color: #01296e;
+    background-color: #01296e;
     box-shadow: 0 3px 2px rgba(233, 236, 239, .05)
 }
 
@@ -4138,8 +4138,8 @@ input[type=submit].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
-    border-color: #132e62;
-    background-color: #132e62;
+    border-color: #01296e;
+    background-color: #01296e;
     box-shadow: none
 }
 
@@ -4224,9 +4224,9 @@ input[type=submit].btn-block {
 }
 
 .custom-select:focus {
-    border-color: #132e62;
+    border-color: #01296e;
     outline: 0;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 0 0 #132e62
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 0 0 #01296e
 }
 
 .custom-select:focus::-ms-value {
@@ -4284,7 +4284,7 @@ input[type=submit].btn-block {
 }
 
 .custom-file-input:focus~.custom-file-label {
-    border-color: #132e62;
+    border-color: #01296e;
     box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, .1)
 }
 
@@ -4371,7 +4371,7 @@ input[type=submit].btn-block {
     transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     border: 0;
     border-radius: 1rem;
-    background-color: #132e62;
+    background-color: #01296e;
     box-shadow: 0 .1rem .25rem rgba(0, 0, 0, .1);
     -webkit-appearance: none;
     appearance: none
@@ -4404,7 +4404,7 @@ input[type=submit].btn-block {
     transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     border: 0;
     border-radius: 1rem;
-    background-color: #132e62;
+    background-color: #01296e;
     box-shadow: 0 .1rem .25rem rgba(0, 0, 0, .1);
     -moz-appearance: none;
     appearance: none
@@ -4440,7 +4440,7 @@ input[type=submit].btn-block {
     transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     border: 0;
     border-radius: 1rem;
-    background-color: #132e62;
+    background-color: #01296e;
     box-shadow: 0 .1rem .25rem rgba(0, 0, 0, .1);
     appearance: none
 }
@@ -4580,7 +4580,7 @@ input[type=submit].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #132e62
+    background-color: #01296e
 }
 
 .nav-fill .nav-item {
@@ -5286,8 +5286,8 @@ input[type=submit].btn-block {
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    border-color: #132e62 !important;
-    background-color: #132e62 !important;
+    border-color: #01296e !important;
+    background-color: #01296e !important;
 }
 
 .page-item.disabled .page-link {
@@ -5862,7 +5862,7 @@ a.badge:hover {
     text-align: center;
     white-space: nowrap;
     color: #fff;
-    background-color: #132e62;
+    background-color: #01296e;
     justify-content: center
 }
 
@@ -5952,8 +5952,8 @@ a.badge:hover {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62
+    border-color: #01296e;
+    background-color: #01296e
 }
 
 .list-group-horizontal {
@@ -7053,7 +7053,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    /*background-color: #132e62!important*/
+    /*background-color: #01296e!important*/
     background-color: #5F00BE!important
 }
 
@@ -7234,7 +7234,7 @@ button.bg-darker:hover {
 }
 
 .border-primary {
-    border-color: #132e62!important
+    border-color: #01296e!important
 }
 
 .border-secondary {
@@ -13299,12 +13299,12 @@ button.bg-darker:hover {
 }
 
 .text-primary {
-    color: #132e62!important
+    color: #01296e!important
 }
 
 a.text-primary:focus,
 a.text-primary:hover {
-    color: #132e62!important
+    color: #01296e!important
 }
 
 .text-secondary {
@@ -13913,7 +13913,7 @@ a.text-darker:hover {
 }
 
 .btn-neutral {
-    color: #132e62
+    color: #01296e
 }
 
 .btn-facebook {
@@ -14324,7 +14324,7 @@ a.text-darker:hover {
 
 [data-toggle=buttons]:not(.btn-group-colors)>.btn.active {
     color: #fff;
-    background-color: #132e62
+    background-color: #01296e
 }
 
 .btn-group-colors>.btn {
@@ -14440,7 +14440,7 @@ a.btn-icon-only {
     font-size: 1.5rem;
     box-sizing: content-box;
     vertical-align: middle;
-    color: #132e62
+    color: #01296e
 }
 
 .btn-icon-clipboard span {
@@ -14560,7 +14560,7 @@ a.btn-icon-only {
 
 .card-pricing.popular {
     z-index: 1;
-    border: 3px solid #132e62!important
+    border: 3px solid #01296e!important
 }
 
 @media (min-width:768px) {
@@ -14750,7 +14750,7 @@ a.btn-icon-only {
 }
 
 .accordion .card-header[aria-expanded=true] .heading {
-    color: #132e62
+    color: #01296e
 }
 
 .main-content {
@@ -14775,7 +14775,7 @@ a.btn-icon-only {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    border-color: #132e62
+    border-color: #01296e
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
@@ -14838,7 +14838,7 @@ a.btn-icon-only {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    border-color: #132e62
+    border-color: #01296e
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
@@ -14854,12 +14854,12 @@ a.btn-icon-only {
 }
 
 .custom-checkbox-primary .custom-control-input:checked~.custom-control-label::before {
-    border-color: #132e62;
-    background-color: #132e62
+    border-color: #01296e;
+    background-color: #01296e
 }
 
 .custom-checkbox-primary .custom-control-input:checked~.custom-control-label::after {
-    background-image: #132e62
+    background-image: #01296e
 }
 
 .custom-checkbox-secondary .custom-control-input:checked~.custom-control-label::before {
@@ -14968,7 +14968,7 @@ a.btn-icon-only {
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::before {
-    border-color: #132e62
+    border-color: #01296e
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::after {
@@ -14997,12 +14997,12 @@ a.btn-icon-only {
 }
 
 .custom-toggle input:checked+.custom-toggle-slider {
-    border: 1px solid #132e62
+    border: 1px solid #01296e
 }
 
 .custom-toggle input:checked+.custom-toggle-slider:before {
     transform: translateX(28px);
-    background: #132e62
+    background: #01296e
 }
 
 .custom-toggle input:disabled+.custom-toggle-slider {
@@ -15049,7 +15049,7 @@ a.btn-icon-only {
     right: auto;
     left: 0;
     content: attr(data-label-on);
-    color: #132e62
+    color: #01296e
 }
 
 .custom-toggle-slider:after {
@@ -15077,19 +15077,19 @@ a.btn-icon-only {
 }
 
 .custom-toggle-primary input:checked+.custom-toggle-slider {
-    border-color: #132e62
+    border-color: #01296e
 }
 
 .custom-toggle-primary input:checked+.custom-toggle-slider:before {
-    background: #132e62
+    background: #01296e
 }
 
 .custom-toggle-primary input:checked+.custom-toggle-slider:after {
-    color: #132e62
+    color: #01296e
 }
 
 .custom-toggle-primary input:disabled:checked+.custom-toggle-slider {
-    border-color: #132e62
+    border-color: #01296e
 }
 
 .custom-toggle-primary input:disabled:checked+.custom-toggle-slider:before {
@@ -15660,12 +15660,12 @@ textarea[resize=horizontal] {
 
 .focused .input-group-text {
     color: #8898aa;
-    border-color: #132e62;
+    border-color: #01296e;
     background-color: #fff
 }
 
 .focused .form-control {
-    border-color: #132e62
+    border-color: #01296e
 }
 
 .focused .input-group-flush {
@@ -15897,7 +15897,7 @@ textarea[resize=horizontal] {
 
 .icon-actions>.like.active,
 .icon-actions>.like:hover {
-    color: #132e62
+    color: #01296e
 }
 
 .icon-actions-lg a {
@@ -16050,7 +16050,7 @@ textarea[resize=horizontal] {
     height: 100%;
     content: '';
     border-radius: 8px;
-    background-color: #132e62
+    background-color: #01296e
 }
 
 .checklist-item-checked .checklist-info * {
@@ -16058,7 +16058,7 @@ textarea[resize=horizontal] {
 }
 
 .checklist-item-primary:before {
-    background-color: #132e62
+    background-color: #01296e
 }
 
 .checklist-item-secondary:before {
@@ -16200,7 +16200,7 @@ textarea[resize=horizontal] {
 
 .modal-primary .modal-content {
     color: #fff;
-    background-color: #132e62
+    background-color: #01296e
 }
 
 .modal-primary .modal-content .heading {
@@ -16852,7 +16852,7 @@ textarea[resize=horizontal] {
 
 .navbar-vertical .navbar-nav .nav-link[data-toggle=collapse][aria-expanded=true]:after {
     transform: rotate(90deg);
-    color: #132e62
+    color: #01296e
 }
 
 .navbar-vertical .navbar-nav .nav .nav-link {
@@ -16960,7 +16960,7 @@ textarea[resize=horizontal] {
     padding-left: 1rem;
     color: #fff;
     border-radius: .375rem;
-    background: #132e62
+    background: #01296e
 }
 
 .navbar-vertical.navbar-expand-xs .navbar-nav .nav .nav-link {
@@ -17055,7 +17055,7 @@ textarea[resize=horizontal] {
         padding-left: 1rem;
         color: #fff;
         border-radius: .375rem;
-        background: #132e62
+        background: #01296e
     }
     .navbar-vertical.navbar-expand-sm .navbar-nav .nav .nav-link {
         padding-top: .45rem;
@@ -17149,7 +17149,7 @@ textarea[resize=horizontal] {
         padding-left: 1rem;
         color: #fff;
         border-radius: .375rem;
-        background: #132e62
+        background: #01296e
     }
     .navbar-vertical.navbar-expand-md .navbar-nav .nav .nav-link {
         padding-top: .45rem;
@@ -17243,7 +17243,7 @@ textarea[resize=horizontal] {
         padding-left: 1rem;
         color: #fff;
         border-radius: .375rem;
-        background: #132e62
+        background: #01296e
     }
     .navbar-vertical.navbar-expand-lg .navbar-nav .nav .nav-link {
         padding-top: .45rem;
@@ -17337,7 +17337,7 @@ textarea[resize=horizontal] {
         padding-left: 1rem;
         color: #fff;
         border-radius: .375rem;
-        background: #132e62
+        background: #01296e
     }
     .navbar-vertical.navbar-expand-xl .navbar-nav .nav .nav-link {
         padding-top: .45rem;
@@ -17942,7 +17942,7 @@ textarea[resize=horizontal] {
 }
 
 .nav-link:hover {
-    color: #132e62
+    color: #01296e
 }
 
 .nav-link i.ni {
@@ -17959,7 +17959,7 @@ textarea[resize=horizontal] {
     font-weight: 500;
     padding: .75rem 1rem;
     transition: all .15s ease;
-    color: #132e62;
+    color: #01296e;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08)
 }
@@ -17971,7 +17971,7 @@ textarea[resize=horizontal] {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #132e62
+    background-color: #01296e
 }
 
 @media (max-width:575.98px) {
@@ -18040,12 +18040,12 @@ textarea[resize=horizontal] {
 }
 
 .popover-primary {
-    background-color: #132e62
+    background-color: #01296e
 }
 
 .popover-primary .popover-header {
     color: #fff;
-    background-color: #132e62
+    background-color: #01296e
 }
 
 .popover-primary .popover-body {
@@ -18058,22 +18058,22 @@ textarea[resize=horizontal] {
 
 .popover-primary.bs-popover-auto[x-placement^=top] .arrow::after,
 .popover-primary.bs-popover-top .arrow::after {
-    border-top-color: #132e62
+    border-top-color: #01296e
 }
 
 .popover-primary.bs-popover-auto[x-placement^=right] .arrow::after,
 .popover-primary.bs-popover-right .arrow::after {
-    border-right-color: #132e62
+    border-right-color: #01296e
 }
 
 .popover-primary.bs-popover-auto[x-placement^=bottom] .arrow::after,
 .popover-primary.bs-popover-bottom .arrow::after {
-    border-bottom-color: #132e62
+    border-bottom-color: #01296e
 }
 
 .popover-primary.bs-popover-auto[x-placement^=left] .arrow::after,
 .popover-primary.bs-popover-left .arrow::after {
-    border-left-color: #132e62
+    border-left-color: #01296e
 }
 
 .popover-secondary {
@@ -18541,7 +18541,7 @@ textarea[resize=horizontal] {
     display: inline-block;
     padding: .25rem 1rem;
     text-transform: uppercase;
-    color: #132e62;
+    color: #01296e;
     border-radius: 30px;
     background: rgba(94, 114, 228, .1)
 }
@@ -18989,7 +18989,7 @@ textarea[resize=horizontal] {
         float: right
     }
     [data-timeline-axis-color=primary]:before {
-        border-color: #132e62
+        border-color: #01296e
     }
     [data-timeline-axis-color=secondary]:before {
         border-color: #f7fafc
@@ -19153,7 +19153,7 @@ h6>a {
 }
 
 .bg-blue {
-    background-color: #132e62!important
+    background-color: #01296e!important
 }
 
 a.bg-blue:focus,
@@ -19318,9 +19318,9 @@ button.bg-lighter:hover {
 }
 
 .bg-gradient-primary {
-    /*background: linear-gradient(87deg, #132e62 0, #825ee4 100%)!important*/
+    /*background: linear-gradient(87deg, #01296e 0, #825ee4 100%)!important*/
     
-       background: #132e62 !important
+       background: #01296e !important
 }
 
 .bg-gradient-secondary {
@@ -19368,7 +19368,7 @@ button.bg-lighter:hover {
 }
 
 .bg-gradient-blue {
-    background: linear-gradient(87deg, #132e62 0, #825ee4 100%)!important
+    background: linear-gradient(87deg, #01296e 0, #825ee4 100%)!important
 }
 
 .bg-gradient-indigo {
@@ -19615,9 +19615,9 @@ button.section-darker:hover {
 }
 
 .bg-gradient-primary {
-    /*background: linear-gradient(87deg, #132e62 0, #825ee4 100%)!important*/
+    /*background: linear-gradient(87deg, #01296e 0, #825ee4 100%)!important*/
     
-    background: #132e62 !important
+    background: #01296e !important
 }
 
 .bg-gradient-secondary {
@@ -19665,11 +19665,11 @@ button.section-darker:hover {
 }
 
 .fill-primary {
-    fill: #132e62
+    fill: #01296e
 }
 
 .stroke-primary {
-    stroke: #132e62
+    stroke: #01296e
 }
 
 .fill-secondary {
@@ -20437,12 +20437,12 @@ button.section-darker:hover {
 }
 
 .text-blue {
-    color: #132e62!important
+    color: #01296e!important
 }
 
 a.text-blue:focus,
 a.text-blue:hover {
-    color: #132e62!important
+    color: #01296e!important
 }
 
 .text-indigo {
@@ -20700,13 +20700,13 @@ a.text-lighter:hover {
 }
 
 .datepicker table tr td.highlighted.focused {
-    background: #132e62
+    background: #01296e
 }
 
 .datepicker table tr td.highlighted.disabled,
 .datepicker table tr td.highlighted.disabled:active {
     color: #ced4da;
-    background: #132e62
+    background: #01296e
 }
 
 .datepicker table tr td.today {
@@ -20726,7 +20726,7 @@ a.text-lighter:hover {
 .datepicker table tr td.range {
     color: #fff;
     border-radius: 0;
-    background: #132e62
+    background: #01296e
 }
 
 .datepicker table tr td.range.focused {
@@ -20753,7 +20753,7 @@ a.text-lighter:hover {
 .datepicker table tr td.range.today.disabled,
 .datepicker table tr td.range.today.disabled:active {
     color: #fff;
-    background: #132e62
+    background: #01296e
 }
 
 .datepicker table tr td.day.range-start {
@@ -20776,7 +20776,7 @@ a.text-lighter:hover {
 .datepicker table tr td.selected.highlighted:hover,
 .datepicker table tr td.selected:hover {
     color: #fff;
-    background: #132e62
+    background: #01296e
 }
 
 .datepicker table tr td.active,
@@ -20784,7 +20784,7 @@ a.text-lighter:hover {
 .datepicker table tr td.active.highlighted:hover,
 .datepicker table tr td.active:hover {
     color: #fff;
-    background: #132e62;
+    background: #01296e;
     box-shadow: none
 }
 
@@ -20955,7 +20955,7 @@ table.dataTable {
 }
 
 table.dataTable tbody>tr.selected {
-    background-color: #132e62
+    background-color: #01296e
 }
 
 .dataTables_info,
@@ -21003,8 +21003,8 @@ table.dataTable tbody>tr.selected {
 }
 
 .dz-drag-hover .dz-message {
-    color: #132e62;
-    border-color: #132e62
+    color: #01296e;
+    border-color: #01296e
 }
 
 .dropzone-multiple .dz-message {
@@ -21138,7 +21138,7 @@ table.dataTable tbody>tr.selected {
 }
 
 .fc-icon:hover {
-    color: #132e62
+    color: #01296e
 }
 
 .fc-button {
@@ -21577,7 +21577,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 .noUi-connect {
-    background: #132e62
+    background: #01296e
 }
 
 .noUi-draggable {
@@ -21751,7 +21751,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 .noUi-connect {
-    background: #132e62;
+    background: #01296e;
     box-shadow: none
 }
 
@@ -21764,13 +21764,13 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     transition: box-shadow .15s, transform .15s;
     border: 0;
     border-radius: 100%;
-    background-color: #132e62;
+    background-color: #01296e;
     box-shadow: none
 }
 
 .noUi-horizontal .noUi-handle.noUi-active,
 .noUi-vertical .noUi-handle.noUi-active {
-    box-shadow: 0 0 0 2px #132e62
+    box-shadow: 0 0 0 2px #01296e
 }
 
 .input-slider--cyan .noUi-connect {
@@ -21887,7 +21887,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 .ql-editor:focus {
     color: #8898aa;
-    border-color: #132e62;
+    border-color: #01296e;
     outline: 0;
     background-color: #fff;
     box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, .1)
@@ -21936,7 +21936,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 .ql-toolbar button:hover {
-    color: #132e62
+    color: #01296e
 }
 
 .ql-toolbar button:first-child {
@@ -21944,7 +21944,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 .ql-toolbar .ql-active {
-    color: #132e62
+    color: #01296e
 }
 
 .ql-toolbar button svg {
@@ -22100,16 +22100,16 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .ql-tooltip .ql-action::before,
 .ql-tooltip.ql-editing .ql-action::before {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62;
+    border-color: #01296e;
+    background-color: #01296e;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08)
 }
 
 .ql-tooltip .ql-action::before:hover,
 .ql-tooltip.ql-editing .ql-action::before:hover {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62
+    border-color: #01296e;
+    background-color: #01296e
 }
 
 .ql-tooltip .ql-action::before.focus,
@@ -22124,8 +22124,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .ql-tooltip.ql-editing .ql-action::before.disabled,
 .ql-tooltip.ql-editing .ql-action::before:disabled {
     color: #fff;
-    border-color: #132e62;
-    background-color: #132e62
+    border-color: #01296e;
+    background-color: #01296e
 }
 
 .ql-tooltip .ql-action::before:not(:disabled):not(.disabled).active,
@@ -22135,7 +22135,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .show>.ql-tooltip .ql-action::before.dropdown-toggle,
 .show>.ql-tooltip.ql-editing .ql-action::before.dropdown-toggle {
     color: #fff;
-    border-color: #132e62;
+    border-color: #01296e;
     background-color: #324cdd
 }
 
@@ -23131,7 +23131,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .select2-container--default .select2-selection--multiple:focus,
 .select2-container--default.select2-container--focus .select2-selection--multiple:focus {
     color: #8898aa;
-    border-color: #132e62;
+    border-color: #01296e;
     outline: 0;
     background-color: #fff;
     box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, .1)

@@ -5867,8 +5867,8 @@ input[type='button'].btn-block
     z-index: 1;
 
     color: #fff;
-    border-color: #132e62!important;
-    background-color: #132e62!important;
+    border-color: #01296e!important;
+    background-color: #01296e!important;
 }
 
 .page-item.disabled .page-link
@@ -7798,8 +7798,8 @@ a.close.disabled
 
 .bg-primary
 {
-    /*background-color: #132e62 !important;*/
-    background-color: #132e62 !important;
+    /*background-color: #01296e !important;*/
+    background-color: #01296e !important;
 }
 
 a.bg-primary:hover,
@@ -7963,7 +7963,7 @@ button.bg-dark:focus
 
 .border-primary
 {
-    border-color: #132e62 !important;
+    border-color: #01296e !important;
 }
 
 .border-secondary
@@ -11810,7 +11810,7 @@ button.bg-dark:focus
 
 .text-primary
 {
-    color: #132e62 !important;
+    color: #01296e !important;
 }
 
 a.text-primary:hover,
