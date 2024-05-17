@@ -316,7 +316,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-5 col-lg-6 col-md-8 px-5">
                             <div class="contenedor" style="display: flex;justify-content: center;align-items: center;">
-                                <img src="https://chapatutaxi.com/admin/imagenes/logochapatutaxi.webp" alt="Imagen centrada" style="max-width: 65%;max-height: 65%;">
+                                <img src="https://chapatutaxi.com/admin/imagenes/logocodi.webp" alt="Imagen centrada" style="max-width: 65%;max-height: 65%;">
                             </div>
                         </div>
                     </div>
