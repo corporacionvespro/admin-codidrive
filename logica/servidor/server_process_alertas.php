@@ -107,7 +107,7 @@ if(isset($_POST['accion'])){
 
 // Función para enviar solicitud cURL para "co"
 function enviarSolicitudCurlConductor($data, $titulo, $descripcion) {
-    $url = 'https://chapatutaxi.com/chapaapi/api/token/pushcustomdriver';
+    $url = 'https://codidrive.com/codi/api/token/pushcustomdriver';
     $curl = curl_init();
 
     foreach ($data as $item) {
@@ -140,7 +140,7 @@ function enviarSolicitudCurlConductor($data, $titulo, $descripcion) {
 
 // Función para enviar solicitud cURL para "pa"
 function enviarSolicitudCurlPasajero($data, $titulo, $descripcion) {
-    $url = 'https://chapatutaxi.com/chapaapi/api/token/pushpassenger';
+    $url = 'https://codidrive.com/codi/api/token/pushpassenger';
     $curl = curl_init();
 
     foreach ($data as $item) {

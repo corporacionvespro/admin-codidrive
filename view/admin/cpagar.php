@@ -751,7 +751,7 @@ if ($level == 1) {
             var formData = new FormData(document.getElementById("formuploadajax"));
             formData.append("dato", "valor");
             $.ajax({
-                    url: "https://chapatutaxi.com/chapaapi/api/passenger/register",
+                    url: "https://codidrive.com/codi/api/passenger/register",
                     type: "post",
                     dataType: "html",
                     data: formData,
@@ -777,7 +777,7 @@ if ($level == 1) {
             form.append("id_cuenta", id_cuenta);
 
             var settings = {
-                "url": "https://chapatutaxi.com/chapaapi/api/passenger/update",
+                "url": "https://codidrive.com/codi/api/passenger/update",
                 "method": "POST",
                 "timeout": 0,
                 "processData": false,

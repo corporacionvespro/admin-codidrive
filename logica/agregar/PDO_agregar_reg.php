@@ -84,7 +84,7 @@ if ($telefonos == 0 && $correos == 0) {
     // Realizar una solicitud HTTP utilizando cURL
     $curl = curl_init();
     curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://chapatutaxi.com/chapaapi/api/driver/registro',
+        CURLOPT_URL => 'https://codidrive.com/codi/api/driver/registro',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
@@ -153,7 +153,7 @@ if ($telefonos == 0 && $correos == 0) {
                     // Realizar otra solicitud HTTP si la imagen es una cadena Base64
                     $curl3 = curl_init();
                     curl_setopt_array($curl3, array(
-                        CURLOPT_URL => 'https://chapatutaxi.com/chapaapi/api/driver/updatephoto',
+                        CURLOPT_URL => 'https://codidrive.com/codi/api/driver/updatephoto',
                         CURLOPT_RETURNTRANSFER => true,
                         CURLOPT_ENCODING => '',
                         CURLOPT_MAXREDIRS => 10,
@@ -239,7 +239,7 @@ if ($telefonos == 0 && $correos == 0) {
                     // Realizar otra solicitud HTTP si la imagen es una cadena Base64
                     $curl3 = curl_init();
                     curl_setopt_array($curl3, array(
-                        CURLOPT_URL => 'https://chapatutaxi.com/chapaapi/api/driver/updatephoto',
+                        CURLOPT_URL => 'https://codidrive.com/codi/api/driver/updatephoto',
                         CURLOPT_RETURNTRANSFER => true,
                         CURLOPT_ENCODING => '',
                         CURLOPT_MAXREDIRS => 10,

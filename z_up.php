@@ -10,7 +10,7 @@ file_put_contents($imagenTempPath, $imagenData);
 // Configura la solicitud cURL
 $curl3 = curl_init();
 curl_setopt_array($curl3, array(
-    CURLOPT_URL => 'https://chapatutaxi.com/chapaapi/api/driver/updatephoto',
+    CURLOPT_URL => 'https://codidrive.com/codi/api/driver/updatephoto',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,

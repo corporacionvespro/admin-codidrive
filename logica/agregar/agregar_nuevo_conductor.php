@@ -44,7 +44,7 @@ $correos = $correo_conductor['correo'];
 if ($telefonos == 0 && $correos == 0) {
     $curl = curl_init();
     curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://chapatutaxi.com/chapaapi/api/driver/registro',
+        CURLOPT_URL => 'https://codidrive.com/codi/api/driver/registro',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,

@@ -456,7 +456,7 @@ function editardatos2() {
                 form_data.append("foto", compressedFile);
                 form_data.append("id_persona", id);
                 var settings = {
-                    "url": "https://chapatutaxi.com/chapaapi/api/driver/updatephoto",
+                    "url": "https://codidrive.com/codi/api/driver/updatephoto",
                     "method": "POST",
                     "timeout": 0,
                     "processData": false,

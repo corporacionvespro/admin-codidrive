@@ -12,7 +12,7 @@ $response = '';
 while ($result = mysqli_fetch_array($query)) {
   $curl = curl_init();
   curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://chapatutaxi.com/chapaapi/api//driver/state',
+    CURLOPT_URL => 'https://codidrive.com/codi/api//driver/state',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,

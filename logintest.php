@@ -1,5 +1,5 @@
 <?php
-$url = "https://chapatutaxi.com/chapaapi/api/admin/auth";
+$url = "https://codidrive.com/codi/api/admin/auth";
 $data = array(
     "correo" => "vesprodemo@gmail.com",
     "clave" => "admin"

@@ -143,10 +143,10 @@ while ($aRow = $rResult->fetch_array()) {
 		} elseif ($aColumnas2[$i] == "ranking") {
 			//
 		} elseif ($aColumnas2[$i] == "foto") {
-			if ($aRow[$aColumnas2[$i]] == "default.png" || $aRow[$aColumnas2[$i]] == "https://chapatutaxi.com/chapaapi/images/logo.png") {
+			if ($aRow[$aColumnas2[$i]] == "default.png" || $aRow[$aColumnas2[$i]] == "https://chapatutaxi.com/codiapi/images/logo.png") {
 				$row[] = "<td class='text-center'><img src='https://codidrive.com/admin/assets/img/brand/logo.png' class='circle' style='width: 70px;height: 70px;overflow: hidden;border-radius: 45px;border: none;text-align: center;object-fit: cover;color: transparent;text-indent: 10000px;max-width: 100 !important;'></td>";
 			} else {
-				$row[] = "<td class='text-center'><img src='https://chapatutaxi.com/chapaapi/images/" . $aRow[$aColumnas2[$i]] . "' class='circle' style='width: 70px;height: 70px;overflow: hidden;border-radius: 45px;border: none;text-align: center;object-fit: cover;color: transparent;text-indent: 10000px;max-width: 100 !important;'></td>";
+				$row[] = "<td class='text-center'><img src='https://chapatutaxi.com/codiapi/images/" . $aRow[$aColumnas2[$i]] . "' class='circle' style='width: 70px;height: 70px;overflow: hidden;border-radius: 45px;border: none;text-align: center;object-fit: cover;color: transparent;text-indent: 10000px;max-width: 100 !important;'></td>";
 			}
 		} else {
 			$row[] = "<td class='text-center'>" . $aRow[$aColumnas2[$i]] . "</td>";

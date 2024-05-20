@@ -16,7 +16,7 @@ while ($result = mysqli_fetch_array($query)) {
   $fecha_notificar = 'Verificamos que tu recarga vence el ' . date("d/m/Y", strtotime($originalDate)) . ', Recuerda que puedes recargar a través de nuestras plataformas digitales o desde nuestras oficinas.';
   $curl = curl_init();
   curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://chapatutaxi.com/chapaapi/api/token/pushcustomdriver',
+    CURLOPT_URL => 'https://codidrive.com/codi/api/token/pushcustomdriver',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,

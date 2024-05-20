@@ -99,7 +99,7 @@ function ubicar()
             "persona.nombres" => $result['nombres'],
             "persona.telefono" => $result['telefono'],
             "persona.correo" => $result['persona_correo'],
-            "persona.foto" => "https://chapatutaxi.com/chapaapi/images/".$result['foto'],
+            "persona.foto" => "https://chapatutaxi.com/codiapi/images/".$result['foto'],
             "vehiculo.placa" => $result['placa'],
             "vehiculo.marca" => $result['marca'],
             "vehiculo.unidad" => $result['unidad'],

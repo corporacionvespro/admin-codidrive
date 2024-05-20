@@ -252,7 +252,7 @@ function buscarpasjero() {
     var form = new FormData();
     form.append("telefono", telefono);
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api/passenger/search",
+        "url": "https://codidrive.com/codi/api/passenger/search",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -292,7 +292,7 @@ function solicitartaxi() {
     form.append("referencia", referencia);
     form.append("telefono", telefono);
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api/request/web",
+        "url": "https://codidrive.com/codi/api/request/web",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -306,7 +306,7 @@ function solicitartaxi() {
         if (json2.message == 'Solicitud enviada correctamente') {
             $.ajax({
                 type: 'GET',
-                url: 'https://chapatutaxi.com/chapaapi/api/token',
+                url: 'https://codidrive.com/codi/api/token',
                 beforeSend: function () {
                     $("#mensaje").html('<div id="load" class="loader"><div style="width: 100%;height: 100%;display: block;"></div></div>');
                 },
@@ -332,7 +332,7 @@ function tokens(name, tk) {
     form.append("descripcion", "Central: " + name);
     form.append("token", tk);
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api/token/pushdriver",
+        "url": "https://codidrive.com/codi/api/token/pushdriver",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -359,7 +359,7 @@ function cancelar2() {
     form.append("id_solicitud", id_solicitud);
 
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api//request/delete",
+        "url": "https://codidrive.com/codi/api//request/delete",
         "method": "POST",
         "timeout": 0,
         "processData": false,

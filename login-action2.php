@@ -4,7 +4,7 @@ $username = filter_var($_POST["username"], FILTER_SANITIZE_STRING);
 $password = filter_var($_POST["password"], FILTER_SANITIZE_STRING);
 $curl = curl_init();
 curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://chapatutaxi.com/chapaapi/api/admin/auth',
+    CURLOPT_URL => 'https://codidrive.com/codi/api/admin/auth',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,

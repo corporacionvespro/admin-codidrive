@@ -292,7 +292,7 @@ function buscarpasjero() {
     var form = new FormData();
     form.append("telefono", telefono);
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api/passenger/search",
+        "url": "https://codidrive.com/codi/api/passenger/search",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -446,7 +446,7 @@ function tokens(name, tk) {
     form.append("descripcion", "Central: " + name);
     form.append("token", tk);
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api/token/pushdriver",
+        "url": "https://codidrive.com/codi/api/token/pushdriver",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -470,7 +470,7 @@ function cancelar2() {
     form.append("id_solicitud", id_solicitud);
 
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api//request/delete",
+        "url": "https://codidrive.com/codi/api//request/delete",
         "method": "POST",
         "timeout": 0,
         "processData": false,

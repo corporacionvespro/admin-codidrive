@@ -206,7 +206,7 @@ while ($aRow = $rResult->fetch_array()) {
 		} elseif ($aColumnas2[$i] == "id_persona") {
 			//
 		} elseif ($aColumnas2[$i] == "foto") {
-			//$row[] = "<td class='text-center'><img src='https://chapatutaxi.com/chapaapi/images/" . $aRow[$aColumnas2[$i]] . "' class='circle' style='width: 70px;height: 70px;overflow: hidden;border-radius: 45px;border: none;text-align: center;object-fit: cover;color: transparent;text-indent: 10000px;'></td>";
+			//$row[] = "<td class='text-center'><img src='https://chapatutaxi.com/codiapi/images/" . $aRow[$aColumnas2[$i]] . "' class='circle' style='width: 70px;height: 70px;overflow: hidden;border-radius: 45px;border: none;text-align: center;object-fit: cover;color: transparent;text-indent: 10000px;'></td>";
 		} elseif ($aColumnas2[$i] == "monto") {
 			$monto_n = $aRow[$aColumnas2[$i]];
 			if ($monto_n == 'NaN') {

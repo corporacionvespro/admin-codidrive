@@ -163,7 +163,7 @@ function editardatos2() {
     form.append("foto", foto2);
 
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api//driver/updatedriver",
+        "url": "https://codidrive.com/codi/api//driver/updatedriver",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -183,7 +183,7 @@ function editardatos2() {
             form_data.append("foto", file_data);
             form_data.append("id_persona", idpersonas);
             var settings = {
-                "url": "https://chapatutaxi.com/chapaapi/api/driver/updatephoto",
+                "url": "https://codidrive.com/codi/api/driver/updatephoto",
                 "method": "POST",
                 "timeout": 0,
                 "processData": false,
@@ -210,7 +210,7 @@ function vehiculodatos(id) {
     var form = new FormData();
     form.append("id_vehiculo", id);
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api//driver/infovehiculo",
+        "url": "https://codidrive.com/codi/api//driver/infovehiculo",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -297,7 +297,7 @@ function personalesdatos(idpersona, idcuenta) {
     var form = new FormData();
     form.append("id_persona", idpersona);
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api//driver/infodriver",
+        "url": "https://codidrive.com/codi/api//driver/infodriver",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -310,10 +310,10 @@ function personalesdatos(idpersona, idcuenta) {
         $("#nombres2").val(json2.conductor.nombres);
         $("#telefono2").val(json2.conductor.telefono);
         /**/
-        if (json2.conductor.foto == 'https://chapatutaxi.com/chapaapi/images/logo.png') {
+        if (json2.conductor.foto == 'https://chapatutaxi.com/codiapi/images/logo.png') {
             var url = 'https://codidrive.com/admin/assets/img/brand/logo.png';
         } else {
-            var url = 'https://chapatutaxi.com/chapaapi/images/' + json2.conductor.foto;
+            var url = 'https://chapatutaxi.com/codiapi/images/' + json2.conductor.foto;
         }
         $('#imagePreview2').css('background-image', 'url(' + url + ')');
         $('#imagePreview2').hide();
@@ -340,7 +340,7 @@ function editarvehiculo2() {
     form.append("unidad", unidad);
 
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api//driver/updatevehicle",
+        "url": "https://codidrive.com/codi/api//driver/updatevehicle",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -363,7 +363,7 @@ function cambiarestado3(id, estado) {
     form.append("id_conductor", id);
 
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api//driver/state",
+        "url": "https://codidrive.com/codi/api//driver/state",
         "method": "POST",
         "timeout": 0,
         "processData": false,
@@ -402,7 +402,7 @@ function guardarmontos() {
     form.append("id_conductor", idconductore);
 
     var settings = {
-        "url": "https://chapatutaxi.com/chapaapi/api//driver/state",
+        "url": "https://codidrive.com/codi/api//driver/state",
         "method": "POST",
         "timeout": 0,
         "processData": false,

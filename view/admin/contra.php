@@ -371,7 +371,7 @@
             form.append("clave", password);
 
             var settings = {
-                "url": "https://chapatutaxi.com/chapaapi/api/passenger/resetpassword",
+                "url": "https://codidrive.com/codi/api/passenger/resetpassword",
                 "method": "POST",
                 "timeout": 0,
                 "processData": false,
