@@ -320,7 +320,7 @@ td.dt-center {
                         padding-left: 15px;
                         padding-bottom: 5px;
                         border-radius: 26px;
-                        background: #5F00BE;
+                        background: #01296e;
                         color: #fff;
                         border: none;
                         /*margin-left: 7px;*/

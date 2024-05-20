@@ -2,7 +2,7 @@ table.dt-rowReorder-float {
     position: absolute !important;
     opacity: 0.8;
     table-layout: fixed;
-    outline: 2px solid #5F00BE;
+    outline: 2px solid #01296e;
     outline-offset: -2px;
     z-index: 2001
 }

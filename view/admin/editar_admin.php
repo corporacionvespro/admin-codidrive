@@ -198,7 +198,7 @@ $usuario = find_by_id('usuarios', $admin['id_usuario']);
                                 <div class="input-group">
                                     <input id="txtPassword" type="text" name="Password" class="form-control" value="<?php echo $usuario['contra']; ?>">
                                     <!--<div class="input-group-append">
-                                        <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarpassword()" style="height: 46px;padding-top: 12px;font-size: 19px;background: #5F00BE;border-color: #5F00BE;"> <span class="fa fa-eye-slash icon"></span> </button>
+                                        <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarpassword()" style="height: 46px;padding-top: 12px;font-size: 19px;background: #01296e;border-color: #01296e;"> <span class="fa fa-eye-slash icon"></span> </button>
                                     </div>-->
                                 </div>
                             </div>
@@ -209,7 +209,7 @@ $usuario = find_by_id('usuarios', $admin['id_usuario']);
         </div>
         <div class="col-md-12 mb-5">
             <div class="form-group">
-                <button type="submit" name="guardar" class="form-control form-control-sm btn" style="height: 51px;background: #e0e9f1;margin-top: 21px;border-radius: 25px;color: #5F00BE;border: solid 1px #5F00BE;">Guardar</button>
+                <button type="submit" name="guardar" class="form-control form-control-sm btn" style="height: 51px;background: #e0e9f1;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">Guardar</button>
                 </form>
             </div>
         </div>

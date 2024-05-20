@@ -85,7 +85,7 @@
     background-color: transparent;
     color: inherit;
     text-decoration: inherit;
-"><button class="sc-cWSHoV glbXqo" style="/* padding: 0px; */font-family: Nunito;font-weight: 800;font-size: 14px;line-height: 1.71;letter-spacing: normal;display: flex;flex-direction: column;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;gap: 5px;width: 125px;height: 80px;-webkit-box-flex: 0;flex-grow: 0;/* margin: 0px; *//* padding: 0px; */border-radius: 8px;background-color: #5F00BE;border: none;color: rgb(255, 255, 255);cursor: pointer;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+"><button class="sc-cWSHoV glbXqo" style="/* padding: 0px; */font-family: Nunito;font-weight: 800;font-size: 14px;line-height: 1.71;letter-spacing: normal;display: flex;flex-direction: column;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;gap: 5px;width: 125px;height: 80px;-webkit-box-flex: 0;flex-grow: 0;/* margin: 0px; *//* padding: 0px; */border-radius: 8px;background-color: #01296e;border: none;color: rgb(255, 255, 255);cursor: pointer;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                                 <path fill="white" fill-rule="evenodd" d="M2.653 22.965C2.257 22.86 2 22.472 2 21.872V2.067c0-.556.218-.93.563-1.067l9.853 11.037-9.763 10.928zm1.356-.42l11.86-6.64-2.889-3.236-8.971 9.876zM15.95 8.082L4.256 1.532l8.741 9.855 2.954-3.305zm.794.444l4.581 2.565c.868.486.876 1.269 0 1.76l-4.697 2.629-3.064-3.454 3.18-3.5z" clip-rule="evenodd"></path>
                                             </svg>Google play</button></a>
                                     <a href="https://appgallery.huawei.com/app/C109580185" target="_blank" rel="noreferrer" style="
@@ -112,7 +112,7 @@
     margin: 0px;
     padding: 0px;
     border-radius: 8px;
-    background-color: #5F00BE;
+    background-color: #01296e;
     border: none;
     color: rgb(255, 255, 255);
     cursor: pointer;

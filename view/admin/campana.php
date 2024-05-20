@@ -53,7 +53,7 @@ if ($level == 1) {
             font-family: 'Courier New', Courier, monospace;
             line-height: 14px;
             content: '+';
-            background-color: #5F00BE;
+            background-color: #01296e;
         }*/
 
         .page-item .page-link,

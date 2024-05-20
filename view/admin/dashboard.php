@@ -86,7 +86,7 @@ if ($level == 1) {
       font-family: 'Courier New', Courier, monospace;
       line-height: 14px;
       content: '+';
-      background-color: #5F00BE;
+      background-color: #01296e;
     }*/
 
     .page-item .page-link,
@@ -420,10 +420,10 @@ if ($level == "2" || $level == "3") {
             pointRadius: 8,
             pointHoverRadius: 8,
             showLine: 3,
-            backgroundColor: '#5f00be30', // Fondo del gráfico
-            borderColor: "#5f00be61", // Lineas que bordean el gráfico
-            pointBackgroundColor: "#5F00BE", // Punto del gráfico
-            pointBorderColor: "#5F00BE", // Circunferencia que bordean el punto del gráfico 
+            backgroundColor: '#01296e30', // Fondo del gráfico
+            borderColor: "#01296e61", // Lineas que bordean el gráfico
+            pointBackgroundColor: "#01296e", // Punto del gráfico
+            pointBorderColor: "#01296e", // Circunferencia que bordean el punto del gráfico 
 
           }]
         },

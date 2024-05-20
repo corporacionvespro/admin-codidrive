@@ -34,7 +34,7 @@
         font-family: 'Courier New', Courier, monospace;
         line-height: 14px;
         content: '+';
-        background-color: #5F00BE;
+        background-color: #01296e;
     }*/
 
     .page-item .page-link,
@@ -255,7 +255,7 @@
     padding-left: 15px;
     padding-bottom: 5px;
     border-radius: 26px;
-    background: #5F00BE;
+    background: #01296e;
     color: #fff;
     border: none;
     /*margin-left: 7px;*/
@@ -295,5 +295,5 @@ table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before 
     font-family: 'Courier New', Courier, monospace;
     line-height: 14px;
     content: '+';
-    background-color: #5F00BE;
+    background-color: #01296e;
 }*/

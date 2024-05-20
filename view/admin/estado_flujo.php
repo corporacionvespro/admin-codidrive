@@ -86,7 +86,7 @@ if ($level == 1) {
       font-family: 'Courier New', Courier, monospace;
       line-height: 14px;
       content: '+';
-      background-color: #5F00BE;
+      background-color: #01296e;
     }*/
 
     .page-item .page-link,
@@ -583,10 +583,10 @@ if ($level == "2" || $level == "3") {
             pointRadius: 8,
             pointHoverRadius: 8,
             showLine: 3,
-            backgroundColor: '#5f00be30',
-            borderColor: "#5f00be61",
-            pointBackgroundColor: "#5F00BE",
-            pointBorderColor: "#5F00BE",
+            backgroundColor: '#01296e30',
+            borderColor: "#01296e61",
+            pointBackgroundColor: "#01296e",
+            pointBorderColor: "#01296e",
 
           }]
         },
@@ -743,9 +743,9 @@ if ($level == "2" || $level == "3") {
                 data: total_banca,
                 borderWidth: 3,
                 backgroundColor: '#6d18c92b',
-                borderColor: "#5f00be61",
-                pointBackgroundColor: "#5F00BE",
-                pointBorderColor: "#5F00BE",
+                borderColor: "#01296e61",
+                pointBackgroundColor: "#01296e",
+                pointBorderColor: "#01296e",
                 pointRadius: 8,
                 pointHoverRadius: 8,
                 showLine: 3,

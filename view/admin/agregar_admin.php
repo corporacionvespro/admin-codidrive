@@ -202,7 +202,7 @@ if ($level == 1) {
         </div>
         <div class="col-md-12 mb-5">
             <div class="form-group">
-                <button type="submit" name="guardar" class="form-control form-control-sm btn" style="height: 51px;background: #e0e9f1;margin-top: 21px;border-radius: 25px;color: #5F00BE;border: solid 1px #5F00BE;">Guardar</button>
+                <button type="submit" name="guardar" class="form-control form-control-sm btn" style="height: 51px;background: #e0e9f1;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">Guardar</button>
                 </form>
             </div>
         </div>

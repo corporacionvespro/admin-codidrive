@@ -172,7 +172,7 @@ var Charts = (function() {
         },
         theme: {
             'default': '#172b4d',
-            'primary': '#5F00BE',
+            'primary': '#01296e',
             'secondary': '#f4f5f7',
             'info': '#11cdef',
             'success': '#2dce89',
@@ -787,7 +787,7 @@ var $map = $('#map-default'),
     map,
     lat,
     lng,
-    color = "#5F00BE";
+    color = "#01296e";
 
 function initMap() {
 
@@ -836,7 +836,7 @@ var $map = $('#map-custom'),
     map,
     lat,
     lng,
-    color = "#5F00BE";
+    color = "#01296e";
 
 function initMap() {
 
@@ -2256,7 +2256,7 @@ var VectorMap = (function() {
             },
             theme: {
                 'default': '#172b4d',
-                'primary': '#5F00BE',
+                'primary': '#01296e',
                 'secondary': '#f4f5f7',
                 'info': '#11cdef',
                 'success': '#2dce89',

@@ -56,7 +56,7 @@ if ($level == 1) {
             font-family: 'Courier New', Courier, monospace;
             line-height: 14px;
             content: '+';
-            background-color: #5F00BE;
+            background-color: #01296e;
         }*/
 
         .page-item .page-link,
@@ -120,7 +120,7 @@ if ($level == 1) {
                             padding-left: 15px;
                             padding-bottom: 5px;
                             border-radius: 26px;
-                            background: #5F00BE;
+                            background: #01296e;
                             color: #fff;
                             border: none;
                             /*margin-left: 7px;*/

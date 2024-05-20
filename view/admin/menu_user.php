@@ -32,7 +32,7 @@ $row_c = $query_c->fetch_assoc();*/
                     <div class="input-group">
                       <input id="txtPassword" type="Password" name="Password" class="form-control">
                       <div class="input-group-append">
-                        <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()" style="height: 46px;padding-top: 12px;font-size: 19px;background: #5F00BE;border-color: #5F00BE;"> <span class="fa fa-eye-slash icon"></span> </button>
+                        <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()" style="height: 46px;padding-top: 12px;font-size: 19px;background: #01296e;border-color: #01296e;"> <span class="fa fa-eye-slash icon"></span> </button>
                       </div>
                     </div>
                   </div>
@@ -85,7 +85,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./admin">
-                  <i class="fas fa-chart-bar" style="color: #5F00BE;"></i>
+                  <i class="fas fa-chart-bar" style="color: #01296e;"></i>
                   <span class="nav-link-text">Inicio</span>
                 </a>
               </li>
@@ -95,7 +95,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./solicitudes">
-                  <i class="fas fa-route" style="color: #5F00BE;"></i>
+                  <i class="fas fa-route" style="color: #01296e;"></i>
                   <span class="nav-link-text">Solicitudes</span>
                 </a>
               </li>
@@ -105,7 +105,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./mapa">
-                  <i class="fas fa-map" style="color: #5F00BE;"></i>
+                  <i class="fas fa-map" style="color: #01296e;"></i>
                   <span class="nav-link-text">Mapa</span>
                 </a>
               </li>
@@ -115,7 +115,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./pasajeros">
-                  <i class="fas fa-users" style="color: #5F00BE;"></i>
+                  <i class="fas fa-users" style="color: #01296e;"></i>
                   <span class="nav-link-text">Pasajeros</span>
                 </a>
               </li>
@@ -125,7 +125,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./conductores">
-                  <i class="fas fa-car" style="color: #5F00BE;"></i>
+                  <i class="fas fa-car" style="color: #01296e;"></i>
                   <span class="nav-link-text">Conductores</span>
                 </a>
               </li>
@@ -135,7 +135,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./tempconductor">
-                  <i class="fas fa-user-shield" style="color: #5F00BE;"></i>
+                  <i class="fas fa-user-shield" style="color: #01296e;"></i>
                   <span class="nav-link-text">Solicitud conductor</span>
                 </a>
               </li>
@@ -145,7 +145,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./estadisticac">
-                  <i class="fas fa-money-bill" style="color: #5F00BE;"></i>
+                  <i class="fas fa-money-bill" style="color: #01296e;"></i>
                   <span class="nav-link-text">Saldo conductor</span>
                 </a>
               </li>
@@ -155,7 +155,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./documentos">
-                  <i class="fas fa-sensor-alert" style="color: #5F00BE;"></i>
+                  <i class="fas fa-sensor-alert" style="color: #01296e;"></i>
                   <span class="nav-link-text">Alerta documentos</span>
                 </a>
               </li>
@@ -165,7 +165,7 @@ $row_c = $query_c->fetch_assoc();*/
                                         echo  "active";
                                       }
                                     } ?>" href="./cumple">
-                  <i class="fas fa-birthday-cake" style="color: #5F00BE;"></i>
+                  <i class="fas fa-birthday-cake" style="color: #01296e;"></i>
                   <span class="nav-link-text">Alerta Cumplea&ntilde;os</span>
                 </a>
               </li>
@@ -183,7 +183,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                                                           }
                                                                                                         } /**/ ?>>
 
-                  <i class="fas fa-money-check-alt" style="color: #5F00BE;"></i>
+                  <i class="fas fa-money-check-alt" style="color: #01296e;"></i>
                   <span class="nav-link-text">Flujo de efectivo</span>
                 </a>
                 <div <?php if (isset($var)) {
@@ -200,7 +200,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                     echo  "active";
                                                                   }
                                                                 } /**/ ?>">
-                        <i class="fas fa-coins" style="color: #5F00BE;"></i> Estadisticas
+                        <i class="fas fa-coins" style="color: #01296e;"></i> Estadisticas
                       </a>
                     </li>
                     <li class="nav-item">
@@ -209,7 +209,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                   echo  "active";
                                                                 }
                                                               } /**/ ?>">
-                        <i class="fas fa-receipt" style="color: #5F00BE;"></i> Operaciones
+                        <i class="fas fa-receipt" style="color: #01296e;"></i> Operaciones
                       </a>
                     </li>
                     <li class="nav-item">
@@ -218,7 +218,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                     echo  "active";
                                                                   }
                                                                 } /**/ ?>">
-                        <i class="fas fa-money-bill-wave" style="color: #5F00BE;"></i> Otros egresos
+                        <i class="fas fa-money-bill-wave" style="color: #01296e;"></i> Otros egresos
                       </a>
                     </li>
                     <li class="nav-item">
@@ -227,7 +227,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                     echo  "active";
                                                                   }
                                                                 } /**/ ?>">
-                        <i class="fas fa-money-bill" style="color: #5F00BE;"></i> Otros ingresos
+                        <i class="fas fa-money-bill" style="color: #01296e;"></i> Otros ingresos
                       </a>
                     </li>
                     <li class="nav-item">
@@ -236,7 +236,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                               echo  "active";
                                                             }
                                                           } /**/ ?>">
-                        <i class="fas fa-hand-holding-usd" style="color: #5F00BE;"></i> Cuentas por cobrar
+                        <i class="fas fa-hand-holding-usd" style="color: #01296e;"></i> Cuentas por cobrar
                       </a>
                     </li>
                     <li class="nav-item">
@@ -245,7 +245,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                               echo  "active";
                                                             }
                                                           } /**/ ?>">
-                        <i class="fas fa-hands-usd" style="color: #5F00BE;"></i> Cuentas por pagar
+                        <i class="fas fa-hands-usd" style="color: #01296e;"></i> Cuentas por pagar
                       </a>
                     </li>
                   </ul>
@@ -265,7 +265,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                                                           }
                                                                                                         } /**/ ?>>
 
-                  <i class="fas fa-house-user" style="color: #5F00BE;"></i>
+                  <i class="fas fa-house-user" style="color: #01296e;"></i>
                   <span class="nav-link-text">Negocios Asociados</span>
                 </a>
                 <div <?php if (isset($var)) {
@@ -282,7 +282,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                     echo  "active";
                                                                   }
                                                                 } /**/ ?>">
-                        <i class="fas fa-user-tie" style="color: #5F00BE;"></i> Negocios
+                        <i class="fas fa-user-tie" style="color: #01296e;"></i> Negocios
                       </a>
                     </li>
                     <li class="nav-item">
@@ -291,7 +291,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                               echo  "active";
                                                             }
                                                           } /**/ ?>">
-                        <i class="fas fa-user-tag" style="color: #5F00BE;"></i> categor&iacute;a
+                        <i class="fas fa-user-tag" style="color: #01296e;"></i> categor&iacute;a
                       </a>
                     </li>
                   </ul>
@@ -368,7 +368,7 @@ $row_c = $query_c->fetch_assoc();*/
               border: 1px solid #fff;
               right: 10px;
               font-size: 9px;
-              background: #5F00BE;
+              background: #01296e;
               color: #fff;
               min-width: 20px;
               padding: 0 5px;
@@ -386,7 +386,7 @@ $row_c = $query_c->fetch_assoc();*/
               border: 1px solid #fff;
               right: 10px;
               font-size: 9px;
-              background: #5F00BE;
+              background: #01296e;
               color: #fff;
               min-width: 20px;
               padding: 0 5px;

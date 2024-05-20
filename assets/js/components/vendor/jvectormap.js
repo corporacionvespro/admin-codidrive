@@ -23,7 +23,7 @@ var VectorMap = (function() {
             },
             theme: {
                 'default': '#172b4d',
-                'primary': '#5F00BE',
+                'primary': '#01296e',
                 'secondary': '#f4f5f7',
                 'info': '#11cdef',
                 'success': '#2dce89',

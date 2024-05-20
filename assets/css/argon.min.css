@@ -7054,7 +7054,7 @@ a.close.disabled {
 
 .bg-primary {
     /*background-color: #01296e!important*/
-    background-color: #5F00BE!important
+    background-color: #01296e!important
 }
 
 a.bg-primary:focus,
@@ -17554,7 +17554,7 @@ textarea[resize=horizontal] {
     position: relative;
     display: block;
     height: 2px;
-    background-color: #5F00BE
+    background-color: #01296e
 }
 
 .sidenav-toggler-line:not(:last-child) {
