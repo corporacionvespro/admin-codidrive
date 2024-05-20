@@ -32,7 +32,7 @@ if ($level == 1) {
 
     .select-items div:hover,
     .same-as-selected {
-        background-color: #50129c;
+        background-color: #01296e;
     }
 
     .custom-toggle-slider {
@@ -42,7 +42,7 @@ if ($level == 1) {
         bottom: 0;
         left: 0;
         cursor: pointer;
-        border: 1px solid #50129c;
+        border: 1px solid #01296e;
         border-radius: 34px !important;
         background-color: transparent;
     }
@@ -316,7 +316,7 @@ if ($level == 1) {
     }
 
     .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
-        background-color: #50129c;
+        background-color: #01296e;
         color: white;
     }
 

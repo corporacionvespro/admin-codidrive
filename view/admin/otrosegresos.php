@@ -231,7 +231,7 @@ if ($level == 1) {
     }
 
     .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
-        background-color: #50129c;
+        background-color: #01296e;
         color: white;
     }
 

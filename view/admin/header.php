@@ -31,17 +31,12 @@
     }
 
     ::-webkit-scrollbar-thumb {
-      background: #50129c;
+      background: #01296e;
       border-radius: 4px;
     }
 
-    ::-webkit-scrollbar-thumb:hover {
-      background: #5a14af;
-      box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-    }
-
     ::-webkit-scrollbar-thumb:active {
-      background-color: #7c26e6;
+      background-color: #0140a9;
     }
 
     ::-webkit-scrollbar-track {
@@ -52,6 +47,10 @@
     ::-webkit-scrollbar-track:hover,
     ::-webkit-scrollbar-track:active {
       background: #d4d4d4;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #013a9a;
+      box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
     }
 
     @keyframes chartjs-render-animation {
