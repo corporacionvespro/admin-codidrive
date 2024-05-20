@@ -28,4 +28,4 @@ $_SESSION["nombre_usuario"] = $response['admin']['nombres'];
 $_SESSION["cliente"] = $response['admin']['nombres'];
 $_SESSION["token"] = $response['token'];
 $url = './admin';
-echo $url;
+//echo $url;
