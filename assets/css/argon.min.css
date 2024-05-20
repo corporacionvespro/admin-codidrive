@@ -1569,7 +1569,7 @@ pre code {
 
 .table-hover tbody tr:hover {
     color: #525f7f;
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .table-primary,
@@ -1839,7 +1839,7 @@ pre code {
 .table-active,
 .table-active>td,
 .table-active>th {
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .table-hover .table-active:hover {
@@ -1860,7 +1860,7 @@ pre code {
 .table .thead-light th {
     color: #8898aa;
     border-color: #e9ecef;
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .table-dark {
@@ -3697,7 +3697,7 @@ input[type=submit].btn-block {
 .dropdown-item:hover {
     text-decoration: none;
     color: #16181b;
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .dropdown-item.active,
@@ -5211,7 +5211,7 @@ input[type=submit].btn-block {
     padding: .5rem 1rem;
     list-style: none;
     border-radius: .375rem;
-    background-color: #6e2bc026;
+    background-color: #e2ecf2;
     flex-wrap: wrap
 }
 
@@ -5914,7 +5914,7 @@ a.badge:hover {
     z-index: 1;
     text-decoration: none;
     color: #525f7f;
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .list-group-item-action:active {
@@ -13824,7 +13824,7 @@ a.text-darker:hover {
 }
 
 .breadcrumb-dark .breadcrumb-item a {
-    color: #6e2bc026
+    color: #e2ecf2
 }
 
 .breadcrumb-dark .breadcrumb-item a:hover {
@@ -14314,7 +14314,7 @@ a.text-darker:hover {
     margin: 0;
     cursor: pointer;
     border: 0;
-    background-color: #6e2bc026;
+    background-color: #e2ecf2;
     box-shadow: none
 }
 
@@ -14339,7 +14339,7 @@ a.text-darker:hover {
 }
 
 .btn-group-colors>.btn:not([class*=bg-]) {
-    border-color: #6e2bc026!important
+    border-color: #e2ecf2!important
 }
 
 .btn-group-colors>.btn:before {
@@ -14422,7 +14422,7 @@ a.btn-icon-only {
     color: #32325d;
     border: 0;
     border-radius: .375rem;
-    background-color: #6e2bc026;
+    background-color: #e2ecf2;
     -moz-appearance: none
 }
 
@@ -16169,7 +16169,7 @@ textarea[resize=horizontal] {
     padding: 1rem 1.25rem 1rem 2.5rem;
     border-radius: .4375rem;
     border-top-left-radius: 0;
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .media-comment:hover .media-comment-avatar {
@@ -16761,7 +16761,7 @@ textarea[resize=horizontal] {
 
 .navbar-vertical.navbar-light {
     border-color: rgba(0, 0, 0, .05);
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .navbar-vertical.navbar-dark {
@@ -16949,7 +16949,7 @@ textarea[resize=horizontal] {
     padding-right: 1rem;
     padding-left: 1rem;
     border-radius: .375rem;
-    background: #6e2bc026
+    background: #e2ecf2
 }
 
 .navbar-vertical.navbar-expand-xs .lavalamp-object {
@@ -17045,7 +17045,7 @@ textarea[resize=horizontal] {
         padding-right: 1rem;
         padding-left: 1rem;
         border-radius: .375rem;
-        background: #6e2bc026
+        background: #e2ecf2
     }
     .navbar-vertical.navbar-expand-sm .lavalamp-object {
         width: calc(100% - 1rem)!important;
@@ -17139,7 +17139,7 @@ textarea[resize=horizontal] {
         padding-right: 1rem;
         padding-left: 1rem;
         border-radius: .375rem;
-        background: #6e2bc026
+        background: #e2ecf2
     }
     .navbar-vertical.navbar-expand-md .lavalamp-object {
         width: calc(100% - 1rem)!important;
@@ -17233,7 +17233,7 @@ textarea[resize=horizontal] {
         padding-right: 1rem;
         padding-left: 1rem;
         border-radius: .375rem;
-        background: #6e2bc026
+        background: #e2ecf2
     }
     .navbar-vertical.navbar-expand-lg .lavalamp-object {
         width: calc(100% - 1rem)!important;
@@ -17327,7 +17327,7 @@ textarea[resize=horizontal] {
         padding-right: 1rem;
         padding-left: 1rem;
         border-radius: .375rem;
-        background: #6e2bc026
+        background: #e2ecf2
     }
     .navbar-vertical.navbar-expand-xl .lavalamp-object {
         width: calc(100% - 1rem)!important;
@@ -18790,7 +18790,7 @@ textarea[resize=horizontal] {
 
 .table .thead-light th {
     color: #8898aa;
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .table .thead-light th a {
@@ -23195,7 +23195,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .select2-results__option:hover {
     text-decoration: none;
     color: #16181b;
-    background-color: #6e2bc026
+    background-color: #e2ecf2
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected],

@@ -17,7 +17,7 @@ var Charts = (function() {
     // Colors
     var colors = {
         gray: {
-            100: '#6e2bc026',
+            100: '#e2ecf2',
             200: '#e9ecef',
             300: '#dee2e6',
             400: '#ced4da',
