@@ -9,7 +9,7 @@ namespace Phppot;
  */
 class DataSource
 {
-    const HOST = 'localhost';
+    const HOST = '161.132.54.172';
     const USERNAME = 'root';
     const PASSWORD = 'vespro$2024&';
     const DATABASENAME = 'codidrive';

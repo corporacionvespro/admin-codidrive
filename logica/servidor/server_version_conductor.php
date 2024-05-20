@@ -2,7 +2,7 @@
 header("Cache-Control: no-cache, must-revalidate");
 header('Access-Control-Allow-Origin: *');
 header("Content-Type: application/json");
-$conexion = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
+$conexion = mysqli_connect('161.132.54.172', 'root', 'vespro$2024&', 'codidrive');
 function ubicar()
 {
     global $conexion;

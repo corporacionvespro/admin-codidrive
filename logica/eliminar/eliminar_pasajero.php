@@ -1,7 +1,7 @@
 <?php
 $id_persona_a_eliminar = $_POST['id_pe'];
 $id_pasajeros = $_POST['id_pa'];
-$servername = 'localhost';
+$servername = '161.132.54.172';
 $username = 'root';
 $password = 'vespro$2024&';
 $database = 'codidrive';

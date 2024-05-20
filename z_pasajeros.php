@@ -1,7 +1,7 @@
 <?php
 $nombre = $_GET['nombre'];
 // Conexión a la base de datos MySQL
-$servername ='localhost';
+$servername ='161.132.54.172';
 $username ='root';
 $password ='vespro$2024&';
 $database ='codidrive';

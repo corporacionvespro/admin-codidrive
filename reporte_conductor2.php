@@ -15,7 +15,7 @@ header('Access-Control-Allow-Origin: *');
 header("Content-Type: application/json");*/
 
 // Conectar a la base de datos
-$conexion = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
+$conexion = mysqli_connect('161.132.54.172', 'root', 'vespro$2024&', 'codidrive');
 
 // Función para obtener datos
 function ubicar()

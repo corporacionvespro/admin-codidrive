@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 // Conexión a la base de datos (asegúrate de cambiar los valores según tu configuración)
-$servername = "localhost";
+$servername = '161.132.54.172';
 $username = "root";
 $password = 'vespro$2024&';
 $dbname = "codidrive";

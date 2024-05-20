@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set("America/Lima");
 header('Content-Type: application/json');
-$conn = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
+$conn = mysqli_connect('161.132.54.172', 'root', 'vespro$2024&', 'codidrive');
 
 global $conn;
 $fecha_referencia = date("Y-m-d");

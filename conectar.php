@@ -1,6 +1,6 @@
 <?php
 
-define('DB_HOST', 'localhost');
+define('DB_HOST', '161.132.54.172');
 define('DB_USER', 'root');
 define('DB_PASS', 'vespro$2024&');
 define('DB_NAME', 'codidrive');

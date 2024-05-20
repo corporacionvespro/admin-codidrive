@@ -3,7 +3,7 @@
 date_default_timezone_set("America/Lima");
 $fecha = date("Y-m-d");
 
-$conexion = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
+$conexion = mysqli_connect('161.132.54.172', 'root', 'vespro$2024&', 'codidrive');
 
 global $conexion;
 $query = $conexion->query("SELECT `id_saldo`,`id_conductores`,`fecha_final` FROM `saldo_conductor` WHERE `fecha_final` <= '{$fecha}' AND `estado`=1;");

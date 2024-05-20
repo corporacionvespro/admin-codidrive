@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli('localhost', 'root', 'vespro$2024&', 'codidrive');
+$mysqli = new mysqli('161.132.54.172', 'root', 'vespro$2024&', 'codidrive');
 if ($mysqli->connect_error) {
 	die('Error en la conexion' . $mysqli->connect_error);
 }

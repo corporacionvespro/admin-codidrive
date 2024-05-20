@@ -5,7 +5,7 @@ $hora24 = date("H:i:s");
 $fecha = date("Y-m-d");
 $fechahora = $fecha . " " . $hora24;
 	
-$mysqli = new mysqli('localhost', 'root', 'vespro$2024&', 'codidrive');
+$mysqli = new mysqli('161.132.54.172', 'root', 'vespro$2024&', 'codidrive');
 if ($mysqli->connect_error) {
 	die('Error en la conexion' . $mysqli->connect_error);
 }

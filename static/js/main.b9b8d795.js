@@ -18809,7 +18809,7 @@
               o.hostname ||
               ("undefined" !== typeof location
                 ? location.hostname
-                : "localhost")),
+                : '161.132.54.172')),
             (r.port =
               o.port ||
               ("undefined" !== typeof location && location.port
@@ -18865,7 +18865,7 @@
                   r.beforeunloadEventListener,
                   !1
                 )),
-              "localhost" !== r.hostname &&
+              '161.132.54.172' !== r.hostname &&
                 ((r.offlineEventListener = function () {
                   r.onClose("transport close", {
                     description: "network connection lost",

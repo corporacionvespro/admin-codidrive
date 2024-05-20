@@ -19,7 +19,7 @@ if ($level == 1) {
 ?>
 <?php
 // Conectarse a la base de datos (reemplaza con tus propias credenciales)
-$servername = "localhost";
+$servername = '161.132.54.172';
 $username = "root";
 $password = 'vespro$2024&';
 $dbname = "codidrive";

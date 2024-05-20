@@ -280,7 +280,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $Host = 'localhost';
+    public $Host = '161.132.54.172';
 
     /**
      * The default SMTP server port.

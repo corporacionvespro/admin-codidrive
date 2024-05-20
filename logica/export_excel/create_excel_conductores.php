@@ -6,7 +6,7 @@ header("Content-Disposition: attachment; filename=CONDUCTORES_" . date('Y:m:d:m:
 header("Pragma: no-cache");
 header("Expires: 0");
 // Conectar a la base de datos
-$conexion = mysqli_connect('localhost', 'root', 'vespro$2024&', 'codidrive');
+$conexion = mysqli_connect('161.132.54.172', 'root', 'vespro$2024&', 'codidrive');
 
 // Función para obtener datos
 function ubicar()

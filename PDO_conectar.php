@@ -1,5 +1,5 @@
 <?php
-$host = 'localhost';
+$host = '161.132.54.172';
 $dbname = 'codidrive';
 $username = 'root';
 $password = 'vespro$2024&';
