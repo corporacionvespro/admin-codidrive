@@ -161,7 +161,7 @@ var Charts = (function() {
     var colors = {
         gray: {
             100: '#e2ecf2',
-            200: '#e9ecef',
+            200: '#e2ecf2',
             300: '#dee2e6',
             400: '#ced4da',
             500: '#ffffff00',
@@ -2245,7 +2245,7 @@ var VectorMap = (function() {
         colors = {
             gray: {
                 100: '#e2ecf2',
-                200: '#e9ecef',
+                200: '#e2ecf2',
                 300: '#dee2e6',
                 400: '#ced4da',
                 500: '#ffffff00',

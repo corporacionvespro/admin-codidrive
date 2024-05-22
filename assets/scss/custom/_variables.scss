@@ -16,7 +16,7 @@ $enable-shadows : true !default;
 // Color system
 $white : #fff !default;
 $gray-100: #e2ecf2 !default;
-$gray-200: #e9ecef !default;
+$gray-200: #e2ecf2 !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #ffffff00 !default;
@@ -64,7 +64,7 @@ $theme-colors: map-merge(( "default" : $default, "primary" : $primary, "secondar
 $brand-colors: () !default;
 $brand-colors: map-merge(( "facebook" : $facebook, "twitter" : $twitter, "google-plus" : $google-plus, "instagram" : $instagram, "pinterest" : $pinterest, "youtube" : $youtube, "slack" : $slack, "dribbble" : $dribbble, "github" : $github, "vimeo" : $vimeo), $brand-colors);
 $shape-colors: () !default;
-$shape-colors: map-merge(( "default" : #32325d, "primary" : #5533ff, "secondary" : #24b47e, "neutral" : #e9ecef, "blue-gray" : #b2cbe1, ), $shape-colors);
+$shape-colors: map-merge(( "default" : #32325d, "primary" : #5533ff, "secondary" : #24b47e, "neutral" : #e2ecf2, "blue-gray" : #b2cbe1, ), $shape-colors);
 $shapes-primary-colors: () !default;
 $shapes-primary-colors: map-merge(( "step-1-gradient-bg" : #281483, "step-2-gradient-bg" : #8f6ed5, "step-3-gradient-bg" : #d782d9, "span-1-bg" : #53f, "span-2-bg" : #4553ff, "span-3-bg" : #4f40ff, "span-4-bg" : #25ddf5, "span-5-bg" : #1fa2ff), $shapes-primary-colors);
 $shapes-default-colors: () !default;
