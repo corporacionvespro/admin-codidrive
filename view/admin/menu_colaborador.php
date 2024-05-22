@@ -266,9 +266,9 @@
             <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" src="<?php echo './assets/img/brand/logo.png'; ?>">
+                  <img alt="Image placeholder" src="<?php echo './assets/img/brand/logo2.png'; ?>">
                 </span>
-                <div class="media-body ml-2 d-none d-lg-block" style="display: block !important;">
+                <div class="media-body ml-2 d-none d-lg-block" style="display: block !important;color: white;">
                   <span class="mb-0 text-sm  font-weight-bold"><?php echo $_SESSION["nombre_usuario"]; ?></span>
                 </div>
               </div>
