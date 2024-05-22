@@ -199,7 +199,7 @@ div.dataTables_scrollHead table.table-bordered {
  */
 .table.dataTable tbody tr.active td,
 .table.dataTable tbody tr.active th {
-	background-color: #08C;
+	background-color: #01296e;
 	color: white;
 }
 
@@ -239,7 +239,7 @@ ul.DTTT_dropdown.dropdown-menu li {
 }
 
 ul.DTTT_dropdown.dropdown-menu li:hover a {
-	background-color: #0088cc;
+	background-color: #01296e;
 	color: white !important;
 }
 
