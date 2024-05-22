@@ -167,7 +167,7 @@ if ($level == 1) {
     .avatar-upload .avatar-edit input+label:after {
         content: "\f040";
         font-family: "FontAwesome";
-        color: #50009f;
+        color: #01296e;
         position: absolute;
         top: 7px;
         left: 0;
@@ -283,7 +283,7 @@ if ($level == 1) {
     }
 
     .heading-small {
-        color: #5f14ba !important;
+        color: #01296e !important;
         font-size: 0.95rem;
         padding-top: 0.25rem;
         padding-bottom: 0.25rem;
@@ -439,7 +439,7 @@ if ($level == 1) {
                             </div>
                             <div class="col-md-12 mt-3">
                                 <div class="card" style="margin: 0 0 0 0;">
-                                    <div class="card-header collapsed" id="headingUno" data-toggle="collapse" data-target="#collapseUno" aria-expanded="false" aria-controls="collapseUno" style="padding: 0;background: #5f14ba;border-radius: 25px;">
+                                    <div class="card-header collapsed" id="headingUno" data-toggle="collapse" data-target="#collapseUno" aria-expanded="false" aria-controls="collapseUno" style="padding: 0;background: #01296e;border-radius: 25px;">
                                         <h2 class="mb-0" style="text-align: center;">
                                             <a id="enlaces1" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;"><i class="fas fa-images"></i></a>
                                             <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
@@ -479,7 +479,7 @@ if ($level == 1) {
                         <div class="accordion row" id="accordionExample2">
                             <div class="col-md-12 mt-3">
                                 <div class="card" style="margin: 0 0 0 0;">
-                                    <div class="card-header collapsed" id="headingDos" data-toggle="collapse" data-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos" style="padding: 0;background: #5f14ba;border-radius: 25px;">
+                                    <div class="card-header collapsed" id="headingDos" data-toggle="collapse" data-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos" style="padding: 0;background: #01296e;border-radius: 25px;">
                                         <h2 class="mb-0" style="text-align: center;">
                                             <a id="enlaces2" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;"><i class="fas fa-images"></i></a>
                                             <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
@@ -520,7 +520,7 @@ if ($level == 1) {
                         <div class="accordion row" id="accordionExample3">
                             <div class="col-md-12 mt-3">
                                 <div class="card" style="margin: 0 0 0 0;">
-                                    <div class="card-header collapsed" id="headingTres" data-toggle="collapse" data-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres" style="padding: 0;background: #5f14ba;border-radius: 25px;">
+                                    <div class="card-header collapsed" id="headingTres" data-toggle="collapse" data-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres" style="padding: 0;background: #01296e;border-radius: 25px;">
                                         <h2 class="mb-0" style="text-align: center;">
                                             <a id="enlaces3" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;"><i class="fas fa-images"></i></a>
                                             <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
@@ -559,7 +559,7 @@ if ($level == 1) {
                         <div class="accordion row" id="accordionExample4">
                             <div class="col-md-12 mt-3">
                                 <div class="card" style="margin: 0 0 0 0;">
-                                    <div class="card-header collapsed" id="headingCuatro" data-toggle="collapse" data-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro" style="padding: 0;background: #5f14ba;border-radius: 25px;">
+                                    <div class="card-header collapsed" id="headingCuatro" data-toggle="collapse" data-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro" style="padding: 0;background: #01296e;border-radius: 25px;">
                                         <h2 class="mb-0" style="text-align: center;">
                                             <a id="enlaces4" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;"><i class="fas fa-images"></i></a>
                                             <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
@@ -600,7 +600,7 @@ if ($level == 1) {
                         <div class="accordion row" id="accordionExample5">
                             <div class="col-md-12 mt-3">
                                 <div class="card" style="margin: 0 0 0 0;">
-                                    <div class="card-header collapsed" id="headingCinco" data-toggle="collapse" data-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco" style="padding: 0;background: #5f14ba;border-radius: 25px;">
+                                    <div class="card-header collapsed" id="headingCinco" data-toggle="collapse" data-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco" style="padding: 0;background: #01296e;border-radius: 25px;">
                                         <h2 class="mb-0" style="text-align: center;">
                                             <a id="enlaces5" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;"><i class="fas fa-images"></i></a>
                                             <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
@@ -641,7 +641,7 @@ if ($level == 1) {
                         <div class="accordion row" id="accordionExample6">
                             <div class="col-md-12 mt-3">
                                 <div class="card" style="margin: 0 0 0 0;">
-                                    <div class="card-header collapsed" id="headingSeis" data-toggle="collapse" data-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis" style="padding: 0;background: #5f14ba;border-radius: 25px;">
+                                    <div class="card-header collapsed" id="headingSeis" data-toggle="collapse" data-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis" style="padding: 0;background: #01296e;border-radius: 25px;">
                                         <h2 class="mb-0" style="text-align: center;">
                                             <a id="enlaces6" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;"><i class="fas fa-images"></i></a>
                                             <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
@@ -672,7 +672,7 @@ if ($level == 1) {
                             </div>
                             <div class="col-md-12 mt-3">
                                 <div class="card" style="margin: 0 0 0 0;">
-                                    <div class="card-header collapsed" id="headingSiete" data-toggle="collapse" data-target="#collapseSiete" aria-expanded="false" aria-controls="collapseSiete" style="padding: 0;background: #5f14ba;border-radius: 25px;">
+                                    <div class="card-header collapsed" id="headingSiete" data-toggle="collapse" data-target="#collapseSiete" aria-expanded="false" aria-controls="collapseSiete" style="padding: 0;background: #01296e;border-radius: 25px;">
                                         <h2 class="mb-0" style="text-align: center;">
                                             <a id="enlaces7" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;"><i class="fas fa-images"></i></a>
                                             <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
@@ -707,7 +707,7 @@ if ($level == 1) {
                         <div class="accordion row" id="accordionExample8">
                             <div class="col-md-12 mt-3">
                                 <div class="card" style="margin: 0 0 0 0;">
-                                    <div class="card-header collapsed" id="headingOcho" data-toggle="collapse" data-target="#collapseOcho" aria-expanded="false" aria-controls="collapseOcho" style="padding: 0;background: #5f14ba;border-radius: 25px;">
+                                    <div class="card-header collapsed" id="headingOcho" data-toggle="collapse" data-target="#collapseOcho" aria-expanded="false" aria-controls="collapseOcho" style="padding: 0;background: #01296e;border-radius: 25px;">
                                         <h2 class="mb-0" style="text-align: center;">
                                             <a id="enlaces8" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;"><i class="fas fa-images"></i></a>
                                             <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
@@ -770,8 +770,8 @@ if ($level == 1) {
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn mr-auto" style="color:#50009f;border:solid 1px #50009f;" data-dismiss="modal">Cancelar</button>
-                        <button id="editardocumentos" type="button" class="btn ml-auto" style="color:#fff;background: #50009f;border: #50009f;" onclick="documentosfn()">Guardar</button>
+                        <button type="button" class="btn mr-auto" style="color:#01296e;border:solid 1px #01296e;" data-dismiss="modal">Cancelar</button>
+                        <button id="editardocumentos" type="button" class="btn ml-auto" style="color:#fff;background: #01296e;border: #01296e;" onclick="documentosfn()">Guardar</button>
                     </div>
                 </form>
             </div>
@@ -816,8 +816,8 @@ if ($level == 1) {
                 </div>
             </div>
             <div class="modal-footer">
-                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;" data-dismiss="modal1">
-                <input type="button" id="crop1" name="crop1" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;">
+                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;" data-dismiss="modal1">
+                <input type="button" id="crop1" name="crop1" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">
             </div>
         </div>
     </div>
@@ -849,8 +849,8 @@ if ($level == 1) {
                 </div>
             </div>
             <div class="modal-footer">
-                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;" data-dismiss="modal2">
-                <input type="button" id="crop2" name="crop2" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;">
+                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;" data-dismiss="modal2">
+                <input type="button" id="crop2" name="crop2" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">
             </div>
         </div>
     </div>
@@ -882,8 +882,8 @@ if ($level == 1) {
                 </div>
             </div>
             <div class="modal-footer">
-                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;" data-dismiss="modal3">
-                <input type="button" id="crop3" name="crop3" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;">
+                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;" data-dismiss="modal3">
+                <input type="button" id="crop3" name="crop3" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">
             </div>
         </div>
     </div>
@@ -915,8 +915,8 @@ if ($level == 1) {
                 </div>
             </div>
             <div class="modal-footer">
-                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;" data-dismiss="modal4">
-                <input type="button" id="crop4" name="crop4" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;">
+                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;" data-dismiss="modal4">
+                <input type="button" id="crop4" name="crop4" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">
             </div>
         </div>
     </div>
@@ -948,8 +948,8 @@ if ($level == 1) {
                 </div>
             </div>
             <div class="modal-footer">
-                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;" data-dismiss="modal5">
-                <input type="button" id="crop5" name="crop5" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;">
+                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;" data-dismiss="modal5">
+                <input type="button" id="crop5" name="crop5" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">
             </div>
         </div>
     </div>
@@ -981,8 +981,8 @@ if ($level == 1) {
                 </div>
             </div>
             <div class="modal-footer">
-                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;" data-dismiss="modal6">
-                <input type="button" id="crop6" name="crop6" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;">
+                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;" data-dismiss="modal6">
+                <input type="button" id="crop6" name="crop6" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">
             </div>
         </div>
     </div>
@@ -1014,8 +1014,8 @@ if ($level == 1) {
                 </div>
             </div>
             <div class="modal-footer">
-                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;" data-dismiss="modal7">
-                <input type="button" id="crop7" name="crop7" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;">
+                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;" data-dismiss="modal7">
+                <input type="button" id="crop7" name="crop7" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">
             </div>
         </div>
     </div>
@@ -1047,8 +1047,8 @@ if ($level == 1) {
                 </div>
             </div>
             <div class="modal-footer">
-                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;" data-dismiss="modal8">
-                <input type="button" id="crop8" name="crop8" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #5f14ba;border: solid 1px #5f14ba;">
+                <input type="button" id="" name="" class="form-control form-control-sm btn" value="Cancelar" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;" data-dismiss="modal8">
+                <input type="button" id="crop8" name="crop8" class="form-control form-control-sm btn" value="Guardar cambios" style="height: 51px;background: #f1e0e0;margin-top: 21px;border-radius: 25px;color: #01296e;border: solid 1px #01296e;">
             </div>
         </div>
     </div>

@@ -80,7 +80,7 @@
 .avatar-upload .avatar-edit input+label:after {
     content: "\f040";
     font-family: "FontAwesome";
-    color: #50009f;
+    color: #01296e;
     position: absolute;
     top: 7px;
     left: 0;
@@ -112,7 +112,7 @@
 }
 
 .heading-small {
-    color: #5f14ba !important;
+    color: #01296e !important;
     font-size: 0.95rem;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;

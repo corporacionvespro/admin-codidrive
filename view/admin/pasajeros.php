@@ -123,7 +123,7 @@ if ($level == 1) {
     .avatar-upload .avatar-edit input+label:after {
         content: "\f040";
         font-family: "FontAwesome";
-        color: #50009f;
+        color: #01296e;
         position: absolute;
         top: 7px;
         left: 0;
@@ -228,7 +228,7 @@ if ($level == 1) {
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="container">
-                                    <h1 style="text-align: center;text-transform: uppercase;color: #50009f;">Registrar PASAJEROS</h1>
+                                    <h1 style="text-align: center;text-transform: uppercase;color: #01296e;">Registrar PASAJEROS</h1>
                                     <div class="avatar-upload" style="display:none;">
                                         <div class="avatar-edit">
                                             <input type='file' id="foto" name="foto" accept=".jpg, .jpeg" />
@@ -273,9 +273,9 @@ if ($level == 1) {
 
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn mr-auto" style="color:#50009f;border:solid 1px #50009f;" data-dismiss="modal">Cancelar</button>
-                        <button id="btnguardar" type="button" class="btn ml-auto" style="color:#fff;background: #50009f;border: #50009f;display:none;" onclick="guardarform()">Guardar</button>
-                        <button id="btneditar" type="button" class="btn ml-auto" style="color:#fff;background: #50009f;border: #50009f; display:none;" onclick="editarform()">Editar</button>
+                        <button type="button" class="btn mr-auto" style="color:#01296e;border:solid 1px #01296e;" data-dismiss="modal">Cancelar</button>
+                        <button id="btnguardar" type="button" class="btn ml-auto" style="color:#fff;background: #01296e;border: #01296e;display:none;" onclick="guardarform()">Guardar</button>
+                        <button id="btneditar" type="button" class="btn ml-auto" style="color:#fff;background: #01296e;border: #01296e; display:none;" onclick="editarform()">Editar</button>
 
                     </div>
                 </form>

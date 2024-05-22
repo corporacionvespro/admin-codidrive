@@ -33,20 +33,20 @@ $aColumnas = array(
 	'(SELECT CONCAT(
 		"<br>
 		<div style=\'margin-left: 1rem;\'>
-			<strong style=\'color: #5f14ba;\'>N°: </strong>",vehiculo.unidad,"
-			<strong style=\'color: #5f14ba;\'>  -  Marca: </strong>",vehiculo.marca,"<br>
-			<strong style=\'color: #5f14ba;\'>Color: </strong>",vehiculo.color,"
-			<strong style=\'color: #5f14ba;\'>  -  Placa: </strong>",vehiculo.placa,"
+			<strong style=\'color: #01296e;\'>N°: </strong>",vehiculo.unidad,"
+			<strong style=\'color: #01296e;\'>  -  Marca: </strong>",vehiculo.marca,"<br>
+			<strong style=\'color: #01296e;\'>Color: </strong>",vehiculo.color,"
+			<strong style=\'color: #01296e;\'>  -  Placa: </strong>",vehiculo.placa,"
 		</div>"
 		) as unidades FROM conductor JOIN vehiculo ON vehiculo.id_vehiculo = conductor.id_vehiculo WHERE id_conductor = solicitud.id_conductor) as unidadconductor',
 	'CONCAT(
 		"<br>
 		<div style=\'margin-left: 1rem;\'>
-			<strong style=\'color: #5f14ba;\'>Origen: </strong>
+			<strong style=\'color: #01296e;\'>Origen: </strong>
 			",
 				localizacion.direccion_actual, 
 		   "<br>
-			<strong style=\'color: #5f14ba;\'>Destino: </strong>
+			<strong style=\'color: #01296e;\'>Destino: </strong>
 			",
 			localizacion.direccion_destino,
 			"
@@ -302,12 +302,12 @@ while ($aRow = $rResult->fetch_array()) {
 		}
 		
 		$row[] = "<div style=\"margin-left: 1rem;\">
-			<strong style=\"color: #5f14ba;\">Opini&oacute;n pasajero: </strong> " . $c_conductor . "  " . "<strong style=\"color: #5f14ba;\">Calificaci&oacute;n pasajero: </strong> " . $ranking2 . "<br>
-			<strong style=\"color: #5f14ba;\">Opini&oacute;n conductor: </strong> " . $c_pasajero . "  " . "<strong style=\"color: #5f14ba;\">Calificaci&oacute;n conductor: </strong> " . $ranking . "
+			<strong style=\"color: #01296e;\">Opini&oacute;n pasajero: </strong> " . $c_conductor . "  " . "<strong style=\"color: #01296e;\">Calificaci&oacute;n pasajero: </strong> " . $ranking2 . "<br>
+			<strong style=\"color: #01296e;\">Opini&oacute;n conductor: </strong> " . $c_pasajero . "  " . "<strong style=\"color: #01296e;\">Calificaci&oacute;n conductor: </strong> " . $ranking . "
 		</div>";/**/
 	} else {
 		$row[] = "<div style=\"margin-left: 1rem;\">
-			<strong style=\"color: #5f14ba;\">Las solicitudes web no cuentan con esta opci&oacute;n</strong></div>";/**/
+			<strong style=\"color: #01296e;\">Las solicitudes web no cuentan con esta opci&oacute;n</strong></div>";/**/
 	}
 
 	$row[] = "<td class='text-center'><button type='button' onclick='cancelar(" . $aRow['id_solicitud'] . ")' class='boton-save'  data-toggle='modal' data-target='#modal-notification'  style='width: 30px;height: 30px;margin: 0 0 0 0;padding: 0 0 0 0;'><i class='fas fa-ban'></i></button></td>";

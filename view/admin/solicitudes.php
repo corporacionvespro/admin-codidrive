@@ -131,7 +131,7 @@ if ($level == 1) {
                                 <div class="input-group mb-3">
                                     <input type="number" id="telefono" name="telefono" class="form-control" placeholder="" autocomplete="off">
                                     <div class="input-group-append">
-                                        <button class="btn btn-outline-primary" type="button" id="buscar_cliente" onclick="buscarpasjero()" style="color: #fff;background: #50009f;border: #50009f;">Buscar</button>
+                                        <button class="btn btn-outline-primary" type="button" id="buscar_cliente" onclick="buscarpasjero()" style="color: #fff;background: #01296e;border: #01296e;">Buscar</button>
                                     </div>
                                 </div>
                             </div>
@@ -159,8 +159,8 @@ if ($level == 1) {
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn mr-auto" style="color:#50009f;border:solid 1px #50009f;" data-dismiss="modal">Cancelar</button>
-                    <button id="btnguardar" type="button" class="btn ml-auto" style="color:#fff;background: #50009f;border: #50009f;" onclick="solicitartaxi();">Enviar solicitud</button>
+                    <button type="button" class="btn mr-auto" style="color:#01296e;border:solid 1px #01296e;" data-dismiss="modal">Cancelar</button>
+                    <button id="btnguardar" type="button" class="btn ml-auto" style="color:#fff;background: #01296e;border: #01296e;" onclick="solicitartaxi();">Enviar solicitud</button>
                 </div>
             </div>
         </div>

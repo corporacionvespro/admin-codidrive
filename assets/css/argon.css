@@ -5224,7 +5224,7 @@
         content: '-';
         background-color: #a9a2b1;
         color: #f5f5f5;
-        box-shadow: 0 0 3px #5f14ba;
+        box-shadow: 0 0 3px #01296e;
     }
     
     .breadcrumb-item+.breadcrumb-item:hover::before {
@@ -15438,7 +15438,7 @@
         flex: 1 1 auto;
         background-color: #a9a2b1;
         color: #f5f5f5;
-        box-shadow: 0 0 3px #5f14ba;
+        box-shadow: 0 0 3px #01296e;
     }
     
     @media (max-width: 575.98px) {

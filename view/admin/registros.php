@@ -66,7 +66,7 @@
                         <h3 id="txterror" style="color: white;font-size: 15px;"></h3>
                     </div>
                     <div class="mt-5 mb-5" style="text-align: center;">
-                        <button id="btnguardar" type="button" onclick="revisar();" class="btn ml-auto" style="width: 50%;color: #50009f;background: #fff;border: #fff;">Revisar datos</button>
+                        <button id="btnguardar" type="button" onclick="revisar();" class="btn ml-auto" style="width: 50%;color: #01296e;background: #fff;border: #fff;">Revisar datos</button>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-7" id="formulario">
@@ -146,7 +146,7 @@
                                 </div>
                             </div>
                             <div class="modal-footer ">
-                                <button id="btnguardar" type="submit" class="btn ml-auto" style="width: 100%;color:#fff;background: #50009f;border: #50009f;">Enviar</button>
+                                <button id="btnguardar" type="submit" class="btn ml-auto" style="width: 100%;color:#fff;background: #01296e;border: #01296e;">Enviar</button>
                             </div>
                         </form>
                     </div>

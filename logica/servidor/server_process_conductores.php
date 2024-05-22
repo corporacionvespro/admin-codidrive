@@ -211,7 +211,7 @@ while ($aRow = $rResult->fetch_array()) {
 	$row[] = "<td class='text-center'><button type='button' onclick='vehiculodatos({$aRow['id_vehiculo']})' class='boton-save' style='width: 30px;height: 30px;margin: 0 0 0 0;padding: 0 0 0 0;'><i class='fas fa-car-alt'></i></button></td>";
 	$row[] = "<td class='text-center'><label class='custom-toggle'><input type='checkbox' " . $estadocontrol2 . "  onclick='cambiarestado({$aRow['id_conductor']}," . "\"{$estadocambio2}\"" . ")'><span class='custom-toggle-slider rounded-circle'></span></label></td>";
 	$row[] = "<td class='text-center'>{$ranking} <span> {$aRow['ranking']}</span></td>";
-	$row[] = "<td class='text-center'><span style='font-size: 19px;font-weight: bold;color: #5f14ba;background: #e9e0f5;padding: 2px 10px 2px 10px;border-radius: 25px;'>{$aRow['solicitudes']}</span></td>";
+	$row[] = "<td class='text-center'><span style='font-size: 19px;font-weight: bold;color: #01296e;background: #e9e0f5;padding: 2px 10px 2px 10px;border-radius: 25px;'>{$aRow['solicitudes']}</span></td>";
 	$row[] = "<td class='text-center'><button type='button'  onclick='eliminar_conductor(".$aRow['id_persona'].",".$aRow['id_conductor'].")' class='boton-save' style='width: 30px;height: 30px;margin: 0 0 0 0;padding: 0 0 0 0;background: #c91717;'><i class='fas fa-user-times'></i></button></td>";
 	$row[] = "<td class='text-center'><button type='button' onclick='cambiarestado({$aRow['id_conductor']}," . "\"sinaprobar\"" . ")' class='boton-save' style='width: 30px;height: 30px;margin: 0 0 0 0;padding: 0 0 0 0;background: #1d6f2c;'><i class='fas fa-history'></i></button></td>";
 	$output['aaData'][] = $row;

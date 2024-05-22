@@ -114,7 +114,7 @@ hr {
 .avatar-upload .avatar-edit input+label:after {
     content: "\f040";
     font-family: "FontAwesome";
-    color: #50009f;
+    color: #01296e;
     position: absolute;
     top: 7px;
     left: 0;
@@ -230,7 +230,7 @@ hr {
 }
 
 .heading-small {
-    color: #5f14ba !important;
+    color: #01296e !important;
     font-size: 0.95rem;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -592,7 +592,7 @@ hr {
 
 .swal2-icon.swal2-error {
     border-color: #fff;
-    background: #50009f;
+    background: #01296e;
 }
 
 .swal2-icon.swal2-error .swal2-x-mark {

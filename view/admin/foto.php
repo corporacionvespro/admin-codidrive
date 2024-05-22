@@ -170,7 +170,7 @@
     .avatar-upload .avatar-edit input+label:after {
         content: "\f040";
         font-family: "FontAwesome";
-        color: #50009f;
+        color: #01296e;
         position: absolute;
         top: 7px;
         left: 0;
@@ -349,7 +349,7 @@
                         <h3 id="txterror" style="color: white;font-size: 15px;">La foto no fue actualizada</h3>
                     </div>
                     <div class="mt-5 mb-5" style="text-align: center;">
-                        <button id="btnguardar2" type="button" onclick="revisar();" class="btn ml-auto" style="width: 50%;color: #50009f;background: #fff;border: #fff;">Volver a intentar</button>
+                        <button id="btnguardar2" type="button" onclick="revisar();" class="btn ml-auto" style="width: 50%;color: #01296e;background: #fff;border: #fff;">Volver a intentar</button>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-10" id="formulario">
@@ -359,7 +359,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="container" style="display: flex;align-content: center;justify-content: center;">
-                                    <!--<h1 style="text-align: center;text-transform: uppercase;color: #50009f;">Foto</h1>-->
+                                    <!--<h1 style="text-align: center;text-transform: uppercase;color: #01296e;">Foto</h1>-->
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
                                             <input type='file' id="foto" name="foto" accept=".jpg, .jpeg" />
@@ -376,7 +376,7 @@
                     </div>
                     <div class="modal-footer">
                         <div class="col-md-12" style="display: flex;justify-content: center;flex-wrap: nowrap;align-items: center;flex-direction: row;">
-                        <button id="editardatos" type="button" class="btn" style="color:#50009f;background: #fff;border: #fff; width: 50%;border-radius: 25px;" onclick="editardatos2()">Guardar</button>
+                        <button id="editardatos" type="button" class="btn" style="color:#01296e;background: #fff;border: #fff; width: 50%;border-radius: 25px;" onclick="editardatos2()">Guardar</button>
                     </div>
                 </div>
                 </form>

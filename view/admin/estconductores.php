@@ -164,7 +164,7 @@ if ($level == 1) {
     .avatar-upload .avatar-edit input+label:after {
         content: "\f040";
         font-family: "FontAwesome";
-        color: #50009f;
+        color: #01296e;
         position: absolute;
         top: 7px;
         left: 0;
@@ -280,7 +280,7 @@ if ($level == 1) {
     }
 
     .heading-small {
-        color: #5f14ba !important;
+        color: #01296e !important;
         font-size: 0.95rem;
         padding-top: 0.25rem;
         padding-bottom: 0.25rem;
@@ -524,8 +524,8 @@ if ($level == 1) {
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn mr-auto" style="color:#50009f;border:solid 1px #50009f;" data-dismiss="modal">Cancelar</button>
-                        <button id="guardarmonto" type="button" class="btn ml-auto" style="display:none;color:#fff;background: #50009f;border: #50009f;" onclick="regsaldo();">Recargar cuenta</button>
+                        <button type="button" class="btn mr-auto" style="color:#01296e;border:solid 1px #01296e;" data-dismiss="modal">Cancelar</button>
+                        <button id="guardarmonto" type="button" class="btn ml-auto" style="display:none;color:#fff;background: #01296e;border: #01296e;" onclick="regsaldo();">Recargar cuenta</button>
                     </div>
                 </form>
             </div>

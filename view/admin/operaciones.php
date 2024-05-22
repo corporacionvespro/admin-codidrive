@@ -31,7 +31,7 @@ if ($level == 1) {
 
     .daterangepicker td.active,
     .daterangepicker td.active:hover {
-        background-color: #5f14ba;
+        background-color: #01296e;
         border-color: transparent;
         color: #fff;
     }
@@ -44,7 +44,7 @@ if ($level == 1) {
     }
 
     .daterangepicker td.in-range.active.end-date.in-range.available {
-        background-color: #5f14ba;
+        background-color: #01296e;
         border-color: transparent;
         color: #fff;
         border-radius: 0 5px 5px 0;
