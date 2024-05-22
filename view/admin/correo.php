@@ -90,7 +90,7 @@ try {
 							<tr>
 								<td align="center" valign="top"
 									style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;padding-top: 25px;padding-bottom: 5px;"
-									class="button"><a href="https://chapatutaxi.com/admin/restorepassword" target="_blank"
+									class="button"><a href="https://codidrive.com/admin/restorepassword" target="_blank"
 										style="text-decoration: underline;">
 										<table border="0" cellpadding="0" cellspacing="0" align="center"
 											style="max-width: 240px; min-width: 120px; border-collapse: collapse; border-spacing: 0; padding: 0;">
@@ -100,7 +100,7 @@ try {
 														style="padding: 12px 24px; margin: 0; text-decoration: underline; border-collapse: collapse; border-spacing: 0; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px;"
 														bgcolor="#01296e"><a target="_blank"
 															style="text-decoration: underline;color: #FFFFFF; font-family: sans-serif; font-size: 17px; font-weight: 400; line-height: 120%;"
-															href="https://chapatutaxi.com/admin/restorepassword">
+															href="https://codidrive.com/admin/restorepassword">
 															Cambiar contraseña
 														</a>
 													</td>
@@ -132,7 +132,7 @@ try {
 													Si el botón de cambiar contraseña no funciona por favor copia y pega
 													el siguiente
 													enlace en tu navegador <span style="font-size:11px;">
-														https://chapatutaxi.com/admin/restorepassword
+														https://codidrive.com/admin/restorepassword
 													</span>
 												</td>
 											</tr>
@@ -216,7 +216,7 @@ try {
 									No responda a este mensaje. Este correo electrónico ha sido enviado a través de un
 									sistema automatizado que no permite dar respuesta a las preguntas enviadas a esta
 									dirección.
-									<!--<a href="https://chapatutaxi.com/admin/restorepassword" target="_blank"
+									<!--<a href="https://codidrive.com/admin/restorepassword" target="_blank"
 										style="text-decoration: underline; color: #999999; font-family: sans-serif; font-size: 13px; font-weight: 400; line-height: 150%;">contacto</a>-->
 								</td>
 							</tr>

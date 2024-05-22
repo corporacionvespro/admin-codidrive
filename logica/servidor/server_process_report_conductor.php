@@ -34,7 +34,7 @@ function ubicar()
                "persona.nombres" => $result['persona.nombres'],
                "persona.telefono" => $result['persona.telefono'],
                "persona.correo" => $result['persona.correo'],
-               "persona.foto" => "https://chapatutaxi.com/codiapi/images/".$result['persona.foto'],
+               "persona.foto" => "https://codidrive.com/codiapi/images/".$result['persona.foto'],
                "vehiculo.placa" => $result['vehiculo.placa'],
                "vehiculo.marca" => $result['vehiculo.marca'],
                "vehiculo.unidad" => $result['vehiculo.unidad'],

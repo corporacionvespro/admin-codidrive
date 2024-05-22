@@ -26,8 +26,8 @@
           if (file) {
             imageElement.src = URL.createObjectURL(file);
     
-            await faceapi.nets.tinyFaceDetector.loadFromUri("https://chapatutaxi.com/admin/face/public/models");
-            await faceapi.nets.faceLandmark68Net.loadFromUri("https://chapatutaxi.com/admin/face/public/models");
+            await faceapi.nets.tinyFaceDetector.loadFromUri("https://codidrive.com/admin/face/public/models");
+            await faceapi.nets.faceLandmark68Net.loadFromUri("https://codidrive.com/admin/face/public/models");
     
             const image = await faceapi.fetchImage(imageElement);
             const detections = await faceapi.detectAllFaces(image, new faceapi.TinyFaceDetectorOptions())

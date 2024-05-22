@@ -295,7 +295,7 @@ if ($level == 1) {
         width: 100%;
         height: 100%;
         z-index: 9999;
-        background: url('https://chapatutaxi.com/admin/imagenes/loader.gif') 50% 50% no-repeat #e2ecf2;
+        background: url('https://codidrive.com/admin/imagenes/loader.gif') 50% 50% no-repeat #e2ecf2;
         opacity: .8;
     }
 
@@ -893,7 +893,7 @@ if ($level == 1) {
                 var json2 = JSON.parse(response);
                 $("#nombres2").val(json2.conductor.nombres);
                 $("#telefono2").val(json2.conductor.telefono);
-                var url = 'https://chapatutaxi.com/codiapi/images/' + json2.conductor.foto;
+                var url = 'https://codidrive.com/codiapi/images/' + json2.conductor.foto;
                 $('#imagePreview2').css('background-image', 'url(' + url + ')');
                 $('#imagePreview2').hide();
                 $('#imagePreview2').fadeIn(650);
@@ -1077,7 +1077,7 @@ if ($level == 1) {
             }
             $.ajax({
                 type: "POST",
-                url: "https://chapatutaxi.com/admin/agregar_recarga.php",
+                url: "https://codidrive.com/admin/agregar_recarga.php",
                 data: {
                     id_conductores: idconductore,
                     monto: glob_monto2,

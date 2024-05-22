@@ -127,7 +127,7 @@ $("#formuploadajax").on("submit", function (e) {
     var formData = new FormData(document.getElementById("formuploadajax"));
     formData.append("dato", "valor");
     $.ajax({
-            url: "https://chapatutaxi.com/admin/newreg",
+            url: "https://codidrive.com/admin/newreg",
             type: "post",
             dataType: "html",
             data: formData,
@@ -310,10 +310,10 @@ function personalesdatos(idpersona, idcuenta) {
         $("#nombres2").val(json2.conductor.nombres);
         $("#telefono2").val(json2.conductor.telefono);
         /**/
-        if (json2.conductor.foto == 'https://chapatutaxi.com/codiapi/images/logo.png') {
+        if (json2.conductor.foto == 'https://codidrive.com/codiapi/images/logo.png') {
             var url = 'https://codidrive.com/admin/assets/img/brand/logo.png';
         } else {
-            var url = 'https://chapatutaxi.com/codiapi/images/' + json2.conductor.foto;
+            var url = 'https://codidrive.com/codiapi/images/' + json2.conductor.foto;
         }
         $('#imagePreview2').css('background-image', 'url(' + url + ')');
         $('#imagePreview2').hide();
@@ -499,7 +499,7 @@ function regsaldo() {
     }
     $.ajax({
         type: "POST",
-        url: "https://chapatutaxi.com/admin/agregar_saldo.php",
+        url: "https://codidrive.com/admin/agregar_saldo.php",
         data: {
             id_conductores: idconductore,
             monto: glob_monto2,

@@ -11,7 +11,7 @@ $("#formuploadajax").on("submit", function (e) {
     var formData = new FormData(document.getElementById("formuploadajax"));
     formData.append("dato", "valor");
     $.ajax({
-            url: "https://chapatutaxi.com/admin/newreg",
+            url: "https://codidrive.com/admin/newreg",
             type: "post",
             dataType: "html",
             data: formData,

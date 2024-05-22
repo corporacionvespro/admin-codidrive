@@ -247,7 +247,7 @@ if ($level == 1) {
         width: 100%;
         height: 100%;
         z-index: 9999;
-        background: url('https://chapatutaxi.com/admin/imagenes/loader.gif') 50% 50% no-repeat #e2ecf2;
+        background: url('https://codidrive.com/admin/imagenes/loader.gif') 50% 50% no-repeat #e2ecf2;
         opacity: .8;
     }
 </style>
@@ -824,7 +824,7 @@ if ($level == 1) {
 
             $.ajax({
                 type: "POST",
-                url: "https://chapatutaxi.com/admin/agregar_cpagar.php",
+                url: "https://codidrive.com/admin/agregar_cpagar.php",
                 data: {
                     id:idcuentaglobal,
                     precio:precioglobal,

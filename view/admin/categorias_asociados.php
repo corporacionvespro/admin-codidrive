@@ -227,7 +227,7 @@ td.dt-center {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('https://chapatutaxi.com/admin/imagenes/loader.gif') 50% 50% no-repeat #e2ecf2;
+    background: url('https://codidrive.com/admin/imagenes/loader.gif') 50% 50% no-repeat #e2ecf2;
     opacity: .8;
 }
 </style>
@@ -333,7 +333,7 @@ td.dt-center {
                     </style>
                     <div class="col-md-12" style="display: flex;justify-content: space-between;">
                         <button class="boton-save" style="margin-right: 5px;"
-                            onclick="datos('agregar',0,0,0,'https:\/\/chapatutaxi.com/admin/assets/img/brand/logo.png');">
+                            onclick="datos('agregar',0,0,0,'https:\/\/codidrive.com/admin/assets/img/brand/logo.png');">
                             <i class="fas fa-plus-circle"></i> Registrar categoria de negocio
                         </button>
                     </div>

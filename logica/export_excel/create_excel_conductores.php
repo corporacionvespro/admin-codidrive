@@ -71,7 +71,7 @@ function ubicar()
             "Correo" => $result['persona_correo'],
             "Ranking" => $result['ranking'],
             "N solicitudes" => $result['solicitudes'],
-            "Foto personal" => "https://chapatutaxi.com/codiapi/images/".$result['foto'],
+            "Foto personal" => "https://codidrive.com/codiapi/images/".$result['foto'],
             "Correo de la cuenta " => $result['cuenta_correo'],
             "Clave de la cuenta" => $result['clave'],
             "Estado del conductor" => $result['conductor_estado'],

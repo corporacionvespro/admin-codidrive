@@ -283,7 +283,7 @@ $result = $conn->query($sql);
             <div class="card">
                 <div class="card-header bg-transparent">
 
-                    <button class="boton-save" style="margin-right: 5px;" onclick="datos('registrar',0,0,0,0,0,0,0,0,0,0,'https:\/\/chapatutaxi.com/admin/assets/img/brand/logo.png');">
+                    <button class="boton-save" style="margin-right: 5px;" onclick="datos('registrar',0,0,0,0,0,0,0,0,0,0,'https:\/\/codidrive.com/admin/assets/img/brand/logo.png');">
                         <i class="fas fa-plus-circle"></i> Registrar negocio asociado
                     </button>
                 </div>

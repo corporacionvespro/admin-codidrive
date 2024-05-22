@@ -385,7 +385,7 @@
                     $("#formulario").css("display", "none");
                     $("#valido").css("display", "block");
                 } else {
-                    window.location.replace("https://chapatutaxi.com/admin/restorepassword");
+                    window.location.replace("https://codidrive.com/admin/restorepassword");
                 }
             });
         }

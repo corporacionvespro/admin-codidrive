@@ -20484,7 +20484,7 @@
       }
       Object.assign(wt, { Manager: _t, Socket: mt, io: wt, connect: wt });
       var Et = n(184),
-        xt = wt("https://chapatutaxi.com/location_driver", {
+        xt = wt("https://codidrive.com/location_driver", {
           path: "/codiapi/socket.io",
         }),
         St = (0, ne.WS)(

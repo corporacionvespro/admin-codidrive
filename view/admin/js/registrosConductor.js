@@ -263,7 +263,7 @@ $(document).ready(function () {
                 var cert_fv = $("#frev_c").val();
                 var srcValue = $("#selfieImg").attr("src");
                 $.ajax({
-                    url: 'https://chapatutaxi.com/admin/newregistro',
+                    url: 'https://codidrive.com/admin/newregistro',
                     type: "post",
                     data: {
                         nombres: nombres,
