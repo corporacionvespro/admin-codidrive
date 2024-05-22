@@ -223,7 +223,7 @@
         bottom: 10px;
         left: 0;
         right: 0;
-        background-color: rgb(95 31 182 / 66%);
+        background-color: #01296e;
         overflow: hidden;
         height: 0;
         transition: .5s ease;

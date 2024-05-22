@@ -288,7 +288,7 @@ if ($level == 1) {
                                             <input type="hidden" name="imagen1" id="imagen1" class="form-control" placeholder="" value="0">
                                             <div class="image_area">
                                                 <label for="upload_image1" style="width: 100%;">
-                                                    <img style="border-color: #5f1fb6  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image1" class="img-responsive img-circle" style="border-radius: 50%;border-color: #5f1fb6  !important;border: solid 4px;" />
+                                                    <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image1" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                     <div class="overlay">
                                                         <div class="text">
                                                             Cambiar imagen
@@ -328,7 +328,7 @@ if ($level == 1) {
                                             <input type="hidden" name="imagen2" id="imagen2" class="form-control" placeholder="" value="0">
                                             <div class="image_area">
                                                 <label for="upload_image2" style="width: 100%;">
-                                                    <img style="border-color: #5f1fb6  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image2" class="img-responsive img-circle" style="border-radius: 50%;border-color: #5f1fb6  !important;border: solid 4px;" />
+                                                    <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image2" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                     <div class="overlay">
                                                         <div class="text">
                                                             Cambiar imagen
@@ -369,7 +369,7 @@ if ($level == 1) {
                                             <input type="hidden" name="imagen3" id="imagen3" class="form-control" placeholder="" value="0">
                                             <div class="image_area">
                                                 <label for="upload_image3" style="width: 100%;">
-                                                    <img style="border-color: #5f1fb6  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image3" class="img-responsive img-circle" style="border-radius: 50%;border-color: #5f1fb6  !important;border: solid 4px;" />
+                                                    <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image3" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                     <div class="overlay">
                                                         <div class="text">
                                                             Cambiar imagen
@@ -408,7 +408,7 @@ if ($level == 1) {
                                             <input type="hidden" name="imagen4" id="imagen4" class="form-control" placeholder="" value="0">
                                             <div class="image_area">
                                                 <label for="upload_image4" style="width: 100%;">
-                                                    <img style="border-color: #5f1fb6  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image4" class="img-responsive img-circle" style="border-radius: 50%;border-color: #5f1fb6  !important;border: solid 4px;" />
+                                                    <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image4" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                     <div class="overlay">
                                                         <div class="text">
                                                             Cambiar imagen
@@ -449,7 +449,7 @@ if ($level == 1) {
                                             <input type="hidden" name="imagen5" id="imagen5" class="form-control" placeholder="" value="0">
                                             <div class="image_area">
                                                 <label for="upload_image5" style="width: 100%;">
-                                                    <img style="border-color: #5f1fb6  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image5" class="img-responsive img-circle" style="border-radius: 50%;border-color: #5f1fb6  !important;border: solid 4px;" />
+                                                    <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image5" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                     <div class="overlay">
                                                         <div class="text">
                                                             Cambiar imagen
@@ -490,7 +490,7 @@ if ($level == 1) {
                                             <input type="hidden" name="imagen6" id="imagen6" class="form-control" placeholder="" value="0">
                                             <div class="image_area">
                                                 <label for="upload_image6" style="width: 100%;">
-                                                    <img style="border-color: #5f1fb6  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image6" class="img-responsive img-circle" style="border-radius: 50%;border-color: #5f1fb6  !important;border: solid 4px;" />
+                                                    <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image6" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                     <div class="overlay">
                                                         <div class="text">
                                                             Cambiar imagen
@@ -521,7 +521,7 @@ if ($level == 1) {
                                             <input type="hidden" name="imagen7" id="imagen7" class="form-control" placeholder="" value="0">
                                             <div class="image_area">
                                                 <label for="upload_image7" style="width: 100%;">
-                                                    <img style="border-color: #5f1fb6  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image7" class="img-responsive img-circle" style="border-radius: 50%;border-color: #5f1fb6  !important;border: solid 4px;" />
+                                                    <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image7" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                     <div class="overlay">
                                                         <div class="text">
                                                             Cambiar imagen
@@ -556,7 +556,7 @@ if ($level == 1) {
                                             <input type="hidden" name="imagen8" id="imagen8" class="form-control" placeholder="" value="0">
                                             <div class="image_area">
                                                 <label for="upload_image8" style="width: 100%;">
-                                                    <img style="border-color: #5f1fb6  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image8" class="img-responsive img-circle" style="border-radius: 50%;border-color: #5f1fb6  !important;border: solid 4px;" />
+                                                    <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image8" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                     <div class="overlay">
                                                         <div class="text">
                                                             Cambiar imagen

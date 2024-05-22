@@ -16,7 +16,7 @@ curl_setopt_array($curl, array(
 ));
 $response = json_decode(curl_exec($curl), true);
 curl_close($curl);
-if ($response['admin']['id_administrador'] == 4) {
+if ($response['admin']['id_administrador'] == 5) {
     $level = 2;
 } else {
     $level = 3;

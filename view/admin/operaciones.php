@@ -52,7 +52,7 @@ if ($level == 1) {
 
     .daterangepicker td.available:hover,
     .daterangepicker th.available:hover {
-        background-color: #5f1fb6;
+        background-color: #01296e;
         border-color: transparent;
         color: #fff;
     }
