@@ -177,7 +177,7 @@
                     password: password
                 },
                 success: function(result) {
-                   // window.location.href = result;
+                    window.location.href = result;
                 }
             });
         }
