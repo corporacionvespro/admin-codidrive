@@ -87,7 +87,7 @@ body {
     line-height: 1.5;
     margin: 0;
     text-align: left;
-    color: #e2ecf2;
+    color: #525f7f;
     background-color: #f8f9fe
 }
 
@@ -1517,7 +1517,7 @@ pre code {
 .table {
     width: 100%;
     margin-bottom: 1rem;
-    color: #e2ecf2;
+    color: #525f7f;
     background-color: transparent
 }
 
@@ -1568,7 +1568,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-    color: #e2ecf2;
+    color: #525f7f;
     background-color: #e2ecf2
 }
 
@@ -2038,7 +2038,7 @@ select.form-control:focus::-ms-value {
     margin-bottom: 0;
     padding-top: .625rem;
     padding-bottom: .625rem;
-    color: #e2ecf2;
+    color: #525f7f;
     border: solid transparent;
     border-width: 1px 0;
     background-color: transparent
@@ -2425,7 +2425,7 @@ textarea.form-control {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     text-align: center;
     vertical-align: middle;
-    color: #e2ecf2;
+    color: #525f7f;
     border: 1px solid transparent;
     border-radius: .25rem;
     background-color: transparent
@@ -2439,7 +2439,7 @@ textarea.form-control {
 
 .btn:hover {
     text-decoration: none;
-    color: #e2ecf2
+    color: #525f7f
 }
 
 .btn.focus,
@@ -3517,7 +3517,7 @@ input[type=submit].btn-block {
     padding: .5rem 0;
     list-style: none;
     text-align: left;
-    color: #e2ecf2;
+    color: #525f7f;
     border: 0 solid rgba(0, 0, 0, .15);
     border-radius: .4375rem;
     background-color: #fff;
@@ -4562,7 +4562,7 @@ input[type=submit].btn-block {
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    color: #e2ecf2;
+    color: #525f7f;
     border-color: #dee2e6 #dee2e6 #f8f9fe;
     background-color: #f8f9fe
 }
@@ -5906,19 +5906,19 @@ a.badge:hover {
 .list-group-item-action {
     width: 100%;
     text-align: inherit;
-    color: #e2ecf2
+    color: #525f7f
 }
 
 .list-group-item-action:focus,
 .list-group-item-action:hover {
     z-index: 1;
     text-decoration: none;
-    color: #e2ecf2;
+    color: #525f7f;
     background-color: #e2ecf2
 }
 
 .list-group-item-action:active {
-    color: #e2ecf2;
+    color: #525f7f;
     background-color: #e2ecf2
 }
 
@@ -6835,7 +6835,7 @@ a.close.disabled {
 
 .popover-body {
     padding: .5rem .95rem;
-    color: #e2ecf2
+    color: #525f7f
 }
 
 .carousel {
@@ -13407,7 +13407,7 @@ a.text-darker:hover {
 }
 
 .text-body {
-    color: #e2ecf2!important
+    color: #525f7f!important
 }
 
 .text-muted {
@@ -14319,7 +14319,7 @@ a.text-darker:hover {
 }
 
 [data-toggle=buttons]:not(.btn-group-colors)>.btn:not(.active) {
-    color: #e2ecf2
+    color: #525f7f
 }
 
 [data-toggle=buttons]:not(.btn-group-colors)>.btn.active {
@@ -14369,7 +14369,7 @@ a.text-darker:hover {
 }
 
 .btn-group-colors>.btn.btn:not([class*=bg-]):before {
-    color: #e2ecf2
+    color: #525f7f
 }
 
 .btn-group-colors>.btn.active:before {
@@ -15410,7 +15410,7 @@ a.btn-icon-only {
 
 .footer .footer-link:hover,
 .footer .nav .nav-item .nav-link:hover {
-    color: #e2ecf2!important
+    color: #525f7f!important
 }
 
 .footer .list-unstyled li a {
@@ -15421,7 +15421,7 @@ a.btn-icon-only {
 }
 
 .footer .list-unstyled li a:hover {
-    color: #e2ecf2
+    color: #525f7f
 }
 
 .footer .copyright {
@@ -15474,7 +15474,7 @@ a.btn-icon-only {
 .form-control-label {
     font-size: .875rem;
     font-weight: 600;
-    color: #e2ecf2
+    color: #525f7f
 }
 
 .form-control {
@@ -17938,7 +17938,7 @@ textarea[resize=horizontal] {
 }
 
 .nav-link {
-    color: #e2ecf2
+    color: #525f7f
 }
 
 .nav-link:hover {
@@ -20998,7 +20998,7 @@ table.dataTable tbody>tr.selected {
 }
 
 .dz-message:hover {
-    color: #e2ecf2;
+    color: #525f7f;
     border-color: #8898aa
 }
 
@@ -21930,7 +21930,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     padding: 0 .25rem;
     cursor: pointer;
     transition: all .15s ease;
-    color: #e2ecf2;
+    color: #525f7f;
     border: none;
     background: 0 0
 }
@@ -23239,7 +23239,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
-    color: #e2ecf2
+    color: #525f7f
 }
 
 .select2-container .select2-search--inline {
