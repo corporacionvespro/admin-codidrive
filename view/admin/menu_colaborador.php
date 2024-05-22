@@ -54,7 +54,7 @@
         <div class="sidenav-header d-flex align-items-center">
           <!---->
           <a class="navbar-brand" href="./admin" id="img_base_menu" style="width: 100%;">
-            <img src="./assets/img/brand/logo.png" class="navbar-brand-img" alt="..." style="width: 100%;height: 100%;">
+            <img src="./assets/img/brand/logocodi.webp" class="navbar-brand-img" alt="..." style="width: 100%;height: 100%;">
           </a>
           <div class="ml-auto">
             <!-- Sidenav toggler -->
