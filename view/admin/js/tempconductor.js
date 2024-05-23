@@ -11,9 +11,21 @@ function validarPorcentaje() {
     if (porcentajeInput.value < 0) {
         porcentajeInput.value = 0;
     }
+}function validarmonto() {
+    var montoInput = document.getElementById("monto");
+    if (montoInput.value < 0) {
+        montoInput.value = 0;
+    }
+}function validardias() {
+    var diasInput = document.getElementById("dias");
+    if (diasInput.value < 0) {
+        diasInput.value = 0;
+    }
 }
 
 document.getElementById("porcentaje").addEventListener("keyup", validarPorcentaje);
+document.getElementById("monto").addEventListener("keyup", validarmonto);
+document.getElementById("dias").addEventListener("keyup", validardias);
 
 
 var tipo_opreacion = '';
