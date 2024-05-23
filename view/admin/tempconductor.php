@@ -777,7 +777,7 @@ if ($level == 1) {
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-control-label" for="example2cols1Input">Porcentaje</label>
-                                    <input type="number" step="0.01" id="porcentaje" name="porcentaje" class="form-control" placeholder="" autocomplete="off">
+                                    <input type="number" step="0.01" id="porcentaje" name="porcentaje" class="form-control" placeholder="" autocomplete="off"  min="0">
                                 </div>
                             </div>
                         </div>
