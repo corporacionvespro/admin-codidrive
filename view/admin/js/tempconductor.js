@@ -380,6 +380,7 @@ function cambiarestado3(id, estado) {
 }
 
 function cambiarestado2(id, estado) {
+    $("#porcentaje").val(0);
     $("#monto").val(0);
     $("#f_inicio").val('');
     $("#f_final").val('');
