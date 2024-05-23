@@ -23,7 +23,7 @@
 
 <body class="bg-gradient-primary" style="min-height: 100vh;">
     <!-- Navbar -->
-    <a href="https://wa.me/51992195100?text=hola" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/51930627629?text=hola" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     <!-- Main content -->
     <div class="main-content">
         <!-- Header -->
