@@ -805,7 +805,7 @@ if ($level == 1) {
                                 <div class="form-group">
                                     <label class="form-control-label" for="example2cols1Input">Días</label>
                                     <div class="input-group mb-3">
-                                        <input type="number" id="dias" name="dias" class="form-control" onclick="bloqcon();" autocomplete="off" value="0">
+                                        <input type="number" id="dias" name="dias" class="form-control" onclick="bloqcon();" autocomplete="off" value="0" min="0">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="calcular2" data-toggle="tooltip" data-placement="top" title="Calcular fecha" onclick="c_fechas();"><i class="fas fa-calendar-alt"></i></button>
                                         </div>
