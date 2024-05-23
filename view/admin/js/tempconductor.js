@@ -1,3 +1,11 @@
+var today = new Date();
+var day = ("0" + today.getDate()).slice(-2);
+var month = ("0" + (today.getMonth() + 1)).slice(-2);
+var year = today.getFullYear();
+var todayFormatted = year + "-" + month + "-" + day;
+document.getElementById("f_inicio").setAttribute("min", todayFormatted);
+    
+
 var tipo_opreacion = '';
 var metodo_pago = '';
 var tipo_pago = '';
@@ -380,7 +388,7 @@ function cambiarestado3(id, estado) {
 }
 
 function cambiarestado2(id, estado) {
-    
+
     $("#porcentaje").val(0);
     $("#monto").val(0);
     $("#f_inicio").val('');
