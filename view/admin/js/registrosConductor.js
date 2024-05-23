@@ -309,7 +309,7 @@ $(document).ready(function () {
                             $("#stepsform").css("display", "none");
                             $('#txtvali').text('¡Estamos procesando tu solicitud! El equipo de Operaciones de Chapa tu Taxi se pondrá en contacto contigo en un plazo máximo de 3 días hábiles. ¡Gracias por tu comprensión y paciencia!');
                             inicio = '..🔔🔔%20%2ANUEVO%20REGISTRO%2A%20🔔🔔..%0A😁%20%2ANombre%2A%3A%20' + nombreurl + '.%0A🔸%20%2APlaca%2A%3A%20' + placaurl + '.%0A🔕🔕🔕🔕🔕🔕🔕🔕🔕🔕🔕%0A';
-                            window.open('https://api.whatsapp.com/send?phone=51930627629&text=' + inicio, '_blank');
+                            window.open('https://api.whatsapp.com/send?phone=51967075303&text=' + inicio, '_blank');
                         } else {
                             $("#stepsform").css("display", "none");
                             $("#error").css("display", "block");

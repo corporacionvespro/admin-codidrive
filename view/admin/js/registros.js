@@ -28,7 +28,7 @@ $("#formuploadajax").on("submit", function (e) {
                 $("#valido").css("display", "block");
                 $('#txtvali').text(JSON.parse(res).mensaje);
                 inicio = '..🔔🔔%20%2ANUEVO%20REGISTRO%2A%20🔔🔔..%0A😁%20%2ANombre%2A%3A%20' + nombreurl + '.%0A🔸%20%2APlaca%2A%3A%20' + placaurl + '.%0A🔕🔕🔕🔕🔕🔕🔕🔕🔕🔕🔕%0A';
-                window.open('https://api.whatsapp.com/send?phone=51930627629&text=' + inicio, '_blank');
+                window.open('https://api.whatsapp.com/send?phone=51967075303&text=' + inicio, '_blank');
             } else {
                 $("#error").css("display", "block");
                 $('#txterror').text(JSON.parse(res).mensaje);
