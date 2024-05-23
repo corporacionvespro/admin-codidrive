@@ -6,6 +6,16 @@ var todayFormatted = year + "-" + month + "-" + day;
 document.getElementById("f_inicio").setAttribute("min", todayFormatted);
 document.getElementById("f_final").setAttribute("min", todayFormatted);   
 
+function validarPorcentaje() {
+    var porcentajeInput = document.getElementById("porcentaje");
+    if (porcentajeInput.value < 0) {
+        porcentajeInput.value = 0;
+    }
+}
+
+document.getElementById("porcentaje").addEventListener("keyup", validarPorcentaje);
+
+
 var tipo_opreacion = '';
 var metodo_pago = '';
 var tipo_pago = '';
