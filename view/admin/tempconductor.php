@@ -776,12 +776,18 @@ if ($level == 1) {
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="form-control-label" for="example2cols1Input">Fecha inicio</label>
-                                    <input type="date" id="f_inicio" name="f_inicio" class="form-control" placeholder="" autocomplete="off">
+                                    <label class="form-control-label" for="example2cols1Input">Porcentaje</label>
+                                    <input type="number" step="0.01" id="porcentaje" name="porcentaje" class="form-control" placeholder="" autocomplete="off">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="example2cols1Input">Fecha inicio</label>
+                                    <input type="date" id="f_inicio" name="f_inicio" class="form-control" placeholder="" autocomplete="off">
+                                </div>
+                            </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-control-label" for="example2cols1Input">Fecha final</label>
@@ -793,6 +799,8 @@ if ($level == 1) {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">    
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-control-label" for="example2cols1Input">Días</label>
