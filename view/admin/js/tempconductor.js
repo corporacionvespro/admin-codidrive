@@ -4,7 +4,7 @@ var month = ("0" + (today.getMonth() + 1)).slice(-2);
 var year = today.getFullYear();
 var todayFormatted = year + "-" + month + "-" + day;
 document.getElementById("f_inicio").setAttribute("min", todayFormatted);
-    
+document.getElementById("f_final").setAttribute("min", todayFormatted);   
 
 var tipo_opreacion = '';
 var metodo_pago = '';
