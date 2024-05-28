@@ -53,7 +53,7 @@ hr {
     content: '';
     transition: all .15s cubic-bezier(.68, -.55, .265, 1.55);
     border-radius: 50% !important;
-    background-color: #4f119b;
+    background-color: #01296e;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
