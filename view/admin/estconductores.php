@@ -20,7 +20,7 @@ if ($level == 1) {
 ?>
 <style>
     hr {
-        border-top: 1px solid #501a99;
+        border-top: 1px solid #01296e;
     }
 
     .dataTables_length {
