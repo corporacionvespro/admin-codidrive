@@ -719,8 +719,13 @@ td.dt-center {
 
     function validarPorcentaje() {
         var porcentajeInput = document.getElementById("porcentaje");
-        if (porcentajeInput.value < 0) {
+        if (porcentajeInput.value <= 0) {
             porcentajeInput.value = 0;
+            $('#calcular1').prop('disabled', false);
+            $('#f_final').prop('disabled', false);
+        } else {
+            $('#calcular1').prop('disabled', true);
+            $('#f_final').prop('disabled', true);
         }
     }
 
