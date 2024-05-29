@@ -27,6 +27,7 @@ $fecha_notificar = $_POST['fecha_notificar'];
 $detalleact = $_POST['detalleact'];
 $metodo_pago = $_POST['metodo_pago'];
 $tipo_pago = $_POST['tipo_pago'];
+$porcentajes = $_POST['porcentajes'];
 $tipo_caja = '';
 if ($tipo_pago == 'banco') {
     $tipo_caja = 'banco';
@@ -36,8 +37,8 @@ if ($tipo_pago == 'banco') {
 
 $tipo_opreacion = $_POST['tipo_opreacion'];
 $detalle  = TildesHtml($detalleact);
-$query2 = "INSERT INTO `saldo_conductor`(`id_conductores`, `monto`,`cantidad_dias`, `monto_dia`, `fecha_inicio`, `fecha_final`, `fecha_registro`, `fecha_notificar`, `estado`, `detalle`)
-VALUES ('{$id_conductores}','{$monto}','{$cantidad_dias}','{$monto_dia}','{$fecha_inicio}','{$fecha_final}','{$fechahora}','{$fecha_notificar}','1','{$detalle}')";
+$query2 = "INSERT INTO `saldo_conductor`(`id_conductores`,`monto`,`porcentaje`,`cantidad_dias`, `monto_dia`, `fecha_inicio`, `fecha_final`, `fecha_registro`, `fecha_notificar`, `estado`, `detalle`)
+VALUES ('{$id_conductores}','{$monto}','{$cantidad_dias}','{$monto_dia}','{$porcentajes}','{$fecha_inicio}','{$fecha_final}','{$fechahora}','{$fecha_notificar}','1','{$detalle}')";
 if ($db->query($query2)) {
     $query_s = $db->query("SELECT id_saldo FROM `saldo_conductor` ORDER BY `id_saldo` DESC LIMIT 1;");
     $id_s = $query_s->fetch_assoc();

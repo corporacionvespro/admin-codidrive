@@ -31,6 +31,7 @@ $fecha_notificar = $_POST['fecha_notificar'];
 $detalleact = $_POST['detalleact'];
 $metodo_pago = $_POST['metodo_pago'];
 $tipo_pago = $_POST['tipo_pago'];
+$porcentajes = $_POST['porcentajes'];
 $tipo_caja = '';
 
 if ($tipo_pago == 'banco') {
@@ -53,10 +54,11 @@ $stmt = $pdo->prepare($query);
 $stmt->bindParam(':id_saldo_conductors', $id_saldo_conductors);
 
 if ($stmt->execute()) {
-    $query2 = "INSERT INTO saldo_conductor (id_conductores, monto, cantidad_dias, monto_dia, fecha_inicio, fecha_final, fecha_registro, fecha_notificar, estado, detalle) VALUES (:id_conductores, :monto, :cantidad_dias, :monto_dia, :fecha_inicio, :fecha_final, :fechahora, :fecha_notificar, 1, :detalle)";
+    $query2 = "INSERT INTO saldo_conductor (id_conductores, monto, porcentaje, cantidad_dias, monto_dia, fecha_inicio, fecha_final, fecha_registro, fecha_notificar, estado, detalle) VALUES (:id_conductores, :monto, :cantidad_dias, :monto_dia, :fecha_inicio, :fecha_final, :fechahora, :fecha_notificar, 1, :detalle)";
     $stmt2 = $pdo->prepare($query2);
     $stmt2->bindParam(':id_conductores', $id_conductores);
     $stmt2->bindParam(':monto', $monto);
+    $stmt2->bindParam(':porcentaje', $porcentajes);
     $stmt2->bindParam(':cantidad_dias', $cantidad_dias);
     $stmt2->bindParam(':monto_dia', $monto_dia);
     $stmt2->bindParam(':fecha_inicio', $fecha_inicio);
