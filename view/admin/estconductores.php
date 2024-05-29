@@ -658,8 +658,8 @@ td.dt-center {
                                     <th>Telefono</th>
                                     <th>Usuario</th>
                                     <th>Estado</th>
-                                    <th>Porcentaje</th>
                                     <th>F. Vence</th>
+                                    <th>Porcentaje</th>
                                     <th>M. periodo</th>
                                     <th>P. d&iacute;as</th>
                                     <th>M. d&iacute;a</th>
@@ -678,8 +678,8 @@ td.dt-center {
                                     <th>Telefono</th>
                                     <th>Usuario</th>
                                     <th>Estado</th>
-                                    <th>Porcentaje</th>
                                     <th>F. Vence</th>
+                                    <th>Porcentaje</th>
                                     <th>M. periodo</th>
                                     <th>P. d&iacute;as</th>
                                     <th>M. d&iacute;a</th>
