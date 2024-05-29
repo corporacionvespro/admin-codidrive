@@ -349,7 +349,7 @@ function reg_asociados() {
 
             $.ajax({
                 type: "POST",
-                url: "https://iwork.pe/chapatutaxi/categorias_asociados/upbase64.php",
+                url: "https://codidrive.com/upbase64.php",
                 data: {
                     imagen_base64: base64
                 },
