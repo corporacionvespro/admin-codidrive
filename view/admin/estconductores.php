@@ -723,9 +723,11 @@ td.dt-center {
             porcentajeInput.value = 0;
             $('#calcular1').prop('disabled', false);
             $('#f_final').prop('disabled', false);
+            $('#dias').val('');
         } else {
             $('#calcular1').prop('disabled', true);
             $('#f_final').prop('disabled', true);
+            $('#dias').val('365');
         }
     }
 
