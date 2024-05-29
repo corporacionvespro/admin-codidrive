@@ -33,6 +33,14 @@ if ($tipo_pago == 'banco') {
 } else {
     $tipo_caja = 'caja';
 }
+$estado = '';
+if ($fecha_inicio == $fecha) {
+    $estado = 'activo';
+} elseif ($fecha_inicio > $fecha) {
+    $estado = 'bloqueado';
+} else {
+    $estado = 'inactivo';
+}
 
 $tipo_opreacion = $_POST['tipo_opreacion'];
 $detalle  = TildesHtml($detalleact);
@@ -49,7 +57,6 @@ if ($db->query($query)) {
         $id_s = $query_s->fetch_assoc();
         $id_ss = intval($id_s['id_saldo']);
         $complemento2 = array('tabla' => 'saldo_conductor', 'id' => $id_ss);
-        //$out = array_values($complemento2);
         $complemento = json_encode($complemento2);
         $curl = curl_init();
         curl_setopt_array($curl, array(
@@ -61,7 +68,7 @@ if ($db->query($query)) {
             CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => 'POST',
-            CURLOPT_POSTFIELDS => array('estado' => 'activo', 'id_conductor' => $id_conductores),
+            CURLOPT_POSTFIELDS => array('estado' => $estado, 'id_conductor' => $id_conductores),
         ));
         $response = json_decode(curl_exec($curl), true);
         curl_close($curl);
