@@ -702,6 +702,7 @@
                                     <h6 class="heading-small text-center mb-4">Datos Personales</h6>
                                     <div class="row">
                                         <div class="col-md-12">
+                                            
                                             <div class="container">
                                                 <div class="avatar-upload" style="margin-top: 0px;display: flex;flex-direction: column;align-content: space-between;align-items: center;justify-content: center;flex-wrap: nowrap;">
                                                     <div class="avatar-edit">
