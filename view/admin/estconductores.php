@@ -659,8 +659,8 @@ td.dt-center {
                                     <th>Usuario</th>
                                     <th>Estado</th>
                                     <th>F. Vence</th>
-                                    <th>Porcentaje</th>
                                     <th>M. periodo</th>
+                                    <th>Porcentaje</th>
                                     <th>P. d&iacute;as</th>
                                     <th>M. d&iacute;a</th>
                                     <th>Recargar</th>
@@ -679,8 +679,8 @@ td.dt-center {
                                     <th>Usuario</th>
                                     <th>Estado</th>
                                     <th>F. Vence</th>
-                                    <th>Porcentaje</th>
                                     <th>M. periodo</th>
+                                    <th>Porcentaje</th>
                                     <th>P. d&iacute;as</th>
                                     <th>M. d&iacute;a</th>
                                     <th>Recargar</th>
