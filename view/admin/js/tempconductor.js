@@ -446,7 +446,6 @@ function cambiarestado2(id, estado) {
   $("#calcular1").prop("disabled", false);
   $("#f_final").prop("disabled", false);
   $("#dias").prop("disabled", false);
-  $("#dias").val("");
   $("#calcular1").attr("data-original-title", "Calcular días");
   $("#porcentaje").val(0);
   $("#monto").val(0);

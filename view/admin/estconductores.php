@@ -1043,8 +1043,8 @@ td.dt-center {
         $("#calcular1").prop("disabled", false);
         $("#f_final").prop("disabled", false);
         $("#dias").prop("disabled", false);
-        $("#dias").val("");
         $("#calcular1").attr("data-original-title", "Calcular días");
+        $("#porcentaje").val(0);
         $("#monto").val(monto);
         $("#f_inicio").val(hoy);
         $("#f_final").val('');
