@@ -702,7 +702,7 @@
                                     <h6 class="heading-small text-center mb-4">Datos Personales</h6>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            
+
                                             <div class="container">
                                                 <div class="avatar-upload" style="margin-top: 0px;display: flex;flex-direction: column;align-content: space-between;align-items: center;justify-content: center;flex-wrap: nowrap;">
                                                     <div class="avatar-edit">
@@ -710,11 +710,11 @@
                                                     </div>
 
                                                     <div class="avatar-preview">
-                                                        <img id="selfieImg" src="https://iwork.pe/chapatutaxi/53/dni_frontal/53-06102023153803.webp" alt="Selfie" style="border-radius: 100%;">
+                                                        <img id="selfieImg" src="https://codidrive.com/admin/assets/img/brand/logo4.webp" alt="Selfie" style="border-radius: 100%;">
                                                         <video id="video" autoplay style="display: none;"></video>
                                                     </div>
                                                     <input type="file" id="archivoInput" style="display: none;">
-                                                    <input type="hidden" id="selfies" value="https://iwork.pe/chapatutaxi/53/dni_frontal/53-06102023153803.webp">
+                                                    <input type="hidden" id="selfies" value="https://codidrive.com/admin/assets/img/brand/logo4.webp">
                                                     <canvas id="canvas" style="display: none;"></canvas>
                                                     <div id="resultado" style="display: none;"></div>
                                                     <div class="mt-3" style="display: flex;justify-content: center;flex-direction: row;align-items: center;align-content: center;flex-wrap: nowrap;">

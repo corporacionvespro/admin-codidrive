@@ -129,7 +129,7 @@ $(document).ready(function () {
             setProgressBar(++current);
         } else if (elementId == 'segundo') {
             var srcValueval = $("#selfieImg").attr("src");
-            if (srcValueval === "https://iwork.pe/chapatutaxi/53/dni_frontal/53-06102023153803.webp") {
+            if (srcValueval === "https://codidrive.com/admin/assets/img/brand/logo4.webp") {
                 alert("Por favor, ten en cuenta que es obligatorio tomar la foto para poder continuar. Asegúrate de seguir las instrucciones y hacer clic en 'Abrir cámara' en la parte superior para completar este paso. ¡Gracias por tu cooperación!");
             } else {
                 var nombres = $("#nombres").val();
@@ -590,7 +590,7 @@ $(document).ready(function () {
                 var tipo1 = 'dni_frontal';
                 var id1 = glob_idconductor;
                 $.ajax({
-                    url: 'https://iwork.pe/chapatutaxi/imgchapatutaxi.php',
+                    url: 'https://codidrive.com/img.php',
                     type: "post",
                     data: {
                         image: base64data1,
@@ -625,7 +625,7 @@ $(document).ready(function () {
                 var tipo2 = 'dni_posterior';
                 var id2 = glob_idconductor;
                 $.ajax({
-                    url: 'https://iwork.pe/chapatutaxi/imgchapatutaxi.php',
+                    url: 'https://codidrive.com/img.php',
                     type: "post",
                     data: {
                         image: base64data2,
@@ -660,7 +660,7 @@ $(document).ready(function () {
                 var tipo3 = 'licencia_delantera';
                 var id3 = glob_idconductor;
                 $.ajax({
-                    url: 'https://iwork.pe/chapatutaxi/imgchapatutaxi.php',
+                    url: 'https://codidrive.com/img.php',
                     type: "post",
                     data: {
                         image: base64data3,
@@ -695,7 +695,7 @@ $(document).ready(function () {
                 var tipo4 = 'licencia_posterior';
                 var id4 = glob_idconductor;
                 $.ajax({
-                    url: 'https://iwork.pe/chapatutaxi/imgchapatutaxi.php',
+                    url: 'https://codidrive.com/img.php',
                     type: "post",
                     data: {
                         image: base64data4,
@@ -730,7 +730,7 @@ $(document).ready(function () {
                 var tipo5 = 'soat';
                 var id5 = glob_idconductor;
                 $.ajax({
-                    url: 'https://iwork.pe/chapatutaxi/imgchapatutaxi.php',
+                    url: 'https://codidrive.com/img.php',
                     type: "post",
                     data: {
                         image: base64data5,
@@ -765,7 +765,7 @@ $(document).ready(function () {
                 var tipo6 = 't_v_propiedad_delantero';
                 var id6 = glob_idconductor;
                 $.ajax({
-                    url: 'https://iwork.pe/chapatutaxi/imgchapatutaxi.php',
+                    url: 'https://codidrive.com/img.php',
                     type: "post",
                     data: {
                         image: base64data6,
@@ -800,7 +800,7 @@ $(document).ready(function () {
                 var tipo7 = 't_v_propiedad_posterior';
                 var id7 = glob_idconductor;
                 $.ajax({
-                    url: 'https://iwork.pe/chapatutaxi/imgchapatutaxi.php',
+                    url: 'https://codidrive.com/img.php',
                     type: "post",
                     data: {
                         image: base64data7,
@@ -835,7 +835,7 @@ $(document).ready(function () {
                 var tipo8 = 'antecedentes_penales';
                 var id8 = glob_idconductor;
                 $.ajax({
-                    url: 'https://iwork.pe/chapatutaxi/imgchapatutaxi.php',
+                    url: 'https://codidrive.com/img.php',
                     type: "post",
                     data: {
                         image: base64data8,
