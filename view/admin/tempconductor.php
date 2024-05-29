@@ -787,20 +787,7 @@ if ($level == 1) {
                                     <label class="form-control-label" for="example2cols1Input">Fecha inicio</label>
                                     <input type="date" id="f_inicio" name="f_inicio" class="form-control" placeholder="" autocomplete="off">
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="example2cols1Input">Fecha final</label>
-                                    <div class="input-group mb-3">
-                                        <input type="date" id="f_final" name="f_final" class="form-control" onclick="bloqcon();" autocomplete="off">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-primary" type="button" id="calcular1" data-toggle="tooltip" data-placement="top" title="Calcular días" onclick="c_dias();"><i class="fas fa-calendar-alt"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">    
+                            </div>    
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-control-label" for="example2cols1Input">Días</label>
@@ -808,6 +795,19 @@ if ($level == 1) {
                                         <input type="number" id="dias" name="dias" class="form-control" onclick="bloqcon();" autocomplete="off" value="0" min="0">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="calcular2" data-toggle="tooltip" data-placement="top" title="Calcular fecha" onclick="c_fechas();"><i class="fas fa-calendar-alt"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="example2cols1Input">Fecha final</label>
+                                    <div class="input-group mb-3">
+                                        <input type="date" id="f_final" name="f_final" class="form-control" onclick="bloqcon();" autocomplete="off">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-primary" type="button" id="calcular1" data-toggle="tooltip" data-placement="top" title="Calcular días" onclick="c_dias();"><i class="fas fa-calendar-alt"></i></button>
                                         </div>
                                     </div>
                                 </div>
