@@ -726,6 +726,12 @@ td.dt-center {
             $('#dias').prop('disabled', false);
             $("#dias").val("");
             $('#calcular1').attr('data-original-title', 'Calcular días');
+        } else if (porcentajeInput.value == 0) {
+            $("#calcular1").prop("disabled", false);
+            $('#f_final').prop('disabled', false);
+            $('#dias').prop('disabled', false);
+            $("#dias").val("");
+            $('#calcular1').attr('data-original-title', 'Calcular días');
         } else {
             $("#calcular1").prop("disabled", true);
             $("#f_final").prop("disabled", true);
