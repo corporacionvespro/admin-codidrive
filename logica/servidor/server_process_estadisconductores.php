@@ -216,6 +216,8 @@ while ($aRow = $rResult->fetch_array()) {
 			}
 		} elseif ($aColumnas2[$i] == "cantidad_dias") {
 			$row[] = "<td class='text-center'><span style='font-size: 19px;font-weight: bold;color: #01296e;background: #ecf7fd;padding: 2px 10px 2px 10px;border-radius: 25px;'>" . $aRow[$aColumnas2[$i]] . "</span></td>";
+		} elseif ($aColumnas2[$i] == "porcentaje") {
+			$row[] = "<td class='text-center'>" . $aRow[$aColumnas2[$i]] . "% </td>";
 		} elseif ($aColumnas2[$i] == "monto_dia") {
 			$monto_m = $aRow[$aColumnas2[$i]];
 			if ($monto_m == 'NaN') {

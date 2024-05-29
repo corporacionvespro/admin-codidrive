@@ -658,6 +658,7 @@ td.dt-center {
                                     <th>Telefono</th>
                                     <th>Usuario</th>
                                     <th>Estado</th>
+                                    <th>Porcentaje</th>
                                     <th>F. Vence</th>
                                     <th>M. periodo</th>
                                     <th>P. d&iacute;as</th>
@@ -677,6 +678,7 @@ td.dt-center {
                                     <th>Telefono</th>
                                     <th>Usuario</th>
                                     <th>Estado</th>
+                                    <th>Porcentaje</th>
                                     <th>F. Vence</th>
                                     <th>M. periodo</th>
                                     <th>P. d&iacute;as</th>
@@ -1058,7 +1060,7 @@ td.dt-center {
         valores = estado;
         $("#guardarmonto").css("display", "none");
         $('#exampledesbloquear').modal('show');
-        
+
     }
 
     function guardarmontos() {
