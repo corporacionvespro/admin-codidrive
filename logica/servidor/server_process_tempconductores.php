@@ -98,7 +98,9 @@ while ($aRow = $rResult->fetch_array()) {
 			} else {
 				$row[] = "<td class='text-center'><img src='https://codidrive.com/codiapi/images/" . $aRow[$aColumnas2[$i]] . "' class='circle' style='width: 70px;height: 70px;overflow: hidden;border-radius: 45px;border: none;text-align: center;object-fit: cover;color: transparent;text-indent: 10000px;max-width: 100 !important;'></td>";
 			}
-		} elseif ($aColumnas2[$i] == "unidad") {
+		}/*elseif ($aColumnas2[$i] == "porcentaje") {
+			$row[] = "<td class='text-center'>" . $aRow[$aColumnas2[$i]] . "% </td>";
+		}*/elseif ($aColumnas2[$i] == "unidad") {
 			//
 		}elseif ($aColumnas2[$i] == "estado") {
 			//

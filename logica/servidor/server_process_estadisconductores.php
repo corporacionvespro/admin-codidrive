@@ -24,6 +24,7 @@ $aColumnas = array(
 	'conductor.estado',
 	'saldo_conductor.fecha_final',
 	'saldo_conductor.monto',
+	'saldo_conductor.porcentaje',
 	'saldo_conductor.cantidad_dias',
 	'saldo_conductor.monto_dia'
 );
@@ -39,6 +40,7 @@ $aColumnas3 = array(
 	'conductor.estado',
 	'saldo_conductor.fecha_final',
 	'saldo_conductor.monto',
+	'saldo_conductor.porcentaje',
 	'saldo_conductor.cantidad_dias',
 	'saldo_conductor.monto_dia'
 );
@@ -54,6 +56,7 @@ $aColumnas2 = array(
 	'estado',
 	'fecha_final',
 	'monto',
+	'porcentaje',
 	'cantidad_dias',
 	'monto_dia'
 );
