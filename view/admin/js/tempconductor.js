@@ -520,6 +520,7 @@ function resumen(not, xdias) {
   document.getElementById("f_not").innerHTML = not;
   document.getElementById("f_activa").innerHTML = $("#f_inicio").val();
   document.getElementById("periodo").innerHTML = $("#dias").val();
+  document.getElementById("r_porcentaje").innerHTML = $("#porcentaje").val();
   document.getElementById("detallecos").innerHTML = $("#detalleact").val();
   $("#resuemn_general").css("display", "block");
   $("#guardarmonto").css("display", "block");
@@ -545,6 +546,7 @@ function actcon() {
 }
 
 function regsaldo() {
+  porcentajes = $("#porcentaje").val();
   if ($("#banc_efec").is(":checked")) {
     tipo_pago = "efectivo";
     tipo_opreacion = "efectivo";
@@ -575,6 +577,7 @@ function regsaldo() {
       metodo_pago: metodo_pago,
       tipo_pago: tipo_pago,
       tipo_opreacion: tipo_opreacion,
+      porcentajes: porcentajes,
     },
     beforeSend: function () {
       $("#mensaje").html(

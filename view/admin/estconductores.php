@@ -535,6 +535,7 @@ td.dt-center {
                             <hr class="my-4">
                             <h6 class="heading-small text-center mb-4">Resumen</h6>
                             <ul>
+                                <li class="textomodal">Porcentaje <span id="r_porcentaje"></span> días.</li>
                                 <li class="textomodal">Periodo de pago cada <span id="periodo"></span> días.</li>
                                 <li class="textomodal">Fecha de activación: <span id="f_activa"></span></li>
                                 <li class="textomodal">Fecha de notificación: <span id="f_not"></span></li>
@@ -779,6 +780,7 @@ td.dt-center {
     var glob_f_inicio = '';
     var glob_dias = '';
     var glob_detalleact = '';
+    var glob_porcentaje = '';
 
     $(document).ready(function() {
         $(function() {
@@ -1115,6 +1117,7 @@ td.dt-center {
         document.getElementById("f_not").innerHTML = not;
         document.getElementById("f_activa").innerHTML = $("#f_inicio").val();
         document.getElementById("periodo").innerHTML = $("#dias").val();
+        document.getElementById("r_porcentaje").innerHTML = $("#porcentaje").val();
         document.getElementById("detallecos").innerHTML = $("#detalleact").val();
         $("#resuemn_general").css("display", "block");
         $("#guardarmonto").css("display", "block");
@@ -1140,6 +1143,7 @@ td.dt-center {
     }
 
     function regsaldo() {
+        porcentajes = $("#porcentaje").val();
         if ($('#banc_efec').is(':checked')) {
             tipo_pago = 'efectivo';
             tipo_opreacion = 'efectivo';
@@ -1170,6 +1174,7 @@ td.dt-center {
                 metodo_pago: metodo_pago,
                 tipo_pago: tipo_pago,
                 tipo_opreacion: tipo_opreacion,
+                porcentajes: porcentajes,
             },
             beforeSend: function() {
                 $("#mensaje").html(
