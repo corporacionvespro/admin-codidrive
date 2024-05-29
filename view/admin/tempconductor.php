@@ -817,7 +817,7 @@ if ($level == 1) {
                             <hr class="my-4">
                             <h6 class="heading-small text-center mb-4">Resumen</h6>
                             <ul>
-                                <li class="textomodal">Porcentaje <span id="r_porcentaje"></span> días.</li>
+                                <li class="textomodal">Porcentaje <span id="r_porcentaje"></span> %.</li>
                                 <li class="textomodal">Periodo de pago cada <span id="periodo"></span> días.</li>
                                 <li class="textomodal">Fecha de activación: <span id="f_activa"></span></li>
                                 <li class="textomodal">Fecha de notificación: <span id="f_not"></span></li>
