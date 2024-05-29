@@ -721,13 +721,17 @@ td.dt-center {
         var porcentajeInput = document.getElementById("porcentaje");
         if (porcentajeInput.value < 0) {
             porcentajeInput.value = 0;
-            $('#calcular1').prop('disabled', false);
+            $("#calcular1").prop("disabled", false);
             $('#f_final').prop('disabled', false);
-            $('#dias').val('');
+            $('#dias').prop('disabled', false);
+            $("#dias").val("");
+            $('#calcular1').attr('data-original-title', 'Calcular días');
         } else {
-            $('#calcular1').prop('disabled', true);
-            $('#f_final').prop('disabled', true);
-            $('#dias').val('365');
+            $("#calcular1").prop("disabled", true);
+            $("#f_final").prop("disabled", true);
+            $("#dias").prop("disabled", true);
+            $("#dias").val("365");
+            $('#calcular1').attr('data-original-title', 'Bloqueado');
         }
     }
 
