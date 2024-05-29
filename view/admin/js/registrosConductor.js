@@ -9,30 +9,30 @@ function procesarCadena(cadena) {
 
 function cargids() {
     glob_idconductor = $("#ndni").val();
-    $("#imagen1").val('https://iwork.pe/imagenes/imgqr/images.png');
-    $("#uploaded_image1").attr("src", 'https://iwork.pe/imagenes/imgqr/images.png');
-    $("#enlaces1").attr("href", "https://iwork.pe/imagenes/imgqr/images.png");
-    $("#imagen2").val('https://iwork.pe/imagenes/imgqr/images.png');
-    $("#uploaded_image2").attr("src", 'https://iwork.pe/imagenes/imgqr/images.png');
-    $("#enlaces2").attr("href", "https://iwork.pe/imagenes/imgqr/images.png");
-    $("#imagen3").val('https://iwork.pe/imagenes/imgqr/images.png');
-    $("#uploaded_image3").attr("src", 'https://iwork.pe/imagenes/imgqr/images.png');
-    $("#enlaces3").attr("href", "https://iwork.pe/imagenes/imgqr/images.png");
-    $("#imagen4").val('https://iwork.pe/imagenes/imgqr/images.png');
-    $("#uploaded_image4").attr("src", 'https://iwork.pe/imagenes/imgqr/images.png');
-    $("#enlaces4").attr("href", "https://iwork.pe/imagenes/imgqr/images.png");
-    $("#imagen5").val('https://iwork.pe/imagenes/imgqr/images.png');
-    $("#uploaded_image5").attr("src", 'https://iwork.pe/imagenes/imgqr/images.png');
-    $("#enlaces5").attr("href", "https://iwork.pe/imagenes/imgqr/images.png");
-    $("#imagen6").val('https://iwork.pe/imagenes/imgqr/images.png');
-    $("#uploaded_image6").attr("src", 'https://iwork.pe/imagenes/imgqr/images.png');
-    $("#enlaces6").attr("href", "https://iwork.pe/imagenes/imgqr/images.png");
-    $("#imagen7").val('https://iwork.pe/imagenes/imgqr/images.png');
-    $("#uploaded_image7").attr("src", 'https://iwork.pe/imagenes/imgqr/images.png');
-    $("#enlaces7").attr("href", "https://iwork.pe/imagenes/imgqr/images.png");
-    $("#imagen8").val('https://iwork.pe/imagenes/imgqr/images.png');
-    $("#uploaded_image8").attr("src", 'https://iwork.pe/imagenes/imgqr/images.png');
-    $("#enlaces8").attr("href", "https://iwork.pe/imagenes/imgqr/images.png");
+    $("#imagen1").val('https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#uploaded_image1").attr("src", 'https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#enlaces1").attr("href", "https://codidrive.com/admin/assets/img/brand/images.png");
+    $("#imagen2").val('https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#uploaded_image2").attr("src", 'https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#enlaces2").attr("href", "https://codidrive.com/admin/assets/img/brand/images.png");
+    $("#imagen3").val('https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#uploaded_image3").attr("src", 'https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#enlaces3").attr("href", "https://codidrive.com/admin/assets/img/brand/images.png");
+    $("#imagen4").val('https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#uploaded_image4").attr("src", 'https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#enlaces4").attr("href", "https://codidrive.com/admin/assets/img/brand/images.png");
+    $("#imagen5").val('https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#uploaded_image5").attr("src", 'https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#enlaces5").attr("href", "https://codidrive.com/admin/assets/img/brand/images.png");
+    $("#imagen6").val('https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#uploaded_image6").attr("src", 'https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#enlaces6").attr("href", "https://codidrive.com/admin/assets/img/brand/images.png");
+    $("#imagen7").val('https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#uploaded_image7").attr("src", 'https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#enlaces7").attr("href", "https://codidrive.com/admin/assets/img/brand/images.png");
+    $("#imagen8").val('https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#uploaded_image8").attr("src", 'https://codidrive.com/admin/assets/img/brand/images.png');
+    $("#enlaces8").attr("href", "https://codidrive.com/admin/assets/img/brand/images.png");
 }
 
 function revisar() {
@@ -200,7 +200,7 @@ $(document).ready(function () {
             var imagen3 = $("#imagen3").val();
             var imagen4 = $("#imagen4").val();
             var imagen8 = $("#imagen8").val();
-            if (doc_personal === "0" || ndni === "" || imagen1 === "0" || imagen2 === "0" || imagen3 === "0" || imagen4 === "0" || imagen8 === "0" || imagen1 === "https://iwork.pe/imagenes/imgqr/images.png" || imagen2 === "https://iwork.pe/imagenes/imgqr/images.png" || imagen3 === "https://iwork.pe/imagenes/imgqr/images.png" || imagen4 === "https://iwork.pe/imagenes/imgqr/images.png" || imagen8 === "https://iwork.pe/imagenes/imgqr/images.png") {
+            if (doc_personal === "0" || ndni === "" || imagen1 === "0" || imagen2 === "0" || imagen3 === "0" || imagen4 === "0" || imagen8 === "0" || imagen1 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen2 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen3 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen4 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen8 === "https://codidrive.com/admin/assets/img/brand/images.png") {
                 alert("¡Casi has terminado! Para procesar tu solicitud, por favor asegúrate de completar todos los campos y subir todas las imágenes requeridas.");
             } else {
                 current_fs = $(this).parent();
@@ -231,7 +231,7 @@ $(document).ready(function () {
             var imagen7 = $("#imagen7").val();
             var glpgnv = $("#glpgnv").val();
             var frev_c = $("#frev_c").val();
-            if (imagen5 === "" || imagen6 === "" || imagen7 === "" || imagen5 === "https://iwork.pe/imagenes/imgqr/images.png" || imagen6 === "https://iwork.pe/imagenes/imgqr/images.png" || imagen7 === "https://iwork.pe/imagenes/imgqr/images.png") {
+            if (imagen5 === "" || imagen6 === "" || imagen7 === "" || imagen5 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen6 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen7 === "https://codidrive.com/admin/assets/img/brand/images.png") {
                 alert("¡Casi has terminado! Para procesar tu solicitud, por favor asegúrate de completar todos los campos y subir todas las imágenes requeridas.");
             } else {
                 var nombres = $("#nombres").val();
@@ -863,6 +863,6 @@ function eliminarimagen(id_hidden, id_upload) {
         var hidden = '#' + id_hidden;
         var upload = '#' + id_upload;
         $(hidden).val(0);
-        $(upload).attr("src", "https://iwork.pe/imagenes/imgqr/images.png");
+        $(upload).attr("src", "https://codidrive.com/admin/assets/img/brand/images.png");
     }
 }

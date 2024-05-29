@@ -96,7 +96,7 @@
             <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" src="https://iwork.pe/imagenes/imgtiendas/2/categorias/2-21092022155819.webp">
+                  <img alt="Image placeholder" src="https://codidrive.com/admin/assets/img/brand/logo.png">
                 </span>
                 <div class="media-body ml-2 d-none d-lg-block" style="display: block !important;">
                   <span class="mb-0 text-sm  font-weight-bold" style="color: #7e7f81;"><?php echo $_SESSION["nombre_usuario"]; ?></span>

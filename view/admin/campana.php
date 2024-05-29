@@ -271,7 +271,7 @@ if ($level == 1) {
                     <input type="hidden" name="imagen1" id="imagen1" class="form-control" placeholder="" value="0">
                     <div class="image_area">
                         <label for="upload_image" style="width: 100%;">
-                            <img style="border-color: burlywood;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image" class="img-responsive img-circle" style="border-radius: 50%;border-color: burlywood;border: solid 4px;" />
+                            <img style="border-color: burlywood;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image" class="img-responsive img-circle" style="border-radius: 50%;border-color: burlywood;border: solid 4px;" />
                             <div class="overlay">
                                 <div class="text">
                                     Haga clic para cambiar la imagen
@@ -290,7 +290,7 @@ if ($level == 1) {
                     <input type="hidden" name="imagen2" id="imagen2" class="form-control" placeholder="" value="0">
                     <div class="image_area">
                         <label for="upload_image2" style="width: 100%;">
-                            <img style="border-color: burlywood;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image2" class="img-responsive img-circle" style="border-radius: 50%;border-color: burlywood;border: solid 4px;" />
+                            <img style="border-color: burlywood;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image2" class="img-responsive img-circle" style="border-radius: 50%;border-color: burlywood;border: solid 4px;" />
                             <div class="overlay">
                                 <div class="text">
                                     Haga clic para cambiar la imagen
@@ -308,7 +308,7 @@ if ($level == 1) {
                     <input type="hidden" name="imagen3" id="imagen3" class="form-control" placeholder="" value="0">
                     <div class="image_area">
                         <label for="upload_image3" style="width: 100%;">
-                            <img style="border-color: burlywood;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image3" class="img-responsive img-circle" style="border-radius: 50%;border-color: burlywood;border: solid 4px;" />
+                            <img style="border-color: burlywood;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image3" class="img-responsive img-circle" style="border-radius: 50%;border-color: burlywood;border: solid 4px;" />
                             <div class="overlay">
                                 <div class="text">
                                     Haga clic para cambiar la imagen

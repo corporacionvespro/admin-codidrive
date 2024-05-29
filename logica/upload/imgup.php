@@ -18,7 +18,7 @@ if (isset($_POST['image'])) {
     $tipo = $_POST['tipo'];
     $imagen = $_POST['image'];
     $complementonombre = date('dmYHis');
-    $url = 'https://iwork.pe/';
+    $url = 'https://codidrive.com/';
     $extension = '.png';
     $extension2 = '.webp';
     $nombreimg = $id .'-'. $complementonombre . $extension;

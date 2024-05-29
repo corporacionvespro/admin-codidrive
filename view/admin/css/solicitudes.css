@@ -223,11 +223,11 @@
 }
 
 .custom-toggle-slider {
-    border: 1px solid #500f9b !important;
+    border: 1px solid #01296e !important;
 }
 
 .custom-toggle-slider:before {
-    background-color: #500f9b !important;
+    background-color: #01296e !important;
 }
 
 @media (min-width: 576px) {

@@ -835,7 +835,7 @@
                                             <div class="card" style="margin: 0 0 0 0;">
                                                 <div class="card-header collapsed" id="headingUno" name="headingUno" data-toggle="collapse" data-target="#collapseUno" aria-expanded="false" aria-controls="collapseUno" style="padding: 0;background: #01296e;border-radius: 25px;">
                                                     <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces1" name="enlaces1" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
+                                                        <a id="enlaces1" name="enlaces1" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
                                                         <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
                                                             Foto parte frontal del DNI
                                                         </button>
@@ -848,7 +848,7 @@
                                                         <input type="hidden" name="imagen1" id="imagen1" class="form-control" placeholder="" value="0">
                                                         <div class="image_area">
                                                             <label for="upload_image1" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image1" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
+                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image1" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                                 <div class="overlay">
                                                                     <div class="text">
                                                                         Cambiar imagen
@@ -869,7 +869,7 @@
                                             <div class="card" style="margin: 0 0 0 0;">
                                                 <div class="card-header collapsed" id="headingDos" data-toggle="collapse" data-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos" style="padding: 0;background: #01296e;border-radius: 25px;">
                                                     <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces2" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
+                                                        <a id="enlaces2" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
                                                         <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
                                                             Foto parte posterior del DNI
                                                         </button>
@@ -882,7 +882,7 @@
                                                         <input type="hidden" name="imagen2" id="imagen2" class="form-control" placeholder="" value="0">
                                                         <div class="image_area">
                                                             <label for="upload_image2" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image2" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
+                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image2" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                                 <div class="overlay">
                                                                     <div class="text">
                                                                         Cambiar imagen
@@ -906,7 +906,7 @@
                                             <div class="card" style="margin: 0 0 0 0;">
                                                 <div class="card-header collapsed" id="headingTres" data-toggle="collapse" data-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres" style="padding: 0;background: #01296e;border-radius: 25px;">
                                                     <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces3" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
+                                                        <a id="enlaces3" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
                                                         <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
                                                             Foto parte delantera
                                                         </button>
@@ -919,7 +919,7 @@
                                                         <input type="hidden" name="imagen3" id="imagen3" class="form-control" placeholder="" value="0">
                                                         <div class="image_area">
                                                             <label for="upload_image3" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image3" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
+                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image3" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                                 <div class="overlay">
                                                                     <div class="text">
                                                                         Cambiar imagen
@@ -941,7 +941,7 @@
                                             <div class="card" style="margin: 0 0 0 0;">
                                                 <div class="card-header collapsed" id="headingCuatro" data-toggle="collapse" data-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro" style="padding: 0;background: #01296e;border-radius: 25px;">
                                                     <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces4" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
+                                                        <a id="enlaces4" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
                                                         <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
                                                             Foto parte posterior
                                                         </button>
@@ -954,7 +954,7 @@
                                                         <input type="hidden" name="imagen4" id="imagen4" class="form-control" placeholder="" value="0">
                                                         <div class="image_area">
                                                             <label for="upload_image4" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image4" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
+                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image4" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                                 <div class="overlay">
                                                                     <div class="text">
                                                                         Cambiar imagen
@@ -977,7 +977,7 @@
                                             <div class="card" style="margin: 0 0 0 0;">
                                                 <div class="card-header collapsed" id="headingOcho" data-toggle="collapse" data-target="#collapseOcho" aria-expanded="false" aria-controls="collapseOcho" style="padding: 0;background: #01296e;border-radius: 25px;">
                                                     <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces8" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
+                                                        <a id="enlaces8" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
                                                         <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
                                                             Foto
                                                         </button>
@@ -990,7 +990,7 @@
                                                         <input type="hidden" name="imagen8" id="imagen8" class="form-control" placeholder="" value="0">
                                                         <div class="image_area">
                                                             <label for="upload_image8" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image8" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
+                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image8" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                                 <div class="overlay">
                                                                     <div class="text">
                                                                         Cambiar imagen
@@ -1017,7 +1017,7 @@
                                             <div class="card" style="margin: 0 0 0 0;">
                                                 <div class="card-header collapsed" id="headingCinco" data-toggle="collapse" data-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco" style="padding: 0;background: #01296e;border-radius: 25px;">
                                                     <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces5" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
+                                                        <a id="enlaces5" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
                                                         <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
                                                             Foto
                                                         </button>
@@ -1030,7 +1030,7 @@
                                                         <input type="hidden" name="imagen5" id="imagen5" class="form-control" placeholder="" value="0">
                                                         <div class="image_area">
                                                             <label for="upload_image5" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image5" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
+                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image5" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                                 <div class="overlay">
                                                                     <div class="text">
                                                                         Cambiar imagen
@@ -1054,7 +1054,7 @@
                                             <div class="card" style="margin: 0 0 0 0;">
                                                 <div class="card-header collapsed" id="headingSeis" data-toggle="collapse" data-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis" style="padding: 0;background: #01296e;border-radius: 25px;">
                                                     <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces6" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px; padding: 0px;"><i class="fas fa-images"></i></a>
+                                                        <a id="enlaces6" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px; padding: 0px;"><i class="fas fa-images"></i></a>
                                                         <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
                                                             Foto parte delantera
                                                         </button>
@@ -1067,7 +1067,7 @@
                                                         <input type="hidden" name="imagen6" id="imagen6" class="form-control" placeholder="" value="0">
                                                         <div class="image_area">
                                                             <label for="upload_image6" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image6" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
+                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image6" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                                 <div class="overlay">
                                                                     <div class="text">
                                                                         Cambiar imagen
@@ -1085,7 +1085,7 @@
                                             <div class="card" style="margin: 0 0 0 0;">
                                                 <div class="card-header collapsed" id="headingSiete" data-toggle="collapse" data-target="#collapseSiete" aria-expanded="false" aria-controls="collapseSiete" style="padding: 0;background: #01296e;border-radius: 25px;">
                                                     <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces7" class="btn" href="https://iwork.pe/imagenes/imgqr/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
+                                                        <a id="enlaces7" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
                                                         <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
                                                             Foto parte posterior
                                                         </button>
@@ -1098,7 +1098,7 @@
                                                         <input type="hidden" name="imagen7" id="imagen7" class="form-control" placeholder="" value="0">
                                                         <div class="image_area">
                                                             <label for="upload_image7" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://iwork.pe/imagenes/imgqr/images.png" id="uploaded_image7" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
+                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image7" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
                                                                 <div class="overlay">
                                                                     <div class="text">
                                                                         Cambiar imagen
