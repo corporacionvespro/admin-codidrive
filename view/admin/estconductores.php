@@ -1058,6 +1058,7 @@ td.dt-center {
         valores = estado;
         $("#guardarmonto").css("display", "none");
         $('#exampledesbloquear').modal('show');
+        
     }
 
     function guardarmontos() {
