@@ -101,7 +101,7 @@ $row_c = $query_c->fetch_assoc();*/
                         } else {
                           echo  "class='collapse'";
                         }
-                      } ?> id="usuariosadminplataforma">
+                      } ?> ><!-- id="usuariosadminplataforma"> -->
                   <ul class="nav nav-sm flex-column">
                     <li class="nav-item">
                     <a href="./usuariosadmin" class="nav-link <?php if (isset($var)) {
