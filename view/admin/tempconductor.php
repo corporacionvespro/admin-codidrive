@@ -1,5 +1,10 @@
 <html>
 <?php // require_once 'conectar.php'; 
+date_default_timezone_set("America/Lima");
+$hora12 = date("h:i:s A");
+$hora24 = date("H:i:s");
+$fecha = date("Y-m-d");
+$fechahora = $fecha . " " . $hora24;
 ?>
 <?php require_once './view/admin/header.php'; ?>
 <!---->
@@ -785,7 +790,7 @@ if ($level == 1) {
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-control-label" for="example2cols1Input">Fecha inicio</label>
-                                    <input type="date" id="f_inicio" name="f_inicio" class="form-control" placeholder="" autocomplete="off">
+                                    <input type="date" id="f_inicio" name="f_inicio" class="form-control" placeholder=""  autocomplete="off"  value="<?php echo $fecha?>">
                                 </div>
                             </div>    
                             <div class="col-md-6">
