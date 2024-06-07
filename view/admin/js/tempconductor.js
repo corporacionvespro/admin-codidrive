@@ -449,7 +449,7 @@ function cambiarestado2(id, estado) {
   $("#calcular1").attr("data-original-title", "Calcular días");
   $("#porcentaje").val(0);
   $("#monto").val(0);
-  $("#f_inicio").val("");
+  //$("#f_inicio").val("");
   $("#f_final").val("");
   $("#dias").val("");
   $("#detalleact").val("");
