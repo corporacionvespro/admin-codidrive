@@ -109,7 +109,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                     echo  "active";
                                                                   }
                                                                 } /**/ ?>">
-                        <i class="fas fa-user-tie" style="color: #01296e;"></i> Usuarios Admin
+                        <i class="fas fa-users-cog" style="color: #01296e;"></i> Usuarios Admin
                       </a>
                     </li>
                     <li class="nav-item">
@@ -118,7 +118,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                               echo  "active";
                                                             }
                                                           } /**/ ?>">
-                        <i class="fas fa-user-tag" style="color: #01296e;"></i> Config. plataforma
+                        <i class="fas fa-tools" style="color: #01296e;"></i> Config. plataforma
                       </a>
                     </li>
                   </ul>
