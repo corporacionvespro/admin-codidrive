@@ -92,7 +92,7 @@ $row_c = $query_c->fetch_assoc();*/
                                                                                                           }
                                                                                                         } /**/ ?>>
 
-                  <i class="fas fa-house-user" style="color: #01296e;"></i>
+                  <i class="fas fa-cogs" style="color: #01296e;"></i>
                   <span class="nav-link-text">Configuraci&oacute;n</span>
                 </a>
                 <div <?php if (isset($var)) {
