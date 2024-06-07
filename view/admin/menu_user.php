@@ -78,7 +78,54 @@ $row_c = $query_c->fetch_assoc();*/
             <!-- Nav items -->
             <ul class="navbar-nav">
               <!--  -->
+               <!-- /////////////////////////////////////////////////////////////////////// -->
+               <li class="nav-item">
+                <a class="nav-link <?php if (isset($var)) {
+                                      if ($var == 'usuariosadmin' || $var == 'plataforma') {
+                                        echo  "active";
+                                      }
+                                    } /**/ ?>" href="#usuariosadminplataforma" data-toggle="collapse" role="button" <?php if (isset($var)) {
+                                                                                                          if ($var == 'usuariosadmin' || $var == 'plataforma') {
+                                                                                                            echo  "aria-expanded='true'";
+                                                                                                          } else {
+                                                                                                            echo  "class='collapsed' aria-expanded='false'";
+                                                                                                          }
+                                                                                                        } /**/ ?>>
 
+                  <i class="fas fa-house-user" style="color: #01296e;"></i>
+                  <span class="nav-link-text">Configuraci&oacute;n</span>
+                </a>
+                <div <?php if (isset($var)) {
+                        if ($var == 'usuariosadmin' || $var == 'plataforma') {
+                          echo  "class='collapse show'";
+                        } else {
+                          echo  "class='collapse'";
+                        }
+                      } ?> id="usuariosadminplataforma">
+                  <ul class="nav nav-sm flex-column">
+                    <li class="nav-item">
+                    <a href="./usuariosadmin" class="nav-link <?php if (isset($var)) {
+                                                                  if ($var == 'usuariosadmin') {
+                                                                    echo  "active";
+                                                                  }
+                                                                } /**/ ?>">
+                        <i class="fas fa-user-tie" style="color: #01296e;"></i> Usuarios Admin
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="./plataforma" class="nav-link <?php if (isset($var)) {
+                                                                if ($var == 'plataforma') {
+                                                              echo  "active";
+                                                            }
+                                                          } /**/ ?>">
+                        <i class="fas fa-user-tag" style="color: #01296e;"></i> Config. plataforma
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- /////////////////////////////////////////////////////////////////////// -->
+               
               <li class="nav-item">
                 <a class="nav-link <?php if (isset($var)) {
                                       if ($var == 'panel') {
@@ -297,6 +344,7 @@ $row_c = $query_c->fetch_assoc();*/
                   </ul>
                 </div>
               </li><!-- / -->
+
             </ul>
           </div>
         </div>
