@@ -22,7 +22,7 @@
 <style>
     #heading {
         text-transform: uppercase;
-        color: #673AB7;
+        color: #01296e;
         font-weight: normal
     }
 
@@ -72,7 +72,7 @@
     }
 
     #progressbar .active {
-        color: #673AB7
+        color: #01296e
     }
 
     #progressbar li {
@@ -110,7 +110,7 @@
 
     #progressbar li.active:before,
     #progressbar li.active:after {
-        background: #673AB7
+        background: #01296e
     }
 
     .progress {
@@ -118,7 +118,7 @@
     }
 
     .progress-bar {
-        background-color: #673AB7
+        background-color: #01296e
     }
 
     .fit-image {
@@ -603,7 +603,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-5 col-lg-6 col-md-8 px-5">
                             <div class="contenedor" style="display: flex;justify-content: center;align-items: center;">
-                                <img src="https://codidrive.com/admin/imagenes/logocodi.webp" alt="Imagen centrada" style="max-width: 65%;max-height: 65%;">
+                                <img src="https://codidrive.com/admin/imagenes/codireg.webp" alt="Imagen centrada" style="max-width: 65%;max-height: 65%;">
                             </div>
                         </div>
                     </div>
