@@ -238,7 +238,28 @@ $(document).ready(function () {
                 //mod simple
                 /*alert("¡Casi has terminado! Para procesar tu solicitud, por favor asegúrate de completar todos los campos y subir todas las imágenes requeridas.");*/
                 ////////////////////////////////////////////////////////
-                 } else {
+                current_fs = $(this).parent();
+                next_fs = $(this).parent().next();
+                $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+                next_fs.show();
+                current_fs.animate({
+                    opacity: 0
+                }, {
+                    step: function (now) {
+                        opacity = 1 - now;
+
+                        current_fs.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        next_fs.css({
+                            'opacity': opacity
+                        });
+                    },
+                    duration: 500
+                });
+                setProgressBar(++current);
+            } else {
                 current_fs = $(this).parent();
                 next_fs = $(this).parent().next();
                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
@@ -300,7 +321,7 @@ $(document).ready(function () {
                 var cert_tipo = $("#glpgnv").val();
                 var cert_fv = $("#frev_c").val();
                 var srcValue = $("#selfieImg").attr("src");
-                
+
                 $.ajax({
                     url: 'https://codidrive.com/admin/newregistrosimple',
                     type: "post",
