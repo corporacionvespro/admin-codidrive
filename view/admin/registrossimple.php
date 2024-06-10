@@ -648,7 +648,6 @@
                                     <li><i class="fas fa-user" style="width: 50px;height: 50px;line-height: 45px;display: block;font-size: 20px;color: #ffffff;background: lightgray;border-radius: 50%; margin: 0 auto 10px auto;padding: 2px;"></i></li>
                                     <li><i class="fas fa-car" style="width: 50px;height: 50px;line-height: 45px;display: block;font-size: 20px;color: #ffffff;background: lightgray;border-radius: 50%; margin: 0 auto 10px auto;padding: 2px;"></i></li>
                                     <li><i class="fas fa-file-search" style="width: 50px;height: 50px;line-height: 45px;display: block;font-size: 20px;color: #ffffff;background: lightgray;border-radius: 50%; margin: 0 auto 10px auto;padding: 2px;"></i></li>
-                                    <li><i class="fas fa-file-user" style="width: 50px;height: 50px;line-height: 45px;display: block;font-size: 20px;color: #ffffff;background: lightgray;border-radius: 50%; margin: 0 auto 10px auto;padding: 2px;"></i></li>
                                 </ul>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1005,120 +1004,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <input type="button" name="previous" class="previous action-button-previous btn ml-auto" value="Anterior" style="width: 30%;color: #fff;background: #01296e;border: #01296e;left: 0px;position: absolute;padding: 0.5rem 0.5rem 0.5rem 0.5rem;" />
-                                    <input type="button" name="next" id="cuarto" class="next action-button btn ml-auto" value="Siguiente" style="width: 30%;color: #fff;background: #01296e;border: #01296e;right: 0px;position: absolute;padding: 0.5rem 0.5rem 0.5rem 0.5rem;" />
-
-                                </fieldset>
-                                <fieldset>
-                                    <hr class="my-4">
-                                    <h6 class="heading-small text-center mb-4">SOAT</h6>
-                                    <div class="accordion row" id="accordionExample5">
-                                        <div class="col-md-12 mt-3">
-                                            <div class="card" style="margin: 0 0 0 0;">
-                                                <div class="card-header collapsed" id="headingCinco" data-toggle="collapse" data-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco" style="padding: 0;background: #01296e;border-radius: 25px;">
-                                                    <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces5" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
-                                                        <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
-                                                            Foto
-                                                        </button>
-                                                        <button class="btn" type="button" aria-expanded="true" style="color: #ffffff;" onclick="eliminarimagen('imagen5','uploaded_image5')"><i class="fas fa-trash-alt"></i></button>
-                                                    </h2>
-                                                </div>
-                                                <div id="collapseCinco" class="collapse" aria-labelledby="headingCinco" data-parent="#accordionExample5">
-                                                    <div class="card-body" style="padding: 1rem 0 0rem 0;">
-                                                        <!----->
-                                                        <input type="hidden" name="imagen5" id="imagen5" class="form-control" placeholder="" value="0">
-                                                        <div class="image_area">
-                                                            <label for="upload_image5" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image5" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
-                                                                <div class="overlay">
-                                                                    <div class="text">
-                                                                        Cambiar imagen
-                                                                    </div>
-                                                                </div>
-                                                                <input type="file" name="image5" class="image" id="upload_image5" style="display:none" />
-                                                            </label>
-                                                        </div>
-                                                        <!----->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <input type="hidden" id="fvsoat" name="fvsoat" class="form-control" placeholder="" autocomplete="off">
-
-                                    </div>
-                                    <hr class="my-4">
-                                    <h6 class="heading-small text-center mb-4">Tarjeta de propiedad del vehiculo</h6>
-                                    <div class="accordion row" id="accordionExample6">
-                                        <div class="col-md-12 mt-3  mb-4">
-                                            <div class="card" style="margin: 0 0 0 0;">
-                                                <div class="card-header collapsed" id="headingSeis" data-toggle="collapse" data-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis" style="padding: 0;background: #01296e;border-radius: 25px;">
-                                                    <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces6" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px; padding: 0px;"><i class="fas fa-images"></i></a>
-                                                        <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
-                                                            Foto parte delantera
-                                                        </button>
-                                                        <button class="btn" type="button" aria-expanded="true" style="color: #ffffff;" onclick="eliminarimagen('imagen6','uploaded_image6')"><i class="fas fa-trash-alt"></i></button>
-                                                    </h2>
-                                                </div>
-                                                <div id="collapseSeis" class="collapse" aria-labelledby="headingSeis" data-parent="#accordionExample6">
-                                                    <div class="card-body" style="padding: 1rem 0 0rem 0;">
-                                                        <!----->
-                                                        <input type="hidden" name="imagen6" id="imagen6" class="form-control" placeholder="" value="0">
-                                                        <div class="image_area">
-                                                            <label for="upload_image6" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image6" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
-                                                                <div class="overlay">
-                                                                    <div class="text">
-                                                                        Cambiar imagen
-                                                                    </div>
-                                                                </div>
-                                                                <input type="file" name="image6" class="image" id="upload_image6" style="display:none" />
-                                                            </label>
-                                                        </div>
-                                                        <!----->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 mt-3">
-                                            <div class="card" style="margin: 0 0 0 0;">
-                                                <div class="card-header collapsed" id="headingSiete" data-toggle="collapse" data-target="#collapseSiete" aria-expanded="false" aria-controls="collapseSiete" style="padding: 0;background: #01296e;border-radius: 25px;">
-                                                    <h2 class="mb-0" style="text-align: center;">
-                                                        <a id="enlaces7" class="btn" href="https://codidrive.com/admin/assets/img/brand/images.png" target="_blank" aria-expanded="true" style="color: #ffffff;margin-right: 0px;padding: 0px;"><i class="fas fa-images"></i></a>
-                                                        <button class="btn btn-link" type="button" style="color: #ffffff;margin-right: -15px;">
-                                                            Foto parte posterior
-                                                        </button>
-                                                        <button class="btn" type="button" aria-expanded="true" style="color: #ffffff;" onclick="eliminarimagen('imagen7','uploaded_image7')"><i class="fas fa-trash-alt"></i></button>
-                                                    </h2>
-                                                </div>
-                                                <div id="collapseSiete" class="collapse" aria-labelledby="headingSiete" data-parent="#accordionExample6">
-                                                    <div class="card-body" style="padding: 1rem 0 0rem 0;">
-                                                        <!----->
-                                                        <input type="hidden" name="imagen7" id="imagen7" class="form-control" placeholder="" value="0">
-                                                        <div class="image_area">
-                                                            <label for="upload_image7" style="width: 100%;">
-                                                                <img style="border-color: #01296e  !important;border: solid 4px;position: relative;margin-left: auto;margin-right: auto;" src="https://codidrive.com/admin/assets/img/brand/images.png" id="uploaded_image7" class="img-responsive img-circle" style="border-radius: 50%;border-color: #01296e  !important;border: solid 4px;" />
-                                                                <div class="overlay">
-                                                                    <div class="text">
-                                                                        Cambiar imagen
-                                                                    </div>
-                                                                </div>
-                                                                <input type="file" name="image7" class="image" id="upload_image7" style="display:none" />
-                                                            </label>
-                                                        </div>
-                                                        <!----->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <input type="hidden" id="frev_t" name="frev_t" class="form-control" placeholder="" autocomplete="off">
                                     <input type="hidden" id="glpgnv" name="glpgnv" class="form-control" placeholder="" autocomplete="off">
                                     <input type="hidden" id="frev_c" name="frev_c" class="form-control" placeholder="" autocomplete="off">
                                     <input type="button" name="previous" class="previous action-button-previous btn ml-auto" value="Anterior" style="width: 30%;color: #fff;background: #01296e;border: #01296e;left: 0px;position: absolute;padding: 0.5rem 0.5rem 0.5rem 0.5rem;" />
-                                    <button name="next" id="quinto" type="button" class="next action-button btn ml-auto" style="width: 30%;color: #fff;background: #01296e;border: #01296e;right: 0px;position: absolute;padding: 0.5rem 0.5rem 0.5rem 0.5rem;">Enviar</button>
+                                    <button name="next" id="cuarto" type="button" class="next action-button btn ml-auto" style="width: 30%;color: #fff;background: #01296e;border: #01296e;right: 0px;position: absolute;padding: 0.5rem 0.5rem 0.5rem 0.5rem;">Enviar</button>
                                 </fieldset>
+                                
                             </div>
                             <div class="modal-footer "></div>
                         </form>

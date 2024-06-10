@@ -226,7 +226,9 @@ $(document).ready(function () {
                 });
                 setProgressBar(++current);
             }
+        
         } else if (elementId == 'cuarto') {
+            /////////////////////////////////
             var doc_personal = $("#doc_personal").val();
             var ndni = $("#ndni").val();
             var imagen1 = $("#imagen1").val();
@@ -234,61 +236,13 @@ $(document).ready(function () {
             var imagen3 = $("#imagen3").val();
             var imagen4 = $("#imagen4").val();
             var imagen8 = $("#imagen8").val();
-            if (doc_personal === "0" || ndni === "" || imagen1 === "0" || imagen2 === "0" || imagen3 === "0" || imagen4 === "0" || imagen8 === "0" || imagen1 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen2 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen3 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen4 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen8 === "https://codidrive.com/admin/assets/img/brand/images.png") {
-                //mod simple
-                /*alert("¡Casi has terminado! Para procesar tu solicitud, por favor asegúrate de completar todos los campos y subir todas las imágenes requeridas.");*/
-                ////////////////////////////////////////////////////////
-                current_fs = $(this).parent();
-                next_fs = $(this).parent().next();
-                $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
-                next_fs.show();
-                current_fs.animate({
-                    opacity: 0
-                }, {
-                    step: function (now) {
-                        opacity = 1 - now;
-
-                        current_fs.css({
-                            'display': 'none',
-                            'position': 'relative'
-                        });
-                        next_fs.css({
-                            'opacity': opacity
-                        });
-                    },
-                    duration: 500
-                });
-                setProgressBar(++current);
-            } else {
-                current_fs = $(this).parent();
-                next_fs = $(this).parent().next();
-                $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
-                next_fs.show();
-                current_fs.animate({
-                    opacity: 0
-                }, {
-                    step: function (now) {
-                        opacity = 1 - now;
-
-                        current_fs.css({
-                            'display': 'none',
-                            'position': 'relative'
-                        });
-                        next_fs.css({
-                            'opacity': opacity
-                        });
-                    },
-                    duration: 500
-                });
-                setProgressBar(++current);
-            }
-        } else if (elementId == 'quinto') {
+            /////////////////////////////////
             var imagen5 = $("#imagen5").val();
             var imagen6 = $("#imagen6").val();
             var imagen7 = $("#imagen7").val();
             var glpgnv = $("#glpgnv").val();
             var frev_c = $("#frev_c").val();
-            if (imagen5 === "" || imagen6 === "" || imagen7 === "" || imagen5 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen6 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen7 === "https://codidrive.com/admin/assets/img/brand/images.png") {
+            if (doc_personal === "0" || ndni === "" || imagen1 === "0" || imagen2 === "0" || imagen3 === "0" || imagen4 === "0" || imagen8 === "0" || imagen1 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen2 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen3 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen4 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen8 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen5 === "" || imagen6 === "" || imagen7 === "" || imagen5 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen6 === "https://codidrive.com/admin/assets/img/brand/images.png" || imagen7 === "https://codidrive.com/admin/assets/img/brand/images.png") {
               //mod simple
                 // alert("¡Casi has terminado! Para procesar tu solicitud, por favor asegúrate de completar todos los campos y subir todas las imágenes requeridas.");
             ////////////////////////////////////////////////////////
