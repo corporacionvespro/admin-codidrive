@@ -675,8 +675,8 @@
                                                 </ul>
 
                                                 <h3>3. Documento de Identidad Personal:</h3>
-                                                <p>Escaneo o foto legible de tu documento de identidad personal (DNI).</p>
-                                                
+                                                <p>Tipo y número de tu documento de identidad (DNI) / Carné de Extranjería (CE).</p>
+
                                             </div>
                                             <label for="terminos" style="font-size: 1rem;text-align: center;">Marcar para aceptar los términos y condiciones:</label>
                                             <input type="checkbox" id="terminos" name="terminos">
