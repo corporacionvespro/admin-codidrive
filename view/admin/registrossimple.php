@@ -676,18 +676,7 @@
 
                                                 <h3>3. Documento de Identidad Personal:</h3>
                                                 <p>Escaneo o foto legible de tu documento de identidad personal (DNI).</p>
-
-                                                <h3>4. Licencia de Conducir:</h3>
-                                                <p>Escaneo o foto legible de tu licencia de conducir vigente.</p>
-
-                                                <h3>5. Certificado Único Laboral para Personas Adultas (Certiadulto):</h3>
-                                                <p>Certiadulto actualizado <a href="https://www.gob.pe/9377-obtener-tu-certiadulto" target="_blank">clic aqui.</a></p>
-
-                                                <h3>6. SOAT <small>(Seguro Obligatorio de Accidentes de Tránsito)</small>:</h3>
-                                                <p>Copia del comprobante del SOAT vigente.</p>
-
-                                                <h3>7. Tarjeta de Propiedad del veh&iacute;culo:</h3>
-                                                <p>Escaneo o foto legible de la tarjeta de propiedad del veh&iacute;culo a tu nombre.</p>
+                                                
                                             </div>
                                             <label for="terminos" style="font-size: 1rem;text-align: center;">Marcar para aceptar los términos y condiciones:</label>
                                             <input type="checkbox" id="terminos" name="terminos">
