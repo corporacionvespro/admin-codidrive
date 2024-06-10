@@ -258,22 +258,9 @@ $(document).ready(function () {
                 var anio = $("#anio").val();
                 var id = glob_idconductor;
                 var doc_identidad = $("#doc_personal").val();
-                var doc_img_front = $("#imagen1").val();
+               
                 var doc_n = $("#ndni").val();
-                var doc_img_back = $("#imagen2").val();
-                var doc_fv = $("#fvdni").val();
-                var licencia_img_front = $("#imagen3").val();
-                var licencia_n = $("#nlicencia").val();
-                var licencia_img_back = $("#imagen4").val();
-                var licencia_fv = $("#fvlicencia").val();
-                var soat_img = $("#imagen5").val();
-                var soat_fv = $("#fvsoat").val();
-                var tp_img_front = $("#imagen6").val();
-                var tp_img_back = $("#imagen7").val();
-                var antp_img = $("#imagen8").val();
-                var rt_fv = $("#frev_t").val();
-                var cert_tipo = $("#glpgnv").val();
-                var cert_fv = $("#frev_c").val();
+                
                 var srcValue = $("#selfieImg").attr("src");
 
                 $.ajax({
@@ -291,22 +278,7 @@ $(document).ready(function () {
                         anio: anio,
                         id: id,
                         doc_identidad: doc_identidad,
-                        doc_img_front: doc_img_front,
                         doc_n: doc_n,
-                        doc_img_back: doc_img_back,
-                        doc_fv: doc_fv,
-                        licencia_img_front: licencia_img_front,
-                        licencia_n: licencia_n,
-                        licencia_img_back: licencia_img_back,
-                        licencia_fv: licencia_fv,
-                        soat_img: soat_img,
-                        soat_fv: soat_fv,
-                        tp_img_front: tp_img_front,
-                        tp_img_back: tp_img_back,
-                        antp_img: antp_img,
-                        rt_fv: rt_fv,
-                        cert_tipo: cert_tipo,
-                        cert_fv: cert_fv,
                         srcValue: srcValue
                     },
                     beforeSend: function () {
