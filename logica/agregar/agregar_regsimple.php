@@ -43,7 +43,7 @@ $anio = $_POST['anio'];
 
 $doc_identidad = $_POST['doc_identidad'];
 $doc_img_front = 'https://codidrive.com/admin/assets/img/brand/images.png';
-$doc_n = '';
+$doc_n = $_POST['doc_n'];
 $doc_img_back = 'https://codidrive.com/admin/assets/img/brand/images.png';
 $doc_fv = '';
 $licencia_img_front = 'https://codidrive.com/admin/assets/img/brand/images.png';
