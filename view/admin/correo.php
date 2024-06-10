@@ -18,7 +18,7 @@ try {
   $mail->Password = 'dwawznzfdtmfuffn';
   $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
   $mail->Port = 587;
-  $mail->setFrom('cixchapatutaxi@gmail.com', 'Chapa tu taxi');
+  $mail->setFrom('cixchapatutaxi@gmail.com', 'Codi Drive');
   $mail->addAddress($correo, 'Receptor');
   $mail->isHTML(true);
   $mail->Subject = $subject;

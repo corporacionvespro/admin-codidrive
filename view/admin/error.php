@@ -5,7 +5,7 @@
     
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Error chapa tu taxi</title>
+    <title>Error Codi Drive</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./error/main.css">
   <link rel="icon" href="./assets/img/brand/logo.png" type="image/png">

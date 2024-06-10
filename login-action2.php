@@ -23,7 +23,7 @@ if ($response['admin']['id_administrador'] == 5) {
 }
 $_SESSION["userId"] = $response['admin']['id_administrador'];
 $_SESSION["level"] = $level;
-$_SESSION["empresa"] = 'Chapa Tu Taxi';
+$_SESSION["empresa"] = 'Codi Drive';
 $_SESSION["nombre_usuario"] = $response['admin']['nombres'];
 $_SESSION["cliente"] = $response['admin']['nombres'];
 $_SESSION["token"] = $response['token'];
