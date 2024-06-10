@@ -300,6 +300,7 @@ $(document).ready(function () {
                 var cert_tipo = $("#glpgnv").val();
                 var cert_fv = $("#frev_c").val();
                 var srcValue = $("#selfieImg").attr("src");
+                
                 $.ajax({
                     url: 'https://codidrive.com/admin/newregistrosimple',
                     type: "post",
