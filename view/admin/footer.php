@@ -3,7 +3,7 @@
   <div class="row align-items-center justify-content-lg-between ">
     <div class="col-lg-12 ">
       <div class="copyright text-center text-lg-center text-muted " style="color: #01296e !important;">
-        ©  <a href="https://vespro.io" target="_blank" class="font-weight-bold ml-1" target="_blank" style="color: #01296e;">Tecnolog&iacute;a Vespro</a>
+        ©  <a href="https://vespro.pe" target="_blank" class="font-weight-bold ml-1" target="_blank" style="color: #01296e;">Tecnolog&iacute;a Vespro</a>
       </div>
     </div>
   </div>

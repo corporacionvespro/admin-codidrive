@@ -306,7 +306,7 @@
             <div class="row align-items-center ">
                 <div class="col-xl-12">
                     <div class="copyright text-center text-muted" style="color: white !important;">
-                        ©  <a href="https://vespro.io" class="font-weight-bold ml-1" target="_blank" style="color: #dde0e1;">Tecnolog&iacute;a Vespro</a>
+                        ©  <a href="https://vespro.pe" class="font-weight-bold ml-1" target="_blank" style="color: #dde0e1;">Tecnolog&iacute;a Vespro</a>
                     </div>
                 </div>
 
