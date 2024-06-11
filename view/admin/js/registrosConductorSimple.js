@@ -55,10 +55,10 @@ var capital = document.getElementById("capital");
 var number = document.getElementById("number");
 var length = document.getElementById("length");
 myInput.onfocus = function () {
-    document.getElementById("message").style.display = "block";
+    //document.getElementById("message").style.display = "block";
 }
 myInput.onblur = function () {
-    document.getElementById("message").style.display = "none";
+    //document.getElementById("message").style.display = "none";
 }
 myInput.onkeyup = function () {
     var lowerCaseLetters = /[a-z]/g;

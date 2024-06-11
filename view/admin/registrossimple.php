@@ -749,13 +749,13 @@
                                                 <label class="form-control-label" for="example2cols1Input">Clave</label>
                                                 <input type="password" id="clave" name="clave" class="form-control" placeholder="" autocomplete="off" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra mayúscula y minúscula, y al menos 8 o más caracteres" required>
                                                 <input type="checkbox" onclick="passw()" style="margin-top: 15px;"> Mostrar contraseña
-                                                <div id="message">
+                                                <!--<div id="message">
                                                     <h3 style="color: #535f7e;text-align: center;">La contraseña debe contener lo siguiente:</h3>
                                                     <p id="letter" class="invalid">Mínimo una <b>Minúscula</b></p>
                                                     <p id="capital" class="invalid">Mínimo una <b>Mayúscula</b></p>
                                                     <p id="number" class="invalid">Mínimo un <b>Número</b></p>
                                                     <p id="length" class="invalid">Mínimo <b>8 caracteres</b></p>
-                                                </div>
+                                                </div>-->
                                             </div>
 
                                         </div>
