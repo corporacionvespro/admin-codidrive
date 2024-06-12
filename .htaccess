@@ -36,6 +36,7 @@ RewriteRule ^descargar$ descarga_app.php [QSA]
 RewriteRule ^negocios_asociados$ negocios_asociados.php [QSA]
 RewriteRule ^cat_asociados$ categorias_asociados.php [QSA]
 RewriteRule ^n_asociados$ n_asociado.php [QSA]
+RewriteRule ^compartir$ mapacompartir.php [QSA]
 
 ErrorDocument 404 .
 ErrorDocument 403 .
