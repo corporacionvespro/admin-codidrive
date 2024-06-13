@@ -171,6 +171,7 @@
                 icon: 'https://codidrive.com/admin/imagenes/car-disponiblec.png' // URL del nuevo icono
             });
 
+            
             // Manejar la redimensión del mapa cuando se oculta .mostar
             var toggleButton = document.getElementById('toggleButton');
             toggleButton.addEventListener('click', function () {
