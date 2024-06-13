@@ -100,6 +100,7 @@
 
     sentinel {}
     </style>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" type="text/css">
     <link type="text/css" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=es">
     <link type="text/css" rel="stylesheet"
