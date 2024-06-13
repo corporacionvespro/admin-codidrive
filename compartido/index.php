@@ -104,7 +104,7 @@
             <i class="bi bi-chevron-double-up" style="font-size: 25px;font-weight: 200;"></i>
         </button>
     </div>
-<div id='mapa' ></div>
+    <div id='mapa' ></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
@@ -146,6 +146,6 @@
         initMap();
    </script>  
    <script defer 
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap ">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo ">
     </script>
 </body>
