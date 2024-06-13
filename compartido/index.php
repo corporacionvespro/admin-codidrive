@@ -59,6 +59,7 @@
 
     .mostar {
         display: block;
+        background: #e2ecf2;
         /* Inicia mostrado */
     }
 
