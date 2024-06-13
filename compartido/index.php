@@ -67,10 +67,10 @@
         }
 
         #toggleButtonContainer {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            z-index: 1000; /* Asegura que el botón esté por encima del contenido */
+            margin-top: 20px; /* Espacio entre .mostar y el botón */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
         }
 
         #toggleButton {
@@ -120,7 +120,7 @@
         </div>
     </div>
 
-    <!-- Botón toggleButton encima del mapa -->
+    <!-- Contenedor del botón toggleButton -->
     <div id="toggleButtonContainer">
         <button class="btn btn-primary" id="toggleButton">
             <i class="bi bi-chevron-double-up" style="font-size: 25px; font-weight: 200;"></i>
