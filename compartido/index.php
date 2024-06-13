@@ -12,18 +12,13 @@
             background: #01296e;
             display: flex;
             justify-content: space-between;
-            padding: 12px;
-            flex-wrap: wrap;
-        }
-
-        .header .logo,
-        .header .store-images {
-            flex: 1;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            height: 56px; /* Altura similar a la de un navbar */
         }
 
         .store-images {
             display: flex;
-            justify-content: flex-end;
             gap: 10px;
         }
 
@@ -91,6 +86,7 @@
             <p><i class="fa-solid fa-location-dot"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
         </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
