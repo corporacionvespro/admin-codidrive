@@ -100,14 +100,21 @@
 
         <div class="container location">
             <div>
-                <p><i class="fas fa-map-marker"></i> Urb Santa Rosa</p>
-                <p><i class="fas fa-map-marker"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
+                <p><i class="bi bi-pin-map-fill"></i> Urb Santa Rosa</p>
+                <p><i class="bi bi-pin-map-fill"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
             </div>
         </div>
     </div>
 
     <div class="container">
-      <button class="btn btn-primary" id="toggleButton" style="background: #e2ecf2;color: #01296e;border: none;border-radius: 0px 0px 50px 50px;height: 30px;">icono</button>
+      <button class="btn btn-primary" id="toggleButton" style="background: #e2ecf2;color: #01296e;border: none;border-radius: 0px 0px 50px 50px;height: 30px;">
+        <i class="bi bi-arrow-bar-down"></i>
+        <!--<i class="bi bi-arrow-bar-up"></i>
+        
+        <i class="bi bi-chevron-double-down"></i>
+        <i class="bi bi-chevron-double-up"></i>
+        -->
+      </button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
