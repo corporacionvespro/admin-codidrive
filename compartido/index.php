@@ -16,8 +16,9 @@
     }
 
     .navbar-custom .navbar-brand img,
-    .navbar-custom .navbar-nav img {
+    .navbar-custom .navbar-nav .nav-link img {
         height: 40px;
+        width: auto;
     }
 
     .content {
@@ -57,13 +58,6 @@
 
     .mostar.hidden {
         display: none; /* Se oculta cuando tiene la clase 'hidden' */
-    }
-
-    /* Estilo para evitar que el collapse navbar afecte a otros elementos */
-    .ignore-collapse {
-        display: flex !important; /* Forzar a que los elementos dentro no se oculten */
-        visibility: visible !important; /* Asegurar que los elementos sean visibles */
-        opacity: 1 !important; /* Asegurar que los elementos sean visibles */
     }
     </style>
 </head>
