@@ -17,9 +17,15 @@
             height: 56px; /* Altura similar a la de un navbar */
         }
 
+        .header img {
+            height: 100%; /* Hace que las imágenes ocupen toda la altura del navbar */
+            max-height: 100%;
+        }
+
         .store-images {
             display: flex;
             gap: 10px;
+            align-items: center; /* Alinea las imágenes verticalmente en el centro */
         }
 
         .content {
@@ -62,10 +68,10 @@
         </div>
         <div class="store-images">
             <div>
-                <img src="https://codidrive.com/admin/imagenes/playstore.png" class="img-fluid" alt="Play Store" style="width: 100px;">
+                <img src="https://codidrive.com/admin/imagenes/playstore.png" class="img-fluid" alt="Play Store">
             </div>
             <div>
-                <img src="https://codidrive.com/admin/imagenes/apple.png" class="img-fluid" alt="Apple Store" style="width: 100px;">
+                <img src="https://codidrive.com/admin/imagenes/apple.png" class="img-fluid" alt="Apple Store">
             </div>
         </div>
     </div>
