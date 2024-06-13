@@ -99,7 +99,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container"style="display: flex;flex-wrap: nowrap;align-content: flex-start;justify-content: center;align-items: flex-start;">
       <button class="btn btn-primary" id="toggleButton" style="background: #e2ecf2;color: #01296e;border: none;border-radius: 0px 0px 50px 50px;height: 50px;width: 100px;">
             <i class="bi bi-chevron-double-up" style="font-size: 25px;font-weight: 200;"></i>
         </button>
