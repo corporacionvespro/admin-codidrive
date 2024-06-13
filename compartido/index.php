@@ -145,8 +145,7 @@
         // Cargar el mapa cuando se haya cargado la página
         document.addEventListener('DOMContentLoaded', function () {
             initMap();
-        });
-        document.addEventListener('DOMContentLoaded', function () {
+        
             const toggleButton = document.getElementById('toggleButton');
             const mostarDiv = document.querySelector('.mostar');
 
