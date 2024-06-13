@@ -101,18 +101,18 @@
 
         <div class="container location">
             <div>
-                <p><i class="bi bi-pin-map-fill"></i> Urb Santa Rosa</p>
-                <p><i class="bi bi-pin-map-fill"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
+                <p><i class="bi bi-circle"></i> Urb Santa Rosa</p>
+                <p><i class="bi bi-circle-fill"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
             </div>
         </div>
     </div>
 
     <div class="container">
       <button class="btn btn-primary" id="toggleButton" style="background: #e2ecf2;color: #01296e;border: none;border-radius: 0px 0px 50px 50px;height: 30px;">
-        <i class="bi bi-arrow-bar-down"></i>
-        <!--<i class="bi bi-arrow-bar-up"></i>
-        
         <i class="bi bi-chevron-double-down"></i>
+        <!--<i class="bi bi-arrow-bar-up"></i>
+        <i class="bi bi-arrow-bar-down"></i>
+        
         <i class="bi bi-chevron-double-up"></i>
         -->
       </button>
