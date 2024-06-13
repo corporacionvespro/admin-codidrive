@@ -1561,7 +1561,7 @@
             <p style="
     padding: 0px;
     margin: 0px;
-">Hospital Regional de Lambayeque (Chiclayo)</p>
+"><i class="fa-solid fa-location-dot"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
         </div>
     </div>
     <div id="div2" style="position: relative; overflow: hidden;">
