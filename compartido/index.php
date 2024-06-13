@@ -108,7 +108,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-<script>
+
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap">
+    </script>
+    <script>
         // Función para cargar el mapa de Google Maps
         function initMap() {
             const myLatLng = { lat: -12.0463731, lng: -77.042754 };
@@ -140,8 +144,5 @@
             });
        
         });
-    </script>
-    <script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap">
     </script>
 </body>
