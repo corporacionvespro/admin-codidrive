@@ -147,7 +147,7 @@
 
       
    </script>  
-   <script defer 
+   <script 
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap ">
     </script>
 </body>
