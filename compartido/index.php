@@ -146,6 +146,16 @@
         document.addEventListener('DOMContentLoaded', function () {
             initMap();
         });
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButton = document.getElementById('toggleButton');
+            const mostarDiv = document.querySelector('.mostar');
+
+            toggleButton.addEventListener('click', function () {
+                mostarDiv.classList.toggle('hidden');
+                toggleButton.querySelector('i').classList.toggle('bi-chevron-double-up');
+                toggleButton.querySelector('i').classList.toggle('bi-chevron-double-down');
+            });
+        });
     </script>
     <script defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap">
