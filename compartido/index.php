@@ -8,8 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha384-6fAfBF0FBzZ1CVmQnHg4PBhT5lbE2c4XFXOY5FOpWeWifwYRY6DQVXos3KXQc7Bp"
-        crossorigin="anonymous">
+        integrity="sha384-6fAfBF0FBzZ1CVmQnHg4PBhT5lbE2c4XFXOY5FOpWeWifwYRY6DQVXos3KXQc7Bp" crossorigin="anonymous">
     <style>
     .navbar-custom {
         background: #01296e;
@@ -57,11 +56,13 @@
     }
 
     .mostar {
-        display: block; /* Inicia mostrado */
+        display: block;
+        /* Inicia mostrado */
     }
 
     .mostar.hidden {
-        display: none; /* Se oculta cuando tiene la clase 'hidden' */
+        display: none;
+        /* Se oculta cuando tiene la clase 'hidden' */
     }
     </style>
 </head>
@@ -72,24 +73,13 @@
             <a class="navbar-brand" href="#">
                 <img src="https://codidrive.com/admin/assets/img/brand/logo3.png" alt="Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="https://codidrive.com/admin/imagenes/playstore.png" alt="Play Store">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="https://codidrive.com/admin/imagenes/apple.png" alt="Apple Store">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <a class="nav-link" href="#">
+                <img src="https://codidrive.com/admin/imagenes/playstore.png" alt="Play Store">
+            </a>
+            <a class="nav-link" href="#">
+                <img src="https://codidrive.com/admin/imagenes/apple.png" alt="Apple Store">
+            </a>
+
         </div>
     </nav>
 
@@ -117,8 +107,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const toggleButton = document.getElementById('toggleButton');
