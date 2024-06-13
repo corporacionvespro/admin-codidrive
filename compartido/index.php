@@ -5,48 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha384-6fAfBF0FBzZ1CVmQnHg4PBhT5lbE2c4XFXOY5FOpWeWifwYRY6DQVXos3KXQc7Bp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha384-6fAfBF0FBzZ1CVmQnHg4PBhT5lbE2c4XFXOY5FOpWeWifwYRY6DQVXos3KXQc7Bp" crossorigin="anonymous">
     <style>
-        .navbar-custom {
-            background: #01296e;
-        }
+    .navbar-custom {
+        background: #01296e;
+    }
 
-        .navbar-custom .navbar-brand img,
-        .navbar-custom .navbar-nav img {
-            height: 40px;
-        }
+    .navbar-custom .navbar-brand img,
+    .navbar-custom .navbar-nav img {
+        height: 40px;
+    }
 
-        .content {
-            display: flex;
-            align-items: center;
-            padding: 12px;
-            flex-wrap: wrap;
-        }
+    .content {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        flex-wrap: wrap;
+    }
 
-        .content img {
-            width: 49px;
-        }
+    .content img {
+        width: 49px;
+    }
 
-        .info {
-            margin-left: 12px;
-        }
+    .info {
+        margin-left: 12px;
+    }
 
-        .info p {
-            margin: 0;
-            padding: 0;
-        }
+    .info p {
+        margin: 0;
+        padding: 0;
+    }
 
-        .location {
-            display: flex;
-            padding: 0 23px 18px 23px;
-            flex-wrap: wrap;
-        }
+    .location {
+        display: flex;
+        padding: 0 23px 18px 23px;
+        flex-wrap: wrap;
+    }
 
-        .location p {
-            margin: 0;
-            padding: 0;
-        }
+    .location p {
+        margin: 0;
+        padding: 0;
+    }
     </style>
 </head>
 
@@ -72,25 +74,27 @@
             </div>
         </div>
     </nav>
-
-    <div class="container content">
-        <div>
-            <img src="https://codidrive.com/admin/assets/img/brand/logo.png" class="img-fluid" alt="Logo">
+    <div>
+        <div class="container content">
+            <div>
+                <img src="https://codidrive.com/admin/assets/img/brand/logo.png" class="img-fluid" alt="Logo">
+            </div>
+            <div class="info">
+                <p>Paulo César 4,87</p>
+                <p>plata alto M3L576</p>
+            </div>
         </div>
-        <div class="info">
-            <p>Paulo César 4,87</p>
-            <p>plata alto M3L576</p>
+
+        <div class="container location">
+            <div>
+                <p><i class="fa-solid fa-location-dot"></i> Urb Santa Rosa</p>
+                <p><i class="fa-solid fa-location-dot"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
+            </div>
         </div>
     </div>
-
-    <div class="container location">
-        <div>
-            <p><i class="fa-solid fa-location-dot"></i> Urb Santa Rosa</p>
-            <p><i class="fa-solid fa-location-dot"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
