@@ -109,12 +109,10 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    <script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap">
-    </script>
+  
     <script>
         // Función para cargar el mapa de Google Maps
-        function initMap() {
+        async function initMap() {
             const myLatLng = { lat: -12.0463731, lng: -77.042754 };
 
             const map = new google.maps.Map(document.getElementById('mapa'), {
@@ -144,5 +142,7 @@
             });
        
         });
+    </script>  <script defer 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap ">
     </script>
 </body>
