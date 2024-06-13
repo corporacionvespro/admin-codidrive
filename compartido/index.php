@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,7 +56,6 @@
         }
     </style>
 </head>
-
 <body>
     <div class="container-fluid header">
         <div class="logo">
@@ -72,7 +70,6 @@
             </div>
         </div>
     </div>
-
     <div class="container content">
         <div>
             <img src="https://codidrive.com/admin/assets/img/brand/logo.png" class="img-fluid" alt="Logo">
@@ -82,12 +79,10 @@
             <p>plata alto M3L576</p>
         </div>
     </div>
-
     <div class="container location">
         <p><i class="fa-solid fa-location-dot"></i> Urb Santa Rosa</p>
         <p><i class="fa-solid fa-location-dot"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
