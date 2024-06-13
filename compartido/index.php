@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" style="scrollbar-width: none;">
 
 <head>
     <meta charset="UTF-8">
@@ -97,7 +97,7 @@
     </style>
 </head>
 
-<body style="scrollbar-width: none;">
+<body>
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
