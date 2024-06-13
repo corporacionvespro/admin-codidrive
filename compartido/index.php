@@ -97,8 +97,8 @@
 
         <div class="container location">
             <div>
-                <p><i class="fas fa-map-marker-alt"></i> Urb Santa Rosa</p>
-                <p><i class="fas fa-map-marker-alt"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
+                <p><i class="fas fa-map-marker"></i> Urb Santa Rosa</p>
+                <p><i class="fas fa-map-marker"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
             </div>
         </div>
     </div>
@@ -121,4 +121,5 @@
     });
     </script>
 </body>
+
 </html>
