@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Page</title>
+    <title>Responsive Page with Google Maps</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -21,11 +21,24 @@
             width: auto;
         }
 
+        .container-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+
         .content {
             display: flex;
             align-items: center;
             padding: 12px;
             flex-wrap: wrap;
+            z-index: 1; /* Asegura que esté sobre el mapa */
+            position: relative; /* Asegura que sea relativo para el z-index */
+            background-color: #e2ecf2; /* Fondo para el contenido */
+            width: 100%; /* Ocupa todo el ancho */
+            max-width: 100%; /* Asegura que no exceda el ancho máximo */
         }
 
         .content img {
@@ -52,13 +65,24 @@
             padding: 0;
         }
 
-        .mostar {
-            display: block;
-            background: #e2ecf2;
+        #mapa {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 0; /* Está detrás del contenido */
         }
 
-        .mostar.hidden {
-            display: none;
+        #toggleButton {
+            background: #e2ecf2;
+            color: #01296e;
+            border: none;
+            border-radius: 0px 0px 50px 50px;
+            height: 50px;
+            width: 100px;
+            position: relative;
+            z-index: 1; /* Encima del mapa */
+            margin-top: -25px; /* Ajuste para superponer el contenido */
         }
     </style>
 </head>
@@ -80,8 +104,8 @@
         </div>
     </nav>
 
-    <div class="mostar">
-        <div class="container content">
+    <div class="container-main">
+        <div class="content">
             <div>
                 <img src="https://codidrive.com/admin/assets/img/brand/logo.png" class="img-fluid" alt="Logo">
             </div>
@@ -91,17 +115,10 @@
             </div>
         </div>
 
-        <div class="container location">
-            <div style="font-size: small;">
-                <p><i class="bi bi-circle" style="color: #01296e;"></i> Urb Santa Rosa</p>
-                <p><i class="bi bi-circle-fill" style="color: #01296e;"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
-            </div>
-        </div>
-    </div>
+        <div id="mapa"></div>
 
-    <div class="container"style="display: flex;flex-wrap: nowrap;align-content: flex-start;justify-content: center;align-items: flex-start;">
-      <button class="btn btn-primary" id="toggleButton" style="background: #e2ecf2;color: #01296e;border: none;border-radius: 0px 0px 50px 50px;height: 50px;width: 100px;">
-            <i class="bi bi-chevron-double-up" style="font-size: 25px;font-weight: 200;"></i>
+        <button class="btn btn-primary" id="toggleButton">
+            <i class="bi bi-chevron-double-up" style="font-size: 25px; font-weight: 200;"></i>
         </button>
     </div>
 
@@ -111,14 +128,39 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const toggleButton = document.getElementById('toggleButton');
-            const mostarDiv = document.querySelector('.mostar');
+            const contentDiv = document.querySelector('.content');
+            const mapaDiv = document.getElementById('mapa');
 
             toggleButton.addEventListener('click', function () {
-                mostarDiv.classList.toggle('hidden');
+                contentDiv.classList.toggle('hidden');
                 toggleButton.querySelector('i').classList.toggle('bi-chevron-double-up');
                 toggleButton.querySelector('i').classList.toggle('bi-chevron-double-down');
             });
+
+            // Función para cargar el mapa de Google Maps
+            function initMap() {
+                const myLatLng = { lat: -12.0463731, lng: -77.042754 };
+
+                const map = new google.maps.Map(document.getElementById('mapa'), {
+                    center: myLatLng,
+                    zoom: 15,
+                });
+
+                new google.maps.Marker({
+                    position: myLatLng,
+                    map,
+                    title: 'Mi ubicación',
+                });
+            }
+
+            // Cargar el mapa cuando se haya cargado la página
+            document.addEventListener('DOMContentLoaded', function () {
+                initMap();
+            });
         });
+    </script>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap">
     </script>
 </body>
 
