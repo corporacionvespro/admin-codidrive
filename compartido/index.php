@@ -51,7 +51,7 @@
     }
 
     .mostar {
-        display: none; /* Inicia oculto */
+        /* display: none; Inicia oculto */
     }
     </style>
 </head>
