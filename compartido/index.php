@@ -113,24 +113,8 @@
 
    
     <script>
-        
-        // Cargar el mapa cuando se haya cargado la página
-        document.addEventListener('DOMContentLoaded', function () {
-            
-        
-           
-            const toggleButton = document.getElementById('toggleButton');
-            const mostarDiv = document.querySelector('.mostar');
-
-            toggleButton.addEventListener('click', function () {
-                mostarDiv.classList.toggle('hidden');
-                toggleButton.querySelector('i').classList.toggle('bi-chevron-double-up');
-                toggleButton.querySelector('i').classList.toggle('bi-chevron-double-down');
-            });
-       
-        });
-        // Función para cargar el mapa de Google Maps
-        async function initMap() {
+         // Función para cargar el mapa de Google Maps
+       function initMap() {
             const myLatLng = { lat: -12.0463731, lng: -77.042754 };
 
             const map = new google.maps.Map(document.getElementById('mapa'), {
@@ -144,8 +128,24 @@
                 title: 'Mi ubicación',
             });
         }
+        // Cargar el mapa cuando se haya cargado la página
+        document.addEventListener('DOMContentLoaded', function () {
+            
+        
+             initMap();
+            const toggleButton = document.getElementById('toggleButton');
+            const mostarDiv = document.querySelector('.mostar');
 
-        initMap();
+            toggleButton.addEventListener('click', function () {
+                mostarDiv.classList.toggle('hidden');
+                toggleButton.querySelector('i').classList.toggle('bi-chevron-double-up');
+                toggleButton.querySelector('i').classList.toggle('bi-chevron-double-down');
+            });
+       
+        });
+       
+
+      
    </script>  
    <script defer 
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&callback=initMap ">
