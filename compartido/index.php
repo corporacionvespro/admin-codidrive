@@ -100,7 +100,7 @@
     </div>
 
     <div class="container">
-        <button class="btn btn-primary" id="toggleButton">
+        <button class="btn btn-primary" id="toggleButton" style="background: #e2ecf2;color: #01296e;border: none;border-radius: 0px 0px 50px 50px;height: 30px;">
             <i class="bi bi-chevron-double-up"></i>
         </button>
     </div>
