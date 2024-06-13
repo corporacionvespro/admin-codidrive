@@ -7,7 +7,9 @@
     <title>Responsive Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha384-6fAfBF0FBzZ1CVmQnHg4PBhT5lbE2c4XFXOY5FOpWeWifwYRY6DQVXos3KXQc7Bp"
+        crossorigin="anonymous">
     <style>
     .navbar-custom {
         background: #01296e;
@@ -56,6 +58,13 @@
     .mostar.hidden {
         display: none; /* Se oculta cuando tiene la clase 'hidden' */
     }
+
+    /* Estilo para evitar que el collapse navbar afecte a otros elementos */
+    .ignore-collapse {
+        display: flex !important; /* Forzar a que los elementos dentro no se oculten */
+        visibility: visible !important; /* Asegurar que los elementos sean visibles */
+        opacity: 1 !important; /* Asegurar que los elementos sean visibles */
+    }
     </style>
 </head>
 
@@ -65,7 +74,11 @@
             <a class="navbar-brand" href="#">
                 <img src="https://codidrive.com/admin/assets/img/brand/logo3.png" alt="Logo">
             </a>
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">
@@ -95,8 +108,8 @@
 
         <div class="container location">
             <div>
-                <p><h5>O</h5> Urb Santa Rosa</p>
-                <p><h5>O</h5> Hospital Regional de Lambayeque (Chiclayo)</p>
+                <p><i class="fas fa-map-marker"></i> Urb Santa Rosa</p>
+                <p><i class="fas fa-map-marker"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
             </div>
         </div>
     </div>
