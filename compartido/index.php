@@ -123,6 +123,25 @@
     </script>
 
     <script>
+        // Define la función initMap para inicializar el mapa
+        function initMap() {
+            // Coordenadas para centrar el mapa (ejemplo)
+            var myLatLng = { lat: -12.046374, lng: -77.042793 };
+
+            // Crea un mapa en el div #mapa
+            var map = new google.maps.Map(document.getElementById('mapa'), {
+                zoom: 15,
+                center: myLatLng
+            });
+
+            // Ejemplo de marcador
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Ubicación'
+            });
+        }
+
         document.addEventListener('DOMContentLoaded', function () {
             const toggleButton = document.getElementById('toggleButton');
             const mostarDiv = document.querySelector('.mostar');
