@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Page</title>
+    <title>Mapa Responsivo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
         .navbar-custom {
             background: #01296e;
             display: flex;
@@ -62,7 +68,31 @@
         }
 
         #mapa {
-            height: 400px; /* Ajusta la altura según tus necesidades */
+            height: calc(100vh - 130px); /* 100% del alto de la ventana menos altura del navbar y .mostar */
+        }
+
+        #toggleButtonContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #01296e;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+        }
+
+        #toggleButton {
+            background: #e2ecf2;
+            color: #01296e;
+            border: none;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
@@ -102,14 +132,14 @@
             </div>
         </div>
     </div>
-    <div class=""id="toggleButton" style="display: flex;flex-wrap: nowrap;align-content: flex-start;justify-content: center;align-items: flex-start;background: #01296e;">
-        <button class="btn btn-primary" style="background: #01296e;color: #e2ecf2;border: none;height: 50px;width: 50px;">
-            <i class="bi bi-chevron-double-up" style="font-size: 25px;font-weight: 200;"></i>
+
+    <div id="toggleButtonContainer">
+        <button class="btn btn-primary" id="toggleButton">
+            <i class="bi bi-chevron-double-up" style="font-size: 25px; font-weight: 200;"></i>
         </button>
     </div>
-    <div id='mapa'></div>
 
-   
+    <div id='mapa'></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -138,18 +168,18 @@
                 map: map,
                 title: 'Ubicación'
             });
-        }
 
-        document.addEventListener('DOMContentLoaded', function () {
-            const toggleButton = document.getElementById('toggleButton');
-            const mostarDiv = document.querySelector('.mostar');
-
+            // Manejar la redimensión del mapa cuando se oculta .mostar
+            var toggleButton = document.getElementById('toggleButton');
             toggleButton.addEventListener('click', function () {
+                var mostarDiv = document.querySelector('.mostar');
                 mostarDiv.classList.toggle('hidden');
-                toggleButton.querySelector('i').classList.toggle('bi-chevron-double-up');
-                toggleButton.querySelector('i').classList.toggle('bi-chevron-double-down');
+
+                // Redimensionar el mapa
+                google.maps.event.trigger(map, 'resize');
+                map.setCenter(myLatLng);
             });
-        });
+        }
     </script>
 </body>
 
