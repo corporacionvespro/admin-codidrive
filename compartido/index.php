@@ -18,7 +18,7 @@
     }
 
     .navbar-custom .navbar-brand img {
-        height: 40px;
+        height: 30px;
         width: auto;
     }
 
@@ -79,7 +79,7 @@
                 <a id='play' class="navbar-brand me-3" href="#">
                     <img src="https://codidrive.com/admin/imagenes/playstore.png" alt="Play Store">
                 </a>
-                <a id='apple' class="navbar-brand" href="#">
+                <a id="apple" class="navbar-brand " href="#" style="margin-right: 0px;">
                     <img src="https://codidrive.com/admin/imagenes/apple.png" alt="Apple Store">
                 </a>
             </div>
