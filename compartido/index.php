@@ -93,8 +93,8 @@
 
         <div class="container location">
             <div style="font-size: small;">
-                <p><i class="bi bi-circle"></i> Urb Santa Rosa</p>
-                <p><i class="bi bi-circle-fill"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
+                <p><i class="bi bi-circle" style="color: #01296e;"></i> Urb Santa Rosa</p>
+                <p><i class="bi bi-circle-fill" style="color: #01296e;"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
             </div>
         </div>
     </div>
