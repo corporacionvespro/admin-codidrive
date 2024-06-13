@@ -114,7 +114,11 @@
    
     <script>
          // Función para cargar el mapa de Google Maps
-       function initMap() {
+       
+        // Cargar el mapa cuando se haya cargado la página
+        document.addEventListener('DOMContentLoaded', function () {
+            
+        function initMap() {
             const myLatLng = { lat: -12.0463731, lng: -77.042754 };
 
             const map = new google.maps.Map(document.getElementById('mapa'), {
@@ -128,11 +132,7 @@
                 title: 'Mi ubicación',
             });
         }
-        // Cargar el mapa cuando se haya cargado la página
-        document.addEventListener('DOMContentLoaded', function () {
-            
-        
-             ///initMap();
+             initMap();
             const toggleButton = document.getElementById('toggleButton');
             const mostarDiv = document.querySelector('.mostar');
 
