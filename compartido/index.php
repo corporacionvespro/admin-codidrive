@@ -162,11 +162,13 @@
                 center: myLatLng
             });
 
-            // Ejemplo de marcador
-            var marker = new google.maps.Marker({
+            
+             // Ejemplo de marcador con icono personalizado
+             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
-                title: 'Ubicación'
+                title: 'Ubicación',
+                icon: 'https://codidrive.com/admin/imagenes/car-disponiblec.png' // URL del nuevo icono
             });
 
             // Manejar la redimensión del mapa cuando se oculta .mostar
