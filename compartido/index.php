@@ -105,8 +105,8 @@
         </div>
     </div>
 
-    <div class="container mt-3">
-        <button class="btn btn-primary" id="toggleButton">Mostrar / Ocultar</button>
+    <div class="container">
+      <button class="btn btn-primary" id="toggleButton" style="background: #e2ecf2;color: #01296e;border: none;border-radius: 0px 0px 50px 50px;height: 30px;">icono</button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
