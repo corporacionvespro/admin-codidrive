@@ -12,10 +12,12 @@
     <style>
     .navbar-custom {
         background: #01296e;
+        display: flex;
+        justify-content: space-between; /* Alineación de ítems */
+        align-items: center; /* Alineación vertical */
     }
 
-    .navbar-custom .navbar-brand img,
-    .navbar-custom .navbar-nav .nav-link img {
+    .navbar-custom .navbar-brand img {
         height: 40px;
         width: auto;
     }
@@ -70,16 +72,17 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a id='logos' class="navbar-brand" href="#">
                 <img src="https://codidrive.com/admin/assets/img/brand/logo3.png" alt="Logo">
             </a>
-            <a class="navbar-brand" href="#">
-                <img src="https://codidrive.com/admin/imagenes/playstore.png" alt="Play Store">
-            </a>
-            <a class="navbar-brand" href="#">
-                <img src="https://codidrive.com/admin/imagenes/apple.png" alt="Apple Store">
-            </a>
-
+            <div class="d-flex align-items-center">
+                <a id='play' class="navbar-brand me-3" href="#">
+                    <img src="https://codidrive.com/admin/imagenes/playstore.png" alt="Play Store">
+                </a>
+                <a id='apple' class="navbar-brand" href="#">
+                    <img src="https://codidrive.com/admin/imagenes/apple.png" alt="Apple Store">
+                </a>
+            </div>
         </div>
     </nav>
 
