@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha384-6fAfBF0FBzZ1CVmQnHg4PBhT5lbE2c4XFXOY5FOpWeWifwYRY6DQVXos3KXQc7Bp" crossorigin="anonymous">
+        integrity="sha384-6fAfBF0FBzZ1CVmQnHg4PBhT5lbE2c4XFXOY5FOpWeWifwYRY6DQVXos3KXQc7Bp"
+        crossorigin="anonymous">
     <style>
     .navbar-custom {
         background: #01296e;
@@ -51,7 +52,11 @@
     }
 
     .mostar {
-        /* display: none; Inicia oculto */
+        display: block; /* Inicia mostrado */
+    }
+
+    .mostar.hidden {
+        display: none; /* Se oculta cuando tiene la clase 'hidden' */
     }
     </style>
 </head>
@@ -92,8 +97,8 @@
 
         <div class="container location">
             <div>
-                <p><i class="fa-solid fa-location-dot"></i> Urb Santa Rosa</p>
-                <p><i class="fa-solid fa-location-dot"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
+                <p><i class="fas fa-map-marker-alt"></i> Urb Santa Rosa</p>
+                <p><i class="fas fa-map-marker-alt"></i> Hospital Regional de Lambayeque (Chiclayo)</p>
             </div>
         </div>
     </div>
@@ -111,11 +116,7 @@
         const mostarDiv = document.querySelector('.mostar');
 
         toggleButton.addEventListener('click', function() {
-            if (mostarDiv.style.display === 'none') {
-                mostarDiv.style.display = 'block';
-            } else {
-                mostarDiv.style.display = 'none';
-            }
+            mostarDiv.classList.toggle('hidden');
         });
     });
     </script>
