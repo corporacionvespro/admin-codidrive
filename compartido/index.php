@@ -105,7 +105,7 @@
     </nav>
 
     <div class="container-main">
-        <div class="content">
+        <div class="content mostar">
             <div>
                 <img src="https://codidrive.com/admin/assets/img/brand/logo.png" class="img-fluid" alt="Logo">
             </div>
