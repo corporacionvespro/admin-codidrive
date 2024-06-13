@@ -73,10 +73,10 @@
             <a class="navbar-brand" href="#">
                 <img src="https://codidrive.com/admin/assets/img/brand/logo3.png" alt="Logo">
             </a>
-            <a class="nav-link" href="#">
+            <a class="navbar-brand" href="#">
                 <img src="https://codidrive.com/admin/imagenes/playstore.png" alt="Play Store">
             </a>
-            <a class="nav-link" href="#">
+            <a class="navbar-brand" href="#">
                 <img src="https://codidrive.com/admin/imagenes/apple.png" alt="Apple Store">
             </a>
 
