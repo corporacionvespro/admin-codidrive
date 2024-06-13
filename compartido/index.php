@@ -71,7 +71,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom">
-        <div class="container-fluid">
+    <div class="container-fluid" style="display: flex;flex-wrap: nowrap;align-items: center;">
             <a id='logos' class="navbar-brand" href="#">
                 <img src="https://codidrive.com/admin/assets/img/brand/logo3.png" alt="Logo">
             </a>
