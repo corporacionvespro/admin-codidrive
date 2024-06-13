@@ -1,106 +1,106 @@
 <html lang="en">
+<style>
+.LGLeeN-keyboard-shortcuts-view {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.LGLeeN-keyboard-shortcuts-view table,
+.LGLeeN-keyboard-shortcuts-view tbody,
+.LGLeeN-keyboard-shortcuts-view td,
+.LGLeeN-keyboard-shortcuts-view tr {
+    background: inherit;
+    border: none;
+    margin: 0;
+    padding: 0
+}
+
+.LGLeeN-keyboard-shortcuts-view table {
+    display: table
+}
+
+.LGLeeN-keyboard-shortcuts-view tr {
+    display: table-row
+}
+
+.LGLeeN-keyboard-shortcuts-view td {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table-cell;
+    color: #000;
+    padding: 6px;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+.LGLeeN-keyboard-shortcuts-view td:first-child {
+    text-align: end
+}
+
+.LGLeeN-keyboard-shortcuts-view td kbd {
+    background-color: #e8eaed;
+    border-radius: 2px;
+    border: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    display: inline-block;
+    font-family: Google Sans Text, Roboto, Arial, sans-serif;
+    line-height: 16px;
+    margin: 0 2px;
+    min-height: 20px;
+    min-width: 20px;
+    padding: 2px 4px;
+    position: relative;
+    text-align: center
+}
+</style>
+<style>
+.gm-control-active>img {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: none;
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.gm-control-active>img:nth-child(1) {
+    display: block
+}
+
+.gm-control-active:focus>img:nth-child(1),
+.gm-control-active:hover>img:nth-child(1),
+.gm-control-active:active>img:nth-child(1),
+.gm-control-active:disabled>img:nth-child(1) {
+    display: none
+}
+
+.gm-control-active:focus>img:nth-child(2),
+.gm-control-active:hover>img:nth-child(2) {
+    display: block
+}
+
+.gm-control-active:active>img:nth-child(3) {
+    display: block
+}
+
+.gm-control-active:disabled>img:nth-child(4) {
+    display: block
+}
+</style>
 
 <head>
-    <style>
-    .LGLeeN-keyboard-shortcuts-view {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: flex
-    }
 
-    .LGLeeN-keyboard-shortcuts-view table,
-    .LGLeeN-keyboard-shortcuts-view tbody,
-    .LGLeeN-keyboard-shortcuts-view td,
-    .LGLeeN-keyboard-shortcuts-view tr {
-        background: inherit;
-        border: none;
-        margin: 0;
-        padding: 0
-    }
-
-    .LGLeeN-keyboard-shortcuts-view table {
-        display: table
-    }
-
-    .LGLeeN-keyboard-shortcuts-view tr {
-        display: table-row
-    }
-
-    .LGLeeN-keyboard-shortcuts-view td {
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        display: table-cell;
-        color: #000;
-        padding: 6px;
-        vertical-align: middle;
-        white-space: nowrap
-    }
-
-    .LGLeeN-keyboard-shortcuts-view td:first-child {
-        text-align: end
-    }
-
-    .LGLeeN-keyboard-shortcuts-view td kbd {
-        background-color: #e8eaed;
-        border-radius: 2px;
-        border: none;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        color: inherit;
-        display: inline-block;
-        font-family: Google Sans Text, Roboto, Arial, sans-serif;
-        line-height: 16px;
-        margin: 0 2px;
-        min-height: 20px;
-        min-width: 20px;
-        padding: 2px 4px;
-        position: relative;
-        text-align: center
-    }
-    </style>
-    <style>
-    .gm-control-active>img {
-        -webkit-box-sizing: content-box;
-        box-sizing: content-box;
-        display: none;
-        left: 50%;
-        pointer-events: none;
-        position: absolute;
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%)
-    }
-
-    .gm-control-active>img:nth-child(1) {
-        display: block
-    }
-
-    .gm-control-active:focus>img:nth-child(1),
-    .gm-control-active:hover>img:nth-child(1),
-    .gm-control-active:active>img:nth-child(1),
-    .gm-control-active:disabled>img:nth-child(1) {
-        display: none
-    }
-
-    .gm-control-active:focus>img:nth-child(2),
-    .gm-control-active:hover>img:nth-child(2) {
-        display: block
-    }
-
-    .gm-control-active:active>img:nth-child(3) {
-        display: block
-    }
-
-    .gm-control-active:disabled>img:nth-child(4) {
-        display: block
-    }
-
-    sentinel {}
-    </style>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+ <!--   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" type="text/css">-->
     <link type="text/css" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=es">
     <link type="text/css" rel="stylesheet"
@@ -2090,7 +2090,8 @@
                                     <button draggable="false" aria-label="Combinaciones de teclas"
                                         title="Combinaciones de teclas" type="button"
                                         style="background: none; display: inline-block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit; line-height: inherit;">Combinaciones
-                                        de teclas</button></div>
+                                        de teclas</button>
+                                </div>
                             </div>
                         </div>
                         <div class="gmnoprint" style="z-index: 1000001;">
@@ -2107,7 +2108,8 @@
                                     <button draggable="false" aria-label="Datos del mapa" title="Datos del mapa"
                                         type="button"
                                         style="background: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit; line-height: inherit; display: none;">Datos
-                                        del mapa</button><span style="">Datos del mapa ©2024</span></div>
+                                        del mapa</button><span style="">Datos del mapa ©2024</span>
+                                </div>
                             </div>
                         </div>
                         <div class="gmnoscreen">
@@ -2179,7 +2181,8 @@
                                     title="Informar a Google errores en las imágenes o el mapa de carreteras." dir="ltr"
                                     href="https://www.google.com/maps/@-6.7616341,-79.8394464,16z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3"
                                     style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); text-decoration: none; position: relative;">Informar
-                                    un error en el mapa</a></div>
+                                    un error en el mapa</a>
+                            </div>
                         </div>
                     </div>
                 </div>
