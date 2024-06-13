@@ -132,7 +132,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             
         
-             initMap();
+             ///initMap();
             const toggleButton = document.getElementById('toggleButton');
             const mostarDiv = document.querySelector('.mostar');
 
