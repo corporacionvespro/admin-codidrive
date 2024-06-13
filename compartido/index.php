@@ -74,7 +74,7 @@
             </div>
         </div>
     </nav>
-    <div>
+    <div class="mostar">
         <div class="container content">
             <div>
                 <img src="https://codidrive.com/admin/assets/img/brand/logo.png" class="img-fluid" alt="Logo">
