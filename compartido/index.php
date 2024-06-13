@@ -115,11 +115,11 @@
             </div>
         </div>
 
-        <div id="mapa"></div>
-
         <button class="btn btn-primary" id="toggleButton">
             <i class="bi bi-chevron-double-up" style="font-size: 25px; font-weight: 200;"></i>
         </button>
+        <div id="mapa"></div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
