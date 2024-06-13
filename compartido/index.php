@@ -104,37 +104,12 @@
             <i class="bi bi-chevron-double-up" style="font-size: 25px;font-weight: 200;"></i>
         </button>
     </div>
-    <div id='mapa' ></div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
- <script 
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgaYby7k-uwnMsLF3Du3hfHtWpH789Xdo&loading=async&callback=initMap ">
-    </script>
-   
     <script>
-         // Función para cargar el mapa de Google Maps
-       async  function initMap() {
-            const myLatLng = { lat: -12.0463731, lng: -77.042754 };
-
-            const map = new google.maps.Map(document.getElementById('mapa'), {
-                center: myLatLng,
-                zoom: 15,
-            });
-
-            new google.maps.Marker({
-                position: myLatLng,
-                map,
-                title: 'Mi ubicación',
-            });
-        }
-        // Cargar el mapa cuando se haya cargado la página
         document.addEventListener('DOMContentLoaded', function () {
-            
-          
-             initMap();
             const toggleButton = document.getElementById('toggleButton');
             const mostarDiv = document.querySelector('.mostar');
 
@@ -143,11 +118,8 @@
                 toggleButton.querySelector('i').classList.toggle('bi-chevron-double-up');
                 toggleButton.querySelector('i').classList.toggle('bi-chevron-double-down');
             });
-       
         });
-       
-
-      
-   </script>  
-  
+    </script>
 </body>
+
+</html>
