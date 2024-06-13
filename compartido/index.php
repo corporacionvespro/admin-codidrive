@@ -87,9 +87,8 @@
             background: #e2ecf2;
             color: #01296e;
             border: none;
-            border-radius: 50%;
+           
             height: 50px;
-            width: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -133,13 +132,13 @@
         </div>
     </div>
 
-    <div  id="toggleButton" style="display: flex;flex-wrap: nowrap;align-content: flex-start;justify-content: center;align-items: flex-start;background: #01296e;">
-        <button class="btn btn-primary" style="background: #01296e;color: #e2ecf2;border: none;height: 50px;width: 50px;">
+    <div class="" style="display: flex;flex-wrap: nowrap;align-content: flex-start;justify-content: center;align-items: flex-start;background: #01296e;">
+        <button class="btn btn-primary" id="toggleButton" style="background: #01296e;color: #e2ecf2;border: none;height: 50px;width: 50px;">
             <i class="bi bi-chevron-double-up" style="font-size: 25px;font-weight: 200;"></i>
         </button>
     </div>
 
-    <div id='mapa'style="background: #e2ecf2;"></div>
+    <div id='mapa'style="position: relative;overflow: hidden;background: #e2ecf2;"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
